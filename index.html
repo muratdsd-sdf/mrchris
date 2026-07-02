@@ -79,6 +79,7 @@ a{text-decoration:none}
 a:hover .pname{color:var(--accent)}
 .badge{display:inline-block;padding:4px 11px;border-radius:999px;font-size:11px;font-weight:700}
 .badge.sale{background:linear-gradient(135deg,#fff0e2,#ffe4cc);color:#c2570b;border:1px solid #ffd9b3}
+.badge.tag{background:#eef4ff;color:#3056c7;border:1px solid #d5e2ff;font-size:10px;font-weight:600;margin-left:6px;padding:2.5px 8px;vertical-align:1px;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block}
 .badge.none{color:#c3ccd9}
 .badge.new{background:linear-gradient(135deg,#3b82f6,#6366f1);color:#fff;font-size:9.5px;padding:3px 8px;margin-left:6px;vertical-align:2px;letter-spacing:.3px}
 .delta{font-size:10.5px;font-weight:700;margin-left:6px;padding:2.5px 7px;border-radius:7px;vertical-align:1px}
@@ -163,8 +164,12 @@ footer{text-align:center;color:#9aa7bd;font-size:11.5px;padding:24px 12px 36px;l
     <div class="controls">
       <div class="search"><span>🔍</span><input type="text" id="q" placeholder="Ürün ara…"></div>
       <select id="sortsel">
+        <option value="o3d">3 Günde Satış ↓</option>
         <option value="o3">Sipariş ↓</option>
         <option value="weekly">Haftalık Tahmin ↓</option>
+        <option value="b">Sepette ↓</option>
+        <option value="v">Görüntülenme ↓</option>
+        <option value="q">Soru ↓</option>
         <option value="f">Favori ↓</option>
         <option value="rc">Yorum ↓</option>
         <option value="p">Fiyat ↓</option>
@@ -178,15 +183,19 @@ footer{text-align:center;color:#9aa7bd;font-size:11.5px;padding:24px 12px 36px;l
       <th data-s="p">Fiyat<span class="arrow"></span></th>
       <th data-s="ra" class="hidem2">Puan<span class="arrow"></span></th>
       <th data-s="rc">Yorum<span class="arrow"></span></th>
+      <th data-s="o3d">3 Günde Satış<span class="arrow"></span></th>
       <th data-s="o3">Sipariş<span class="arrow"></span></th>
       <th data-s="weekly" class="hidem">Haftalık Tahmin<span class="arrow"></span></th>
+      <th data-s="b">Sepette<span class="arrow"></span></th>
+      <th data-s="v" class="hidem">Görüntülenme<span class="arrow"></span></th>
+      <th data-s="q" class="hidem2">Soru<span class="arrow"></span></th>
       <th data-s="f">Favori<span class="arrow"></span></th>
     </tr></thead><tbody id="tbody"></tbody></table>
     </div>
   </div>
 
   <div class="panel" id="p-yeni">
-    <div class="note">🆕 <b>Yeni ürünler:</b> 40 ve altı yorumu olan ürünler — markanın yeni/az bilinen ürünleri. <b>Sipariş</b> = Trendyol'un "X+ sipariş" rozeti (her üründe görünmez), <b>Haftalık Tahmin</b> = yorum artışından hesaplanan satış tahmini. Sütun başlığına tıklayınca sıralanır.</div>
+    <div class="note">🆕 <b>Yeni ürünler:</b> 40 ve altı yorumu olan ürünler — markanın yeni/az bilinen ürünleri. <b>3 Günde Satış</b> = Trendyol'un "son 3 günde X adet satıldı" verisi (her ürün için), <b>Sipariş</b> = "X+ sipariş" rozeti (yalnızca bazı ürünlerde), <b>Haftalık Tahmin</b> = yorum artışından hesaplanan tahmin. Sütun başlığına tıklayınca sıralanır.</div>
     <div class="table-wrap">
       <table><thead><tr>
         <th class="l" data-s="name">Ürün<span class="arrow"></span></th>
@@ -194,8 +203,11 @@ footer{text-align:center;color:#9aa7bd;font-size:11.5px;padding:24px 12px 36px;l
         <th data-s="p">Fiyat<span class="arrow"></span></th>
         <th data-s="rc">Yorum<span class="arrow"></span></th>
         <th data-s="ra" class="hidem2">Puan<span class="arrow"></span></th>
+        <th data-s="o3d">3 Günde Satış<span class="arrow"></span></th>
         <th data-s="o3">Sipariş<span class="arrow"></span></th>
         <th data-s="weekly" class="hidem">Haftalık Tahmin<span class="arrow"></span></th>
+        <th data-s="b">Sepette<span class="arrow"></span></th>
+        <th data-s="q" class="hidem2">Soru<span class="arrow"></span></th>
         <th data-s="f">Favori<span class="arrow"></span></th>
       </tr></thead><tbody id="tbody-yeni"></tbody></table>
     </div>
@@ -207,8 +219,8 @@ footer{text-align:center;color:#9aa7bd;font-size:11.5px;padding:24px 12px 36px;l
   </div>
 
   <div class="panel" id="p-ozet">
-    <div class="note"><b>Satış rakamları nasıl okunur?</b> Sipariş = Trendyol'un ürün kartında gösterdiği "X+ sipariş" bilgisi (alt sınırdır ve yalnızca bazı ürünlerde çıkar). Haftalık tahmin yorum artışından hesaplanır — birkaç günlük veri birikince isabetli olur.</div>
-    <div class="chartbox"><b>🏆 En çok sipariş alan 10 ürün</b><canvas id="chTop" height="120"></canvas></div>
+    <div class="note"><b>Satış rakamları nasıl okunur?</b> <b>3 Günde Satış</b> = Trendyol'un her ürün için verdiği "son 3 günde X adet satıldı" sayısı (en doğrudan satış verisi). Sipariş = "X+ sipariş" rozeti (alt sınırdır ve yalnızca bazı ürünlerde çıkar). Haftalık tahmin yorum artışından hesaplanır — birkaç günlük veri birikince isabetli olur.</div>
+    <div class="chartbox"><b>🏆 En çok satan 10 ürün (3 günlük satış / sipariş)</b><canvas id="chTop" height="120"></canvas></div>
     <div class="chartbox"><b>❤️ En çok favorilenen 10 ürün</b><canvas id="chFav" height="120"></canvas></div>
   </div>
 
@@ -226,7 +238,7 @@ let LATEST=null,HIST=null,rate=0.08;
 const fmt=n=>n==null?'–':Number(n).toLocaleString('tr-TR');
 const fmtTL=n=>n==null?'–':Number(n).toLocaleString('tr-TR',{maximumFractionDigits:0})+' ₺';
 const slug=n=>String(n).toLowerCase().replace(/[ışğüöç]/g,c=>({ı:'i',ş:'s',ğ:'g',ü:'u',ö:'o',ç:'c'}[c]||c)).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-let sortKey='o3',sortDir=-1,yeniSortKey='date',yeniSortDir=-1;
+let sortKey='o3d',sortDir=-1,yeniSortKey='date',yeniSortDir=-1;
 
 async function load(){
   try{
@@ -274,9 +286,11 @@ function relDate(d){
 }
 function render(){
   const P=LATEST.products,ids=Object.keys(P);
-  let totalOrder=0,nOrder=0,totalFav=0,rSum=0,rN=0,totalRC=0,nYeni=0;
+  let totalOrder=0,nOrder=0,totalFav=0,rSum=0,rN=0,totalRC=0,nYeni=0,totalO3d=0,nO3d=0,totalBasket=0;
   ids.forEach(id=>{const p=P[id];
     if(p.order){totalOrder+=p.order;nOrder++;}
+    if(p.order3d!=null){totalO3d+=p.order3d;nO3d++;}
+    if(p.basket)totalBasket+=p.basket;
     if(p.favorite)totalFav+=p.favorite;
     if(p.rating){rSum+=p.rating;rN++;}
     if(p.ratingCount)totalRC+=p.ratingCount;
@@ -284,8 +298,9 @@ function render(){
   });
   const cards=[
     ['📦','#eef4ff','Toplam ürün',fmt(ids.length)],
-    ['🛒','#fff0e2','Görünen sipariş',fmt(totalOrder)+'+'],
-    ['🏷️','#ffeaea','Sipariş rozetli',fmt(nOrder)+' ürün'],
+    ['⚡','#fff0e2','3 günde satış (toplam)',nO3d?fmt(totalO3d):'birikiyor'],
+    ['🧺','#f0fff4','Şu an sepetlerde',totalBasket?fmt(totalBasket):'birikiyor'],
+    ['🛒','#ffeaea','Sipariş rozeti toplamı',fmt(totalOrder)+'+'],
     ['💬','#e9fbf1','Toplam yorum',fmt(totalRC)],
     ['❤️','#ffeef5','Toplam favori',fmt(totalFav)],
     ['🆕','#eef0ff','Yeni ürün',fmt(nYeni)],
@@ -304,14 +319,20 @@ function rowHtml(r,cols){
   const isNew=r.firstSeen&&trackStart()&&r.firstSeen>trackStart()&&(r.rc??0)<=40;
   const newBadge=isNew?'<span class="badge new">YENİ</span>':'';
   const sale=r.o3?`<span class="badge sale">${r.o3raw||r.o3}</span>`:`<span class="badge none">–</span>`;
+  const sale3d=r.o3d!=null?`<span class="badge sale">${r.o3draw||fmt(r.o3d)}</span>`:`<span class="dim" title="Türkiye'den ilk toplamada dolacak">birikiyor</span>`;
   const wk=r.weekly!=null?(r.weekly>0?'~'+fmt(r.weekly):'<span class="dim">0</span>'):`<span class="dim">birikiyor</span>`;
-  const name=`<td class="l"><a class="pcell" href="${url}" target="_blank">${thumb}<span class="pname">${r.name}${newBadge}</span></a></td>`;
+  const tags=(r.badges&&r.badges.length)?`<span class="badge tag" title="${r.badges.join(' · ').replace(/"/g,'&quot;')}">${r.badges[0]}${r.badges.length>1?' +'+(r.badges.length-1):''}</span>`:'';
+  const name=`<td class="l"><a class="pcell" href="${url}" target="_blank">${thumb}<span class="pname">${r.name}${newBadge}${tags}</span></a></td>`;
   const cells={
     p:`<td>${fmtTL(r.p)}${priceDeltaHtml(r.id,r.p)}</td>`,
     ra:`<td class="hidem2">${r.ra??'–'}</td>`,
     rc:`<td>${fmt(r.rc)}</td>`,
+    o3d:`<td>${sale3d}</td>`,
     o3:`<td>${sale}</td>`,
     weekly:`<td class="hidem">${wk}</td>`,
+    b:`<td>${r.b!=null?fmt(r.b):'<span class="dim">–</span>'}</td>`,
+    v:`<td class="hidem">${r.v!=null?fmt(r.v):'<span class="dim">–</span>'}</td>`,
+    q:`<td class="hidem2">${r.q!=null?fmt(r.q):'<span class="dim">–</span>'}</td>`,
     f:`<td>${fmt(r.f)}</td>`,
     date:`<td class="datecell" title="${r.firstSeen||''}">${relDate(r.firstSeen)}</td>`,
   };
@@ -321,7 +342,9 @@ function makeRows(){
   const P=LATEST.products;
   return Object.keys(P).map(id=>{const p=P[id];return{
     id,name:String(p.name||id).replace(/^Los Ojos ?x? ?/i,''),p:p.price,ra:p.rating,rc:p.ratingCount,
-    o3:p.order,o3raw:p.order_raw,f:p.favorite,weekly:weeklyEstimate(id),
+    o3:p.order,o3raw:p.order_raw,o3d:p.order3d,o3draw:p.order3d_raw,
+    b:p.basket,v:p.views,q:p.questions,badges:p.badges,
+    f:p.favorite,weekly:weeklyEstimate(id),
     firstSeen:p.firstSeen||null,date:p.firstSeen?new Date(p.firstSeen).getTime():0};});
 }
 function sortRows(rows,key,dir){
@@ -335,16 +358,16 @@ function renderTable(){
   if(q)rows=rows.filter(r=>r.name.toLowerCase().includes(q));
   sortRows(rows,sortKey,sortDir);
   document.getElementById('tbody').innerHTML=
-    rows.map(r=>rowHtml(r,['p','ra','rc','o3','weekly','f'])).join('')||
-    '<tr><td colspan="7" class="empty">Aramana uyan ürün bulunamadı.</td></tr>';
+    rows.map(r=>rowHtml(r,['p','ra','rc','o3d','o3','weekly','b','v','q','f'])).join('')||
+    '<tr><td colspan="11" class="empty">Aramana uyan ürün bulunamadı.</td></tr>';
   updateSortArrows(document.querySelector('#p-urunler thead'),sortKey,sortDir);
 }
 function renderYeni(){
   let rows=makeRows().filter(r=>(r.rc??9999)<=40);
   sortRows(rows,yeniSortKey,yeniSortDir);
   document.getElementById('tbody-yeni').innerHTML=
-    rows.map(r=>rowHtml(r,['date','p','rc','ra','o3','weekly','f'])).join('')||
-    '<tr><td colspan="8" class="empty">Şu an yeni ürün görünmüyor.</td></tr>';
+    rows.map(r=>rowHtml(r,['date','p','rc','ra','o3d','o3','weekly','b','q','f'])).join('')||
+    '<tr><td colspan="11" class="empty">Şu an yeni ürün görünmüyor.</td></tr>';
   updateSortArrows(document.querySelector('#p-yeni thead'),yeniSortKey,yeniSortDir);
 }
 function renderRadar(){
@@ -444,7 +467,7 @@ function bar(cid,labels,data,color){
 }
 function renderCharts(){
   const P=LATEST.products;
-  const arr=Object.keys(P).map(id=>({n:(P[id].name||id).replace(/^Los Ojos x? ?/i,''),o3:P[id].order||0,f:P[id].favorite||0}));
+  const arr=Object.keys(P).map(id=>({n:(P[id].name||id).replace(/^Los Ojos x? ?/i,''),o3:P[id].order3d??(P[id].order||0),f:P[id].favorite||0}));
   const top=arr.filter(x=>x.o3>0).sort((a,b)=>b.o3-a.o3).slice(0,10);
   bar('chTop',top.map(x=>x.n.slice(0,30)),top.map(x=>x.o3),'#f27a1a');
   const fav=[...arr].sort((a,b)=>b.f-a.f).slice(0,10);

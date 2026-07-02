@@ -218,11 +218,18 @@ def _find_products(o, d=0):
     return None
 
 
+# Ilk calisan sayfadaki ilk 2 urunun HAM JSON'u (rozet/alan adlarini gercek
+# veriden gorebilmek icin debug ornegi olarak diske yazilir, siteye yuklenir).
+_RAW_PRODUCT_SAMPLE = []
+
+
 def _merge_page(products, page):
     """Bir listeleme sayfasindaki urunleri products sozlugune ekler (id'ye gore
     tekillestirir). Eklenen YENI urun sayisini doner."""
     added = 0
     for p in page:
+        if len(_RAW_PRODUCT_SAMPLE) < 2:
+            _RAW_PRODUCT_SAMPLE.append(p)
         pid = p.get("id")
         if pid is None or pid in products:
             continue
@@ -250,6 +257,7 @@ def _merge_page(products, page):
             "ratingCount": rating.get("totalCount") if isinstance(rating, dict) else None,
             "rating": round(avg, 2) if avg else None, "merchantId": p.get("merchantId"),
             "image": img, "favorite": fav, "order": order, "order_raw": order_raw,
+            "badges": _extract_badges(p),
         }
         added += 1
     return added
@@ -312,6 +320,84 @@ def fetch_catalog_html(products):
     except Exception as e:
         print(f"  ! en-yeniler sayfasi alinamadi (toplama devam ediyor): {e}")
     return products
+
+
+# Sosyal-kanit API'sinin bilinen alan adlari -> bizim kisa adlarimiz.
+# Bilinmeyen yeni alanlar da atlanmaz, "extra" icinde aynen saklanir.
+SOCIAL_KEYS = {
+    "orderCountL3D": "order3d",   # son 3 gunde satis adedi
+    "basketCount": "basket",      # su an kac kisinin sepetinde
+    "favoriteCount": "favorite",  # favori sayisi
+    "pageViewCount": "views",     # goruntulenme
+    "questionCount": "questions", # urune sorulan soru sayisi (varsa)
+}
+
+
+def fetch_social(product_ids):
+    """Her urunun sosyal-kanit verilerini ceker: son 3 gunde satis, sepette
+    kac kisi var, goruntulenme, favori vb. (sepete ekleme ekraninda gorunen
+    sayilar). 24'lu gruplar halinde topluca sorulur; 240 urun icin sadece 10
+    istek. Bu servis proxy uzerinden 502/422 veriyordu, o yuzden YALNIZCA
+    dogrudan Turkiye baglantisinda (proxy'siz) cagrilir — Turkiye-PC
+    kurulumunda istekler bedava oldugu icin maliyeti yok. Basarisiz gruplar
+    atlanir, toplama bozulmaz. API'nin dondurdugu TUM alanlar saklanir;
+    taniniyorsa kisa adla, tanimiyorsak 'extra' sozlugunde ham haliyle."""
+    out = {}
+    raw_sample = {}
+    batch = 24
+    for i in range(0, len(product_ids), batch):
+        chunk = product_ids[i:i + batch]
+        ids = ",".join(str(x) for x in chunk)
+        url = (f"{SOCIAL_API}?contentIds={ids}&channelId=1&storefrontId=1"
+               f"&culture=tr-TR&countryCode=TR")
+        try:
+            data = json.loads(_get(url))
+        except Exception as e:
+            print(f"  ! sosyal kanit grubu alinamadi: {e}")
+            time.sleep(REQUEST_PAUSE)
+            continue
+        for pid, arr in (data.get("data") or {}).items():
+            rec = {}
+            for o in arr or []:
+                k = o.get("key"); v = o.get("value")
+                if not k:
+                    continue
+                num, _ = parse_tr_number(v)
+                if k in SOCIAL_KEYS:
+                    rec[SOCIAL_KEYS[k]] = num
+                    rec[SOCIAL_KEYS[k] + "_raw"] = v
+                else:
+                    rec.setdefault("extra", {})[k] = v
+            if rec:
+                out[str(pid)] = rec
+            if not raw_sample:
+                raw_sample[str(pid)] = arr
+        time.sleep(REQUEST_PAUSE)
+    out["_raw_sample"] = raw_sample
+    return out
+
+
+def _extract_badges(p):
+    """Urun kartindaki rozet benzeri her seyi metin listesi olarak toplar
+    ('Cok Satan', 'En Fazla Ilgi Goren', kampanya etiketi vb.). Trendyol bu
+    bilgiyi surumden surume farkli alanlarda tasidigi icin bilinen tum alan
+    adlarina bakilir; sozluklerin icindeki metin degerleri alinir."""
+    texts = []
+    def _pull(v):
+        if isinstance(v, str):
+            t = v.strip()
+            if t and len(t) <= 60 and not t.startswith("http") and t not in texts:
+                texts.append(t)
+        elif isinstance(v, dict):
+            for kk in ("title", "text", "name", "label", "description"):
+                _pull(v.get(kk))
+        elif isinstance(v, list):
+            for it in v:
+                _pull(it)
+    for field in ("badges", "stamps", "labels", "topRankings", "promotions",
+                  "socialProofHighlight", "variantBadge"):
+        _pull(p.get(field))
+    return texts or None
 
 
 def fetch_catalog():
@@ -396,6 +482,25 @@ def main():
     ids = list(catalog.keys())
     print(f"   {len(ids)} urun bulundu (favori/siparis dahil, katalogdan).")
 
+    # Sosyal-kanit verileri (3 gunde satis, sepette, goruntulenme, soru vb.):
+    # yalnizca dogrudan (proxy'siz, Turkiye icinden) baglantida cekilir;
+    # proxy uzerinden bu servis calismiyor + kredi yakar.
+    social = {}
+    social_raw_sample = {}
+    if not _using_proxy():
+        print("2) Sosyal kanit verileri cekiliyor (3g satis / sepet / goruntulenme)...")
+        social = fetch_social(ids)
+        social_raw_sample = social.pop("_raw_sample", {})
+        print(f"   {len(social)} urun icin sosyal kanit verisi geldi.")
+
+        # Debug ornegi: rozet/alan adlarini gercek veriden gorebilmek icin ilk
+        # urunlerin ham JSON'u diske yazilir; Turkiye-PC bunu siteye de yukler.
+        save_json(os.path.join(DATA_DIR, "debug_ornek.json"), {
+            "date": today,
+            "katalog_ham_urunler": _RAW_PRODUCT_SAMPLE,
+            "sosyal_api_ham": social_raw_sample,
+        })
+
     # Mevcut latest.json'dan firstSeen tarihlerini al
     old_latest = load_json(os.path.join(DATA_DIR, "latest.json"), {})
     old_products = old_latest.get("products", {})
@@ -417,11 +522,19 @@ def main():
         # firstSeen: eski kayitta varsa koru, yoksa arsivdeki en eski tarih, o da yoksa bugun
         first_seen = (old_products.get(pid_str, {}).get("firstSeen")
                       or hist_first.get(pid_str) or today)
+        sp = social.get(pid_str, {})
         snapshot[pid_str] = {
             "name": info["name"], "price": info["price"],
             "ratingCount": info["ratingCount"], "rating": info["rating"],
             "order": info.get("order"), "order_raw": info.get("order_raw"),
-            "favorite": info.get("favorite"),
+            # katalogdaki favori bossa sosyal API'den tamamla
+            "favorite": info.get("favorite") if info.get("favorite") is not None else sp.get("favorite"),
+            "order3d": sp.get("order3d"), "order3d_raw": sp.get("order3d_raw"),
+            "basket": sp.get("basket"),
+            "views": sp.get("views"),
+            "questions": sp.get("questions"),
+            "social_extra": sp.get("extra"),
+            "badges": info.get("badges"),
             "image": info.get("image"),
             "firstSeen": first_seen,
         }
@@ -433,17 +546,26 @@ def main():
     history["snapshots"] = [s for s in history["snapshots"] if s.get("date") != today]
     compact = {"date": today, "products": {}}
     for pid, pr in snapshot.items():
-        compact["products"][pid] = {
+        rec = {
             "rc": pr["ratingCount"], "o": pr["order"],
             "f": pr["favorite"], "p": pr["price"],
         }
+        # Yeni sosyal alanlar yalnizca doluysa yazilir (arsiv sisirmesin)
+        for src, dst in (("order3d", "o3d"), ("basket", "b"),
+                         ("views", "v"), ("questions", "q")):
+            if pr.get(src) is not None:
+                rec[dst] = pr[src]
+        compact["products"][pid] = rec
     history["snapshots"].append(compact)
     history["snapshots"].sort(key=lambda s: s["date"])
     history["names"] = {pid: pr["name"] for pid, pr in snapshot.items()}
     save_json(os.path.join(DATA_DIR, "history.json"), history)
 
     n_order = sum(1 for p in snapshot.values() if p["order"])
-    print(f"TAMAM. {len(catalog)} urun kaydedildi, {n_order} urunde siparis bilgisi var.")
+    n_o3d = sum(1 for p in snapshot.values() if p.get("order3d") is not None)
+    n_badge = sum(1 for p in snapshot.values() if p.get("badges"))
+    print(f"TAMAM. {len(catalog)} urun kaydedildi, {n_order} urunde siparis rozeti, "
+          f"{n_o3d} urunde 3-gunluk satis, {n_badge} urunde rozet var.")
     print(f"Arsivde {len(history['snapshots'])} gunluk veri birikti.")
 
 
