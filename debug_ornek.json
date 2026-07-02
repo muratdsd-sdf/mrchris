@@ -1,0 +1,459 @@
+{
+ "date": "2026-07-02",
+ "katalog_ham_urunler": [
+  {
+   "boutiqueId": 61,
+   "brand": "Los Ojos",
+   "webBrands": [
+    {
+     "id": 147875,
+     "name": "Los Ojos"
+    }
+   ],
+   "brandId": 11222,
+   "campaignId": 61,
+   "merchantId": 191874,
+   "category": {
+    "name": "Boxer",
+    "id": 570
+   },
+   "contentId": 904602868,
+   "discount": {
+    "discountName": ""
+   },
+   "id": 904602868,
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1646/prod/QC/20250303/21/26b8e111-4ccf-37b1-bb1d-96749f9624fe/1_org_zoom.jpg",
+   "images": [
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1646/prod/QC/20250303/21/26b8e111-4ccf-37b1-bb1d-96749f9624fe/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1646/prod/QC/20250303/21/dd8809f7-b48e-39b6-a70a-e236627cc858/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1644/prod/QC/20250303/21/249253c1-2238-3fef-9dac-cf0ea04cb425/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/21b8420f-70d8-3035-bcc2-7b77319226da/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1646/prod/QC/20250303/21/e7e5ef95-db5f-3ad8-96c7-0b756fab7903/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/8888254e-f049-3e7f-9acf-d689967e9fc6/1_org_zoom.jpg"
+   ],
+   "itemNumber": 1259840831,
+   "listingId": "2d663ad97252af709401a6871203b1b8",
+   "name": "Lazer Kesim Yüksek Bel Görünmez Boxer High Waisted Boyshort",
+   "price": {
+    "old": 0,
+    "oldText": "0",
+    "currency": "TL",
+    "current": 514.5,
+    "currentText": "514,50",
+    "originalPrice": 514.5,
+    "originalPriceText": "514,50",
+    "discountedPrice": 514.5,
+    "discountedPriceText": "514,50",
+    "currencySymbol": "TL"
+   },
+   "ratingScore": {
+    "averageRating": 4.49765625,
+    "totalCount": 2560
+   },
+   "stamps": {},
+   "tagDetails": [
+    {
+     "displayName": "kategori_encoksatanlar",
+     "hasStamp": true,
+     "tag": "kategori_encoksatanlar",
+     "tagId": 1715
+    }
+   ],
+   "badges": {
+    "topRankingBadge": {
+     "priority": true,
+     "title": "1",
+     "type": "BEST_SELLER"
+    },
+    "unknownBadge": {
+     "title": "Hızlı Satıcı",
+     "type": "FAST_SELLER"
+    }
+   },
+   "stock": {},
+   "url": "/los-ojos/lazer-kesim-yuksek-bel-gorunmez-boxer-high-waisted-boyshort-p-904602868?boutiqueId=61&merchantId=191874",
+   "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
+   "isSexualContent": false,
+   "hasCollectableCoupon": false,
+   "emptyRating": false,
+   "groupId": 692226908,
+   "variantValue": "XS",
+   "variantId": "xs",
+   "isOneSize": false,
+   "hasReviewPhoto": true,
+   "cleanUrlFragments": {
+    "brandName": "Los Ojos",
+    "name": "Lazer Kesim Yüksek Bel Görünmez Boxer High Waisted Boyshort",
+    "webBrandName": "Los Ojos"
+   },
+   "socialProof": [
+    {
+     "key": "favoriteCount",
+     "value": "223K"
+    },
+    {
+     "key": "orderCount",
+     "value": "1000+"
+    }
+   ],
+   "promotions": [
+    {
+     "id": 28805665,
+     "shortName": "2. Ürün %20",
+     "name": "2. Ürüne %20 İndirim",
+     "discountType": 2
+    }
+   ],
+   "freeCargo": true,
+   "recommendedRetailPrice": {
+    "isPriceDiscounted": false,
+    "price": "514,50 TL",
+    "priceNumerized": 514.5,
+    "priceWithoutCurrency": "514,50",
+    "suggestedPrice": null,
+    "suggestedPriceWithoutCurrency": null,
+    "suggestedPriceNumerized": null,
+    "suggestedPricePercentage": null,
+    "lowestRecentPrice": null,
+    "lowestRecentPriceNumerized": null,
+    "lowestRecentPriceWithoutCurrency": null,
+    "lowestRecentPercentage": null,
+    "currency": "TL"
+   },
+   "binaryPrice": {
+    "salePrice": "514,50 TL",
+    "salePriceWihoutCurrency": "514,50",
+    "strikethroughPrice": null,
+    "strikethroughPriceType": null,
+    "discountPercentage": null,
+    "currency": "TL",
+    "discountType": "rrp"
+   },
+   "discountBoxType": 0,
+   "isChoiceNNStoreProduct": false,
+   "choiceNNPrice": {
+    "priceWithoutCurrency": "514,50",
+    "lowestRecentPriceWithoutCurrency": null,
+    "currency": "TL"
+   },
+   "hasFlashSaleTag": false,
+   "hasFastDeliveryTag": false,
+   "priceLabels": [
+    {
+     "name": "TY Plus",
+     "type": 4,
+     "value": "514.50"
+    }
+   ],
+   "tagStockBar": {
+    "isSoldOut": false
+   },
+   "appPrice": {
+    "oldPrice": "514,50",
+    "newPrice": "499,50",
+    "integerPart": "499,50",
+    "decimalPart": "00",
+    "discountPercentage": 3,
+    "currency": "TL",
+    "codeName": "HELLO40",
+    "discountLimit": 38
+   },
+   "hasCodePromo": false,
+   "cardType": "PRODUCT",
+   "advertType": "DEFAULT",
+   "advert": {
+    "adScore": 0,
+    "adScores": {},
+    "advertId": "",
+    "advertSlot": 0,
+    "cpc": 0,
+    "eCpc": 0,
+    "minCpc": 0,
+    "sortingScore": 0,
+    "oCpc": 0
+   },
+   "stripBadge": {
+    "type": "BEST_SELLER",
+    "title": "1",
+    "color": "linear-gradient(90deg, #F27A1A 0%, #FFC000 100%)",
+    "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1744696563803.svg"
+   },
+   "simplifiedBadges": [
+    {
+     "type": "FREE_CARGO",
+     "title": "Kargo Bedava",
+     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
+     "color": "#666"
+    },
+    {
+     "type": "TAKE_MORE_PAY_LESS",
+     "title": "2. Ürün %20",
+     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526420395.svg",
+     "color": "#F27A1A"
+    }
+   ],
+   "hasOfficialSellerBadge": true,
+   "singlePrice": {
+    "salePrice": "514,50 TL",
+    "salePriceWihoutCurrency": "514,50",
+    "salePriceNumeric": 514.5,
+    "currency": "TL",
+    "componentType": "DEFAULT",
+    "storefrontType": "TR",
+    "priceLabels": {
+     "4": {
+      "name": "TY Plus",
+      "value": "514.50",
+      "price": "514,50 TL",
+      "priceWithoutCurrency": "514,50"
+     }
+    }
+   },
+   "singlePromotion": {
+    "discountType": 2,
+    "id": 28805665,
+    "name": "2. Ürüne %20 İndirim",
+    "promotionEndDate": "2026-07-14T07:00:00",
+    "shortName": "2. Ürün %20"
+   },
+   "rushDelivery": true,
+   "sameDayShipping": false,
+   "dealBadge": null
+  },
+  {
+   "boutiqueId": 61,
+   "brand": "Los Ojos",
+   "webBrands": [
+    {
+     "id": 147875,
+     "name": "Los Ojos"
+    }
+   ],
+   "brandId": 11222,
+   "campaignId": 61,
+   "merchantId": 191874,
+   "category": {
+    "name": "Boxer",
+    "id": 570
+   },
+   "contentId": 903874990,
+   "discount": {
+    "discountName": ""
+   },
+   "id": 903874990,
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/91668006-304c-33fe-8145-d5de6542886e/1_org_zoom.jpg",
+   "images": [
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/91668006-304c-33fe-8145-d5de6542886e/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1644/prod/QC/20250303/21/2cec1fba-d8b4-3832-8b71-6026570cad4f/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1646/prod/QC/20250303/21/51cc0dbd-76d2-3bc3-9bec-38eea00ec132/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1644/prod/QC/20250303/21/1c6a7764-be3c-3dce-af04-467da708e246/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/35aa7c6f-5b20-30dd-bfab-572732037677/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/739786e4-986a-3809-b4e5-8e2daa659fb3/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1644/prod/QC/20250303/21/1d92b3ec-3a76-3a32-a498-594b3faabdcb/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/bdd4218a-7b3e-31a3-a974-551693dc5900/1_org_zoom.jpg"
+   ],
+   "itemNumber": 1258437942,
+   "listingId": "3c689de9cbc85faac982099f33318beb",
+   "name": "3 Adet Görünmez Lazer Kesim Boxer Külot Laser Cut Boyshort",
+   "price": {
+    "old": 0,
+    "oldText": "0",
+    "currency": "TL",
+    "current": 814.5,
+    "currentText": "814,50",
+    "originalPrice": 814.5,
+    "originalPriceText": "814,50",
+    "discountedPrice": 814.5,
+    "discountedPriceText": "814,50",
+    "currencySymbol": "TL"
+   },
+   "ratingScore": {
+    "averageRating": 4.313974591651543,
+    "totalCount": 551
+   },
+   "stamps": {},
+   "tagDetails": [],
+   "badges": {
+    "topRankingBadge": {
+     "priority": true,
+     "title": "2",
+     "type": "BEST_SELLER"
+    },
+    "unknownBadge": {
+     "title": "Hızlı Satıcı",
+     "type": "FAST_SELLER"
+    }
+   },
+   "stock": {},
+   "url": "/los-ojos/3-adet-gorunmez-lazer-kesim-boxer-kulot-laser-cut-boyshort-p-903874990?boutiqueId=61&merchantId=191874",
+   "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
+   "isSexualContent": false,
+   "hasCollectableCoupon": false,
+   "emptyRating": false,
+   "groupId": 691652202,
+   "variantValue": "XS",
+   "variantId": "xs",
+   "isOneSize": false,
+   "hasReviewPhoto": false,
+   "cleanUrlFragments": {
+    "brandName": "Los Ojos",
+    "name": "3 Adet Görünmez Lazer Kesim Boxer Külot Laser Cut Boyshort",
+    "webBrandName": "Los Ojos"
+   },
+   "socialProof": [
+    {
+     "key": "favoriteCount",
+     "value": "103K"
+    },
+    {
+     "key": "orderCount",
+     "value": "400+"
+    }
+   ],
+   "promotions": [
+    {
+     "id": 28805665,
+     "shortName": "2. Ürün %20",
+     "name": "2. Ürüne %20 İndirim",
+     "discountType": 2
+    }
+   ],
+   "freeCargo": true,
+   "recommendedRetailPrice": {
+    "isPriceDiscounted": false,
+    "price": "814,50 TL",
+    "priceNumerized": 814.5,
+    "priceWithoutCurrency": "814,50",
+    "suggestedPrice": null,
+    "suggestedPriceWithoutCurrency": null,
+    "suggestedPriceNumerized": null,
+    "suggestedPricePercentage": null,
+    "lowestRecentPrice": null,
+    "lowestRecentPriceNumerized": null,
+    "lowestRecentPriceWithoutCurrency": null,
+    "lowestRecentPercentage": null,
+    "currency": "TL"
+   },
+   "binaryPrice": {
+    "salePrice": "814,50 TL",
+    "salePriceWihoutCurrency": "814,50",
+    "strikethroughPrice": null,
+    "strikethroughPriceType": null,
+    "discountPercentage": null,
+    "currency": "TL",
+    "discountType": "rrp"
+   },
+   "discountBoxType": 0,
+   "isChoiceNNStoreProduct": false,
+   "choiceNNPrice": {
+    "priceWithoutCurrency": "814,50",
+    "lowestRecentPriceWithoutCurrency": null,
+    "currency": "TL"
+   },
+   "hasFlashSaleTag": false,
+   "hasFastDeliveryTag": false,
+   "priceLabels": [
+    {
+     "name": "TY Plus",
+     "type": 4,
+     "value": "814.50"
+    }
+   ],
+   "tagStockBar": {
+    "isSoldOut": false
+   },
+   "appPrice": {
+    "oldPrice": "814,50",
+    "newPrice": "799,50",
+    "integerPart": "799,50",
+    "decimalPart": "00",
+    "discountPercentage": 2,
+    "currency": "TL",
+    "codeName": "HELLO40",
+    "discountLimit": 38
+   },
+   "hasCodePromo": false,
+   "cardType": "PRODUCT",
+   "advertType": "DEFAULT",
+   "advert": {
+    "adScore": 0,
+    "adScores": {},
+    "advertId": "",
+    "advertSlot": 0,
+    "cpc": 0,
+    "eCpc": 0,
+    "minCpc": 0,
+    "sortingScore": 0,
+    "oCpc": 0
+   },
+   "stripBadge": {
+    "type": "BEST_SELLER",
+    "title": "2",
+    "color": "linear-gradient(90deg, #F27A1A 0%, #FFC000 100%)",
+    "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1744696563803.svg"
+   },
+   "simplifiedBadges": [
+    {
+     "type": "FREE_CARGO",
+     "title": "Kargo Bedava",
+     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
+     "color": "#666"
+    },
+    {
+     "type": "TAKE_MORE_PAY_LESS",
+     "title": "2. Ürün %20",
+     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526420395.svg",
+     "color": "#F27A1A"
+    }
+   ],
+   "hasOfficialSellerBadge": true,
+   "singlePrice": {
+    "salePrice": "814,50 TL",
+    "salePriceWihoutCurrency": "814,50",
+    "salePriceNumeric": 814.5,
+    "currency": "TL",
+    "componentType": "DEFAULT",
+    "storefrontType": "TR",
+    "priceLabels": {
+     "4": {
+      "name": "TY Plus",
+      "value": "814.50",
+      "price": "814,50 TL",
+      "priceWithoutCurrency": "814,50"
+     }
+    }
+   },
+   "singlePromotion": {
+    "discountType": 2,
+    "id": 28805665,
+    "name": "2. Ürüne %20 İndirim",
+    "promotionEndDate": "2026-07-14T07:00:00",
+    "shortName": "2. Ürün %20"
+   },
+   "rushDelivery": true,
+   "sameDayShipping": false,
+   "dealBadge": null
+  }
+ ],
+ "sosyal_api_ham": {
+  "129998832": [
+   {
+    "key": "basketCount",
+    "value": "1,6B"
+   },
+   {
+    "key": "favoriteCount",
+    "value": "384,7B"
+   },
+   {
+    "key": "pageViewCount",
+    "value": "940"
+   },
+   {
+    "key": "influencer",
+    "value": "sunumtakintisi",
+    "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/20795084/af2cedfb-1299-48f6-90b3-c74fa75de9c4.jpg"
+   }
+  ]
+ }
+}
