@@ -377,25 +377,50 @@ def fetch_social(product_ids):
     return out
 
 
+# Rozet tipi kodlarinin Turkce karsiligi (sira numarali rozetlerde kullanilir)
+_BADGE_TYPE_TR = {"BEST_SELLER": "Çok Satan", "MOST_FAVOURITE": "En Çok Favorilenen"}
+
+
 def _extract_badges(p):
     """Urun kartindaki rozet benzeri her seyi metin listesi olarak toplar
-    ('Cok Satan', 'En Fazla Ilgi Goren', kampanya etiketi vb.). Trendyol bu
-    bilgiyi surumden surume farkli alanlarda tasidigi icin bilinen tum alan
-    adlarina bakilir; sozluklerin icindeki metin degerleri alinir."""
+    ('Cok Satan #1', 'Hizli Satici', 'Kargo Bedava', kampanya etiketi vb.).
+    Gercek veride (debug_ornek.json, 2026-07-02) rozetler ic ice sozluklerde:
+    badges={topRankingBadge:{title:'1',type:'BEST_SELLER'}, unknownBadge:
+    {title:'Hizli Satici'}}, stripBadge={type:'BEST_SELLER',title:'1'},
+    simplifiedBadges=[{title:'Kargo Bedava'},...]. Bu yuzden sozluklerin
+    icine de girilir; 'title' sadece sira numarasiysa tip adiyla birlestirilir
+    ('Çok Satan #1'). Ilk siraya en degerli rozet (sira rozeti) gelir."""
     texts = []
-    def _pull(v):
+    def _add(t):
+        t = (t or "").strip()
+        if t and len(t) <= 60 and not t.startswith("http") and t not in texts:
+            texts.append(t)
+    def _pull(v, depth=0):
+        if v is None or depth > 3:
+            return
         if isinstance(v, str):
-            t = v.strip()
-            if t and len(t) <= 60 and not t.startswith("http") and t not in texts:
-                texts.append(t)
+            _add(v)
         elif isinstance(v, dict):
+            title = None
             for kk in ("title", "text", "name", "label", "description"):
-                _pull(v.get(kk))
+                if isinstance(v.get(kk), str) and v[kk].strip():
+                    title = v[kk].strip(); break
+            if title:
+                typ = v.get("type")
+                if title.replace(".", "").isdigit() and typ:
+                    _add(f"{_BADGE_TYPE_TR.get(typ, typ)} #{title.rstrip('.')}")
+                else:
+                    _add(title)
+            else:
+                for vv in v.values():
+                    _pull(vv, depth + 1)
         elif isinstance(v, list):
             for it in v:
-                _pull(it)
-    for field in ("badges", "stamps", "labels", "topRankings", "promotions",
-                  "socialProofHighlight", "variantBadge"):
+                _pull(it, depth + 1)
+    # Sira onemli: panel ilk rozeti one cikarir -> en degerli olan basta.
+    for field in ("stripBadge", "badges", "topRankings", "dealBadge", "stamps",
+                  "labels", "socialProofHighlight", "variantBadge",
+                  "simplifiedBadges"):
         _pull(p.get(field))
     return texts or None
 
@@ -493,12 +518,30 @@ def main():
         social_raw_sample = social.pop("_raw_sample", {})
         print(f"   {len(social)} urun icin sosyal kanit verisi geldi.")
 
+        # Soru sayisi KESFI: soru adedi katalog/sosyal serviste yok, urun detay
+        # sayfasinda geciyor. Alan adini gercek veriden gorebilmek icin 1 urunun
+        # detay HTML'inden 'question' geçen parcalar debug dosyasina kaydedilir;
+        # alan netlesince gercek toplama eklenecek. (+1 istek, best-effort)
+        soru_parcalari = []
+        try:
+            import re
+            u = _RAW_PRODUCT_SAMPLE[0].get("url") if _RAW_PRODUCT_SAMPLE else None
+            if u:
+                dhtml = _get("https://www.trendyol.com" + u)
+                soru_parcalari = re.findall(
+                    r".{60}[Qq]uestion.{160}", dhtml)[:15]
+                print(f"   soru-kesfi: detay sayfasinda {len(soru_parcalari)} "
+                      f"'question' parcasi bulundu.")
+        except Exception as e:
+            print(f"  ! soru-kesfi atlandi: {e}")
+
         # Debug ornegi: rozet/alan adlarini gercek veriden gorebilmek icin ilk
         # urunlerin ham JSON'u diske yazilir; Turkiye-PC bunu siteye de yukler.
         save_json(os.path.join(DATA_DIR, "debug_ornek.json"), {
             "date": today,
             "katalog_ham_urunler": _RAW_PRODUCT_SAMPLE,
             "sosyal_api_ham": social_raw_sample,
+            "detay_soru_parcalari": soru_parcalari,
         })
 
     # Mevcut latest.json'dan firstSeen tarihlerini al
