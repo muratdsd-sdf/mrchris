@@ -1,5 +1,5 @@
 {
- "date": "2026-07-02",
+ "date": "2026-07-06",
  "katalog_ham_urunler": [
   {
    "boutiqueId": 61,
@@ -47,8 +47,8 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.49765625,
-    "totalCount": 2560
+    "averageRating": 4.506051437216339,
+    "totalCount": 2644
    },
    "stamps": {},
    "tagDetails": [
@@ -89,11 +89,11 @@
    "socialProof": [
     {
      "key": "favoriteCount",
-     "value": "223K"
+     "value": "227K"
     },
     {
      "key": "orderCount",
-     "value": "1000+"
+     "value": "800+"
     }
    ],
    "promotions": [
@@ -268,8 +268,8 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.313974591651543,
-    "totalCount": 551
+    "averageRating": 4.320623916811092,
+    "totalCount": 577
    },
    "stamps": {},
    "tagDetails": [],
@@ -303,11 +303,11 @@
    "socialProof": [
     {
      "key": "favoriteCount",
-     "value": "103K"
+     "value": "104K"
     },
     {
      "key": "orderCount",
-     "value": "400+"
+     "value": "200+"
     }
    ],
    "promotions": [
@@ -436,18 +436,14 @@
   }
  ],
  "sosyal_api_ham": {
-  "129998832": [
+  "115481492": [
    {
     "key": "basketCount",
-    "value": "1,6B"
+    "value": "325"
    },
    {
     "key": "favoriteCount",
-    "value": "384,7B"
-   },
-   {
-    "key": "pageViewCount",
-    "value": "940"
+    "value": "27,4B"
    },
    {
     "key": "influencer",
@@ -455,5 +451,22 @@
     "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/20795084/af2cedfb-1299-48f6-90b3-c74fa75de9c4.jpg"
    }
   ]
- }
+ },
+ "detay_soru_parcalari": [
+  "sor\",\"/:culture([a-z]{2}-[a-z]{2})/saticiya-soru-sor\",\"/ask-question\",\"/:language([a-z]{2})/ask-question\",\"/:culture([a-z]{2}-[a-z]{2})/ask-question\",\"/merchant-questions\",\"/:language([a-z]{2})/merchant-questions\",\"/:culture([a-",
+  "ademy\":\"Trendyol Akademi\",\"help\":\"Yardım\",\"frequently_asked_questions\":\"Sıkça Sorulan Sorular\",\"live_support\":\"Canlı Yardım\",\"how_can_i_return\":\"Nasıl İade Edebilirim\",\"transaction_guide\":\"İşlem Rehberi\",\"cookie_preferences\":\"Çe",
+  "mımıza Katılın\",\"about_us\":\"Hakkımızda\",\"trendyol_assistant_question_text\":\"Yardım ister misiniz? Bize danışın.\",\"trendyol_assistant\":\"Trendyol Asistan\",\"shipping_return\":\"Kargo ve İadeler\",\"help_center\":\"Yardım Merkezi\",\"shop_i",
+  "im\",\"header_my_reviews\":\"Değerlendirmelerim\",\"header_seller_questions\":\"Satıcı Mesajlarım\",\"header_loan\":\"Krediler\",\"header_raffle\":\"Şanslı Çekiliş\",\"header_my_coupons\":\"İndirim Kuponlarım\",\"header_my_personal_details\":\"Kullanıc",
+  "_logo\":\"Trendyol\",\"site_logo_milla\":\"Trendyolmilla\",\"header_questions\":\"Mesajlarım\",\"header_trendyol_assistant_milla\":\"Asistan\",\"flash_sales\":\"Flaş Ürünler\",\"best_sellers\":\"Çok Satanlar\",\"navigation_onboarding_title\":\"Aradığın T",
+  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":226521,\"attributes\":[{\"key\":{\"id\":14,\"name\":\"Materyal\"},\"value\":{\"id\":997994,\"name\":\"Poliamid Karışımlı\"},\"searchable\":true,\"type\"",
+  "\",\"MERCHANT_QUESTIONS_API_URL\":\"http:\\u002F\\u002Fsocial-ugc-questionanswerread-service.external\",\"MERCHANT_QUESTIONS_POST_API_URL\":\"http:\\u002F\\u002Fsocial-ugc-questionanswer-service.external\",\"MERCHANT_QUESTIONS_SSR_DATA_ENABLE",
+  "3E{reviewCount}\\u003C\\u002Fbold\\u003E Değerlendirme\",\"total-questions-label\":\"\\u003Cbold\\u003E{questionCount}\\u003C\\u002Fbold\\u003E Soru-Cevap\",\"favorites-summary.count\":\"{favoriteCount}\",\"favorites-summary.count-with-label\":\"{f",
+  "\"go-to-store-button-label-secondary\":\"Mağazaya Git\",\"seller-questions\":\"Satıcı Soruları ({questionCount})\",\"questions\":\"Toplam Fiyat\",\"your-question\":\"Sorunuz\",\"publish-question-criteria\":\"Soru Yayınlama Kriterlerimiz\",\"ask-ques",
+  "ili sorularınızı buradan satıcıya sorabilirsiniz.\",\"art:ask-question-info\":\"Eser özellikleriyle ilgili sorularınızı buradan satıcıya sorabilirsiniz.\",\"ask-question-to-merchant\":\"Satıcıya Soru Sor\",\"privacy-statement-prompt\":\"Sor",
+  "Sözleşmesi\\u003C\\u002Fbutton\\u003E'ni kabul ediyorum.\",\"ask-question-send-question-button-text\":\"Gönder\",\"ask-question-success-title\":\"Sorunuzu Satıcımıza İlettik\",\"ask-question-success-text\":\"Cevaplandığında size bir e-posta il",
+  "ms-of-use\":\"Kullanıcı Sözleşmesi\",\"return-back\":\"Geri Dön\",\"questions-answers\":\"Soru & Cevap\",\"hour\":\"saat\",\"minutes\":\"dakika\",\"seconds\":\"saniye\",\"authorized-seller\":\"Yetkili Satıcı\",\"follow-to-win.modal.title\":\"{priceWithCurren",
+  "puzzle-gateway=\"Product\" fragment-partial=\"product-merchant-questions\"><script>window[\"__envoy_product-merchant-questions__CLIENTSIDE_RENDER\"]=true</script><script>window[\"__envoy_product-merchant-questions__CONDITION\"]=true</sc",
+  "ring\":false,\"channelId\":\"1\",\"translations\":{\"tr\":{\"merchant-questions-title\":\"Ürün Soru ve Cevapları\",\"art:merchant-questions-title\":\"Eser Soru ve Cevapları\",\"purchased-product\":\"Ürünü satın aldı\",\"art:purchased-product\":\"Eseri ",
+  "\\u003C\\u002Fbold\\u003E satıcısının cevabı\",\"merchant-has-no-questions-yet-text\":\"Ürünle ilgili sorularınız varsa satıcıya sorabilirsiniz.\",\"art:merchant-has-no-questions-yet-text\":\"Eserle ilgili sorularınız varsa satıcıya sorabi"
+ ]
 }
