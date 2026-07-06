@@ -221,6 +221,7 @@ def _find_products(o, d=0):
 # Ilk calisan sayfadaki ilk 2 urunun HAM JSON'u (rozet/alan adlarini gercek
 # veriden gorebilmek icin debug ornegi olarak diske yazilir, siteye yuklenir).
 _RAW_PRODUCT_SAMPLE = []
+_PRODUCT_URLS = {}  # pid -> detay sayfasi yolu (sepet-kesif icin)
 
 
 def _merge_page(products, page):
@@ -231,7 +232,11 @@ def _merge_page(products, page):
         if len(_RAW_PRODUCT_SAMPLE) < 2:
             _RAW_PRODUCT_SAMPLE.append(p)
         pid = p.get("id")
-        if pid is None or pid in products:
+        if pid is None:
+            continue
+        if p.get("url"):
+            _PRODUCT_URLS[pid] = p.get("url")
+        if pid in products:
             continue
         pr = p.get("price") or {}
         price = None
@@ -535,6 +540,53 @@ def main():
         except Exception as e:
             print(f"  ! soru-kesfi atlandi: {e}")
 
+        # SEPET-KESIF: kullanicinin sepet ekraninda gordugu 'X tanesi satildi' /
+        # 'Y kisinin sepetinde' sayilari (kucuk sayilar dahil) katalog ve sosyal
+        # serviste yok. Kaynagi bulmak icin: siparis verisi OLMAYAN 3 urunun
+        # (a) detay sayfasi HTML'indeki ilgili anahtar kelime parcalari,
+        # (b) birkac aday API adresinin ham cevabi debug dosyasina yazilir.
+        # Alan netlesince gercek toplama eklenecek. (best-effort, ~12 istek)
+        sepet_kesif = {}
+        try:
+            import re
+            adaylar = [pid for pid in ids
+                       if not catalog[pid].get("order")
+                       and not social.get(str(pid), {}).get("order")][:3]
+            for pid in adaylar:
+                rec = {}
+                u = _PRODUCT_URLS.get(pid)
+                if u:
+                    try:
+                        dhtml = _get("https://www.trendyol.com" + u)
+                        frags = []
+                        for kw in ("socialProof", "orderCount", "basketCount",
+                                   "soldCount", "tanesi", "sat\\u0131ld"):
+                            frags += re.findall(".{80}" + kw + ".{200}", dhtml)[:3]
+                        rec["detay_parcalari"] = frags[:12]
+                    except Exception as e:
+                        rec["detay_parcalari"] = f"HATA: {e}"
+                for adi, au in {
+                    "sosyal_screen_basket":
+                        f"{SOCIAL_API}?contentIds={pid}&channelId=1&storefrontId=1"
+                        f"&culture=tr-TR&countryCode=TR&screen=basket",
+                    "productgw_socialproof":
+                        f"https://apigw.trendyol.com/discovery-web-productgw-service"
+                        f"/api/social-proof/{pid}?channelId=1",
+                    "socialproof_service":
+                        f"https://apigw.trendyol.com/discovery-sfint-social-proof-service"
+                        f"/api/social-proof/?contentIds={pid}&channelId=1&storefrontId=1"
+                        f"&culture=tr-TR&countryCode=TR",
+                }.items():
+                    try:
+                        rec[adi] = _get(au)[:800]
+                    except Exception as e:
+                        rec[adi] = f"HATA: {e}"
+                    time.sleep(REQUEST_PAUSE)
+                sepet_kesif[str(pid)] = rec
+            print(f"   sepet-kesfi: {len(adaylar)} urun icin aday kaynaklar denendi.")
+        except Exception as e:
+            sepet_kesif["hata"] = str(e)
+
         # Debug ornegi: rozet/alan adlarini gercek veriden gorebilmek icin ilk
         # urunlerin ham JSON'u diske yazilir; Turkiye-PC bunu siteye de yukler.
         save_json(os.path.join(DATA_DIR, "debug_ornek.json"), {
@@ -542,6 +594,7 @@ def main():
             "katalog_ham_urunler": _RAW_PRODUCT_SAMPLE,
             "sosyal_api_ham": social_raw_sample,
             "detay_soru_parcalari": soru_parcalari,
+            "sepet_kesif": sepet_kesif,
         })
 
     # Mevcut latest.json'dan firstSeen tarihlerini al
