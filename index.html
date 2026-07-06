@@ -88,6 +88,8 @@ tr.detailrow td{background:#fbfcfe;padding:0;border-bottom:2px solid var(--line)
 .ddrow{display:flex;justify-content:space-between;font-size:12px;padding:3px 7px;border-radius:6px;background:#f8fafc}
 .ddrow b{color:#c2570b}
 tr.detailrow .dim{color:#98a2b3}
+.alert-spike{border:1.5px solid #ffcf9e;background:linear-gradient(135deg,#fff7ee,#fff)}
+.alert-new{border:1.5px solid #bfe3ff;background:linear-gradient(135deg,#f0f9ff,#fff)}
 .pcell{display:flex;align-items:center;gap:11px}
 .thumb{width:52px;height:52px;border-radius:11px;object-fit:cover;flex:0 0 52px;background:#eef1f6;border:1px solid var(--line)}
 .ph{width:52px;height:52px;border-radius:11px;flex:0 0 52px;background:#eef1f6;display:flex;align-items:center;justify-content:center;color:#c3ccd9;font-size:20px}
@@ -494,6 +496,54 @@ function renderRadar(){
   const nameCell=id=>`<td class="l"><a href="${urlOf(id)}" target="_blank" style="font-weight:600;color:var(--ink)">${nameOf(id)}</a></td>`;
   const up='color:#047857;background:#d1fae5',dn='color:#b91c1c;background:#fee2e2';
   let html='';
+
+  /* 0a) YENI EKLENEN URUNLER (son 4 gunde katalogagiren) */
+  const tStart=snaps[0].date;
+  const YENI_GUN=4;
+  const gunFark=fs=>(new Date(LATEST.collectedAt)-new Date(fs))/86400000;
+  const newProds=Object.keys(last.products).map(id=>{
+    const fs=LATEST.products[id]?.firstSeen;return{id,fs};
+  }).filter(x=>x.fs&&x.fs>tStart&&gunFark(x.fs)<=YENI_GUN)
+    .map(x=>({id:x.id,fs:x.fs,rc:last.products[x.id]?.rc,o3:LATEST.products[x.id]?.order3d}))
+    .sort((a,b)=>String(b.fs).localeCompare(String(a.fs)));
+  const toplamYeni=Object.keys(last.products).filter(id=>{const fs=LATEST.products[id]?.firstSeen;return fs&&fs>tStart;}).length;
+  if(newProds.length){
+    const nrow=x=>{
+      const traction=(x.o3!=null&&x.o3>0)?`🔥 satış geldi: ${fmt(x.o3)}`:((x.rc||0)>0?`💬 ${fmt(x.rc)} yorum aldı`:'<span class="dim">henüz hareket yok</span>');
+      return `<tr>${nameCell(x.id)}<td class="datecell">${relDate(x.fs)}</td><td>${fmt(x.rc)}</td><td class="l">${traction}</td></tr>`;};
+    html+=`<div class="chartbox alert-new"><b>🆕 Yeni eklenen ürünler — son ${YENI_GUN} gün (${newProds.length})</b><div class="dim" style="margin:2px 0 8px">Kataloğa yeni giren ürünler. Satış/yorum gelmeye başlayanlara dikkat. (Takip başından beri toplam ${toplamYeni} yeni ürün.)</div><div class="table-wrap" style="box-shadow:none"><table><thead><tr><th class="l">Ürün</th><th>Eklendi</th><th>Yorum</th><th class="l">Durum</th></tr></thead><tbody>${newProds.slice(0,30).map(nrow).join('')}</tbody></table></div></div>`;
+  }else{
+    html+=`<div class="chartbox alert-new"><b>🆕 Yeni eklenen ürünler — son ${YENI_GUN} gün</b><div class="empty">Son ${YENI_GUN} günde yeni ürün eklenmemiş. (Takip başından beri toplam ${toplamYeni}.)</div></div>`;
+  }
+
+  /* 0b) ANI SATIS SICRAMASI (kendi normaline gore) — DIKKAT */
+  const revRates=id=>{
+    const pts=snaps.map(s=>({d:s.date,rc:s.products[id]?.rc})).filter(p=>p.rc!=null);
+    const out=[];
+    for(let i=1;i<pts.length;i++){
+      const days=Math.max(1,(new Date(pts[i].d)-new Date(pts[i-1].d))/86400000);
+      out.push(Math.max(0,pts[i].rc-pts[i-1].rc)/days);
+    }
+    return out;
+  };
+  const spikes=[];
+  for(const id in last.products){
+    const r=revRates(id);
+    if(r.length<2)continue;
+    const recent=r[r.length-1];
+    const baseArr=r.slice(0,-1);
+    const base=baseArr.reduce((a,b)=>a+b,0)/baseArr.length;
+    const estRecent=recent/rate,estBase=base/rate;
+    const ratio=recent/Math.max(base,0.15);
+    const meaningful=(estRecent>=5)||(recent>=2&&base<0.6);
+    if(meaningful&&(ratio>=2.5||(base<0.3&&recent>=1.2)))
+      spikes.push({id,recent,base,ratio,estRecent,estBase});
+  }
+  spikes.sort((a,b)=>b.ratio-a.ratio||b.recent-a.recent);
+  const srow=x=>{
+    const kat=x.base<0.15?'yeni ivme':'~'+(x.ratio>=10?'10+':x.ratio.toFixed(1))+' kat';
+    return `<tr>${nameCell(x.id)}<td>~${fmt(Math.round(x.estBase))}/gün</td><td><b>~${fmt(Math.round(x.estRecent))}/gün</b></td><td><span class="delta" style="${up}">▲ ${kat}</span></td></tr>`;};
+  html+=`<div class="chartbox alert-spike"><b>🔥 Ani satış sıçraması — DİKKAT EDİLECEK ÜRÜNLER</b><div class="dim" style="margin:2px 0 8px">Kendi normal satış hızına göre birden hızlanan ürünler (yorum artışından tahmin). Bunlar öne çıkmaya başlıyor — taktiklerine bakmaya değer.</div>${spikes.length?`<div class="table-wrap" style="box-shadow:none"><table><thead><tr><th class="l">Ürün</th><th>Normal Hız</th><th>Şimdiki Hız</th><th>Sıçrama</th></tr></thead><tbody>${spikes.slice(0,12).map(srow).join('')}</tbody></table></div>`:'<div class="empty">Şu an ani sıçrama yapan ürün yok. Veri biriktikçe burası dolacak.</div>'}</div>`;
 
   /* 1) Satis hizi yukselenler / dusenler */
   if(prev2){
