@@ -1,20 +1,20 @@
 {
  "collectedAt": "2026-07-06",
  "brand": "Los Ojos",
- "productCount": 240,
+ "productCount": 237,
  "products": {
   "904602868": {
    "name": "Lazer Kesim Yüksek Bel Görünmez Boxer High Waisted Boyshort",
    "price": 514.5,
-   "ratingCount": 2644,
+   "ratingCount": 2649,
    "rating": 4.51,
    "order": 800,
    "order_raw": "800+",
    "favorite": 227000,
    "order3d": 500,
    "order3d_raw": "500+",
-   "basket": 13400,
-   "views": 2900,
+   "basket": 13300,
+   "views": 2700,
    "questions": null,
    "social_extra": {
     "influencer": "seymatoprak"
@@ -31,15 +31,15 @@
   "903874990": {
    "name": "3 Adet Görünmez Lazer Kesim Boxer Külot Laser Cut Boyshort",
    "price": 814.5,
-   "ratingCount": 577,
+   "ratingCount": 579,
    "rating": 4.32,
    "order": 200,
    "order_raw": "200+",
-   "favorite": 104000,
+   "favorite": 105000,
    "order3d": 250,
    "order3d_raw": "250+",
    "basket": 3000,
-   "views": 1300,
+   "views": 1200,
    "questions": null,
    "social_extra": {
     "influencer": "Suekinboyraz"
@@ -63,7 +63,7 @@
    "favorite": 379000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 1500,
+   "basket": 1400,
    "views": 1000,
    "questions": null,
    "social_extra": {
@@ -88,8 +88,8 @@
    "favorite": 4000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 556,
-   "views": 312,
+   "basket": 548,
+   "views": null,
    "questions": null,
    "social_extra": null,
    "badges": [
@@ -110,11 +110,11 @@
    "favorite": 145000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 989,
-   "views": 589,
+   "basket": 996,
+   "views": 578,
    "questions": null,
    "social_extra": {
-    "influencer": "tugcetanrisevdir"
+    "influencer": "Nur "
    },
    "badges": [
     "Fenomen Seçimi",
@@ -128,7 +128,7 @@
   "304365085": {
    "name": "Kadın Siyah 2 Katmanlı Spor Şort - Şortlu Tayt 2in1",
    "price": 734.5,
-   "ratingCount": 1146,
+   "ratingCount": 1143,
    "rating": 4.52,
    "order": null,
    "order_raw": null,
@@ -136,7 +136,7 @@
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
-   "views": 481,
+   "views": 446,
    "questions": null,
    "social_extra": {
     "influencer": "dionisos.house"
@@ -160,7 +160,7 @@
    "favorite": 140000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 701,
+   "basket": 702,
    "views": null,
    "questions": null,
    "social_extra": {
@@ -178,15 +178,15 @@
   "1140323837": {
    "name": "x Ece Vizon Modal Kumaşlı Kısa Kollu Şortlu Pijama Takımı Ribbed PJ4",
    "price": 719.5,
-   "ratingCount": 34,
-   "rating": 4.79,
+   "ratingCount": 35,
+   "rating": 4.8,
    "order": null,
    "order_raw": null,
    "favorite": 11000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 755,
-   "views": 788,
+   "basket": 749,
+   "views": 755,
    "questions": null,
    "social_extra": null,
    "badges": [
@@ -207,8 +207,8 @@
    "favorite": 83000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 520,
-   "views": 327,
+   "basket": 527,
+   "views": null,
    "questions": null,
    "social_extra": {
     "influencer": "Duru.bydaily"
@@ -250,15 +250,15 @@
   "1140323930": {
    "name": "x Ece Kahverengi Modal Kumaşlı Kısa Kollu Şortlu Pijama Takımı Ribbed PJ4",
    "price": 719.5,
-   "ratingCount": 50,
-   "rating": 4.56,
+   "ratingCount": 51,
+   "rating": 4.57,
    "order": null,
    "order_raw": null,
    "favorite": 11000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 597,
-   "views": 316,
+   "basket": 593,
+   "views": 304,
    "questions": null,
    "social_extra": null,
    "badges": [
@@ -279,8 +279,8 @@
    "favorite": 91000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 506,
-   "views": 377,
+   "basket": 502,
+   "views": 365,
    "questions": null,
    "social_extra": {
     "influencer": "mervedemirkan"
@@ -297,15 +297,15 @@
   "729649808": {
    "name": "Siyah Çapraz Bel Detaylı Cross Waist Tayt Envelope",
    "price": 549.5,
-   "ratingCount": 4728,
+   "ratingCount": 4729,
    "rating": 4.04,
    "order": null,
    "order_raw": null,
    "favorite": 194000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 661,
-   "views": 329,
+   "basket": 658,
+   "views": 317,
    "questions": null,
    "social_extra": {
     "influencer": "tugcetanrisevdir"
@@ -354,8 +354,8 @@
    "favorite": 50000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 768,
-   "views": 566,
+   "basket": 766,
+   "views": 508,
    "questions": null,
    "social_extra": null,
    "badges": [
@@ -377,8 +377,8 @@
    "favorite": 24000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 388,
-   "views": 494,
+   "basket": 385,
+   "views": 454,
    "questions": null,
    "social_extra": null,
    "badges": [
@@ -400,8 +400,8 @@
    "favorite": 277000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 851,
-   "views": 698,
+   "basket": 847,
+   "views": 667,
    "questions": null,
    "social_extra": {
     "influencer": "Serragozuak"
@@ -418,15 +418,15 @@
   "1045500350": {
    "name": "x Ece Bordo Halter Yaka Top Halter Tank",
    "price": 624.5,
-   "ratingCount": 290,
+   "ratingCount": 291,
    "rating": 4.04,
    "order": null,
    "order_raw": null,
    "favorite": 49000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 565,
-   "views": 786,
+   "basket": 561,
+   "views": 702,
    "questions": null,
    "social_extra": {
     "influencer": "@damlaibilii"
@@ -440,6 +440,31 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1787/prod/QC_PREP/20251106/12/23a4eaf1-f822-3ad0-9228-45b5f6349105/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
+  "129998182": {
+   "name": "Kadın Lacivert Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
+   "price": 749.5,
+   "ratingCount": 2988,
+   "rating": 4.36,
+   "order": null,
+   "order_raw": null,
+   "favorite": 112000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": 410,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "tugcetanrisevdir"
+   },
+   "badges": [
+    "En Çok Favorilenen #9",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/05b819f3-0b25-39f3-b0e0-e959c11e1d94/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
+  },
   "1140486357": {
    "name": "x Ece Pembe Halter Yaka Top Halter Tank",
    "price": 624.5,
@@ -450,8 +475,8 @@
    "favorite": 18000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 588,
-   "views": 344,
+   "basket": 587,
+   "views": 346,
    "questions": null,
    "social_extra": null,
    "badges": [
@@ -474,7 +499,7 @@
    "order3d": null,
    "order3d_raw": null,
    "basket": 1000,
-   "views": 362,
+   "views": 332,
    "questions": null,
    "social_extra": {
     "influencer": "gizemcegg"
@@ -488,31 +513,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1642/prod/QC/20250221/18/2ded77a5-e14e-3a29-a0e0-ebb8ab57165a/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "129998182": {
-   "name": "Kadın Lacivert Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
-   "price": 749.5,
-   "ratingCount": 2990,
-   "rating": 4.36,
-   "order": null,
-   "order_raw": null,
-   "favorite": 112000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": 411,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "tugcetanrisevdir"
-   },
-   "badges": [
-    "En Çok Favorilenen #9",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/05b819f3-0b25-39f3-b0e0-e959c11e1d94/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
-  },
   "1140323897": {
    "name": "x Ece Pembe Modal Kumaşlı Kısa Kollu Şortlu Pijama Takımı Ribbed PJ4",
    "price": 719.5,
@@ -523,7 +523,7 @@
    "favorite": 9000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 621,
+   "basket": 617,
    "views": null,
    "questions": null,
    "social_extra": {
@@ -536,6 +536,29 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1941/prod/QC_ENRICHMENT/20260504/17/79a8214e-ab6c-3730-978d-e726a3efe6f8/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
+  },
+  "1045500357": {
+   "name": "x Ece Vizon Halter Yaka Top Halter Tank",
+   "price": 624.5,
+   "ratingCount": 201,
+   "rating": 4.12,
+   "order": null,
+   "order_raw": null,
+   "favorite": 46000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": 459,
+   "views": 638,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "En Çok Favorilenen #4",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_ENRICHMENT/20251110/13/206da0e8-8d7b-3c3c-a4c3-d9eda961a9e9/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "834016195": {
    "name": "x Melodi Beyaz Oversize Geniş Kalıp Tişört Boyfriend T-Shirt",
@@ -562,29 +585,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/c65df303-c5ef-3eff-aefc-b558ae51c64f/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1045500357": {
-   "name": "x Ece Vizon Halter Yaka Top Halter Tank",
-   "price": 624.5,
-   "ratingCount": 201,
-   "rating": 4.12,
-   "order": null,
-   "order_raw": null,
-   "favorite": 46000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": 459,
-   "views": 679,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "En Çok Favorilenen #4",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_ENRICHMENT/20251110/13/206da0e8-8d7b-3c3c-a4c3-d9eda961a9e9/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "1140323876": {
    "name": "x Ece Kahverengi Modal Kumaşlı Askılı Şortlu Pijama Takımı Ribbed PJ3",
    "price": 674.5,
@@ -595,7 +595,7 @@
    "favorite": 3000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 352,
+   "basket": 349,
    "views": null,
    "questions": null,
    "social_extra": null,
@@ -630,10 +630,31 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty767/product/media/images/20230307/16/298496838/879884758/1/1_org_zoom.jpg",
    "firstSeen": "2026-07-02"
   },
+  "664969524": {
+   "name": "Pembe 2 Katmanlı Tenis Eteği - Spor Etek Tennis Skirt",
+   "price": 333.91,
+   "ratingCount": 173,
+   "rating": 4.44,
+   "order": null,
+   "order_raw": null,
+   "favorite": 9000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "En Çok Favorilenen #3",
+    "Hızlı Satıcı"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty767/product/media/images/20230307/14/298429855/879818798/1/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "125465778": {
    "name": "Kadın Siyah Yüksek Bel Toparlayıcı Çift Cepli Diz Altı Kapri Tayt Capri",
    "price": 659.5,
-   "ratingCount": 823,
+   "ratingCount": 822,
    "rating": 4.32,
    "order": null,
    "order_raw": null,
@@ -655,27 +676,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/b841c376-f11d-3afa-961f-c12a67e115ea/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "664969524": {
-   "name": "Pembe 2 Katmanlı Tenis Eteği - Spor Etek Tennis Skirt",
-   "price": 333.94,
-   "ratingCount": 173,
-   "rating": 4.44,
-   "order": null,
-   "order_raw": null,
-   "favorite": 9000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "En Çok Favorilenen #3",
-    "Hızlı Satıcı"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty767/product/media/images/20230307/14/298429855/879818798/1/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "1140323762": {
    "name": "x Ece Bordo 2 Katmanlı Tenis Eteği Skort",
    "price": 849.5,
@@ -691,7 +691,7 @@
    "questions": null,
    "social_extra": null,
    "badges": [
-    "Çok Satan #5",
+    "Çok Satan #6",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
@@ -710,7 +710,7 @@
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
-   "views": 439,
+   "views": 434,
    "questions": null,
    "social_extra": null,
    "badges": [
@@ -732,7 +732,7 @@
    "favorite": 8000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 302,
+   "basket": 303,
    "views": null,
    "questions": null,
    "social_extra": null,
@@ -759,13 +759,35 @@
    "questions": null,
    "social_extra": null,
    "badges": [
-    "Çok Satan #6",
+    "Çok Satan #9",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1916/prod/QC_ENRICHMENT/20260504/17/ee286061-65c0-34d5-9ed0-00d6b969f568/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
+  },
+  "1140323566": {
+   "name": "x Ece Pembe Spor Sütyeni Super Crop Top",
+   "price": 564.5,
+   "ratingCount": 28,
+   "rating": 4.32,
+   "order": null,
+   "order_raw": null,
+   "favorite": 6000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": 405,
+   "views": 360,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1937/prod/QC_ENRICHMENT/20260504/17/146e3ab0-43ab-3ce9-aff9-efd4cffe6da4/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "154385500": {
    "name": "Kadın Lacivert Yüksek Bel Jogger Eşofman Altı",
@@ -777,7 +799,7 @@
    "favorite": 61000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 314,
+   "basket": 312,
    "views": null,
    "questions": null,
    "social_extra": {
@@ -817,27 +839,30 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/530458e5-4189-309b-a08e-b781c6e30a99/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1140323566": {
-   "name": "x Ece Pembe Spor Sütyeni Super Crop Top",
-   "price": 564.5,
-   "ratingCount": 28,
-   "rating": 4.32,
+  "1045511709": {
+   "name": "x Ece Siyah Bel Detaylı İspanyol Paça Pantolon Ruched & Flared",
+   "price": 924.5,
+   "ratingCount": 285,
+   "rating": 4.24,
    "order": null,
    "order_raw": null,
-   "favorite": 6000,
+   "favorite": 31000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 407,
-   "views": 365,
+   "basket": null,
+   "views": 300,
    "questions": null,
-   "social_extra": null,
+   "social_extra": {
+    "influencer": "dionisos.house"
+   },
    "badges": [
+    "Çok Satan #4",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1937/prod/QC_ENRICHMENT/20260504/17/146e3ab0-43ab-3ce9-aff9-efd4cffe6da4/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/12/680237d9-9fa9-30ae-99e6-4cd8ef945815/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
   },
   "946702965": {
    "name": "x Melodi Bordo Oversize Geniş Kalıp Tişört Boyfriend T-Shirt",
@@ -849,7 +874,7 @@
    "favorite": 18000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": 348,
+   "basket": 346,
    "views": null,
    "questions": null,
    "social_extra": {
@@ -908,28 +933,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1891/prod/QC_ENRICHMENT/20260504/17/5dd5f23c-8fd6-3fac-90ec-34c7347d1055/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1140323739": {
-   "name": "x Ece Siyah Yüksek Bel Kısa Tayt Mono Biker",
-   "price": 614.5,
-   "ratingCount": 19,
-   "rating": 4.63,
-   "order": null,
-   "order_raw": null,
-   "favorite": 2000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1934/prod/QC_ENRICHMENT/20260504/17/4d789d2a-96e7-381f-8b00-1d67a578f483/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "127061975": {
    "name": "Kadın Lacivert Yüksek Bel Toparlayıcı Çift Cepli Diz Altı Kapri Tayt Capri",
    "price": 659.5,
@@ -976,56 +979,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty766/product/media/images/20230307/13/298402171/879786038/1/1_org_zoom.jpg",
    "firstSeen": "2026-07-02"
   },
-  "1045511709": {
-   "name": "x Ece Siyah Bel Detaylı İspanyol Paça Pantolon Ruched & Flared",
-   "price": 924.5,
-   "ratingCount": 285,
-   "rating": 4.24,
-   "order": null,
-   "order_raw": null,
-   "favorite": 31000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "dionisos.house"
-   },
-   "badges": [
-    "Çok Satan #6",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/12/680237d9-9fa9-30ae-99e6-4cd8ef945815/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
-  },
-  "901071773": {
-   "name": "x Melodi Bordo İspanyol Paça Jarse Pantolon Flared",
-   "price": 784.5,
-   "ratingCount": 722,
-   "rating": 3.95,
-   "order": null,
-   "order_raw": null,
-   "favorite": 88000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": 443,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "tugcetanrisevdir"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1641/prod/QC/20250225/11/0a112504-0265-3c32-9d0e-30dd14542631/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "1045500907": {
    "name": "x Ece Bordo Yüksek Bel Spor Tayt Mono Leggings",
    "price": 769.5,
@@ -1051,43 +1004,21 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_PREP/20251106/12/d8d78a13-746b-3946-baa0-0717a9e29528/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1140323872": {
-   "name": "x Ece Pembe Modal Kumaşlı Askılı Şortlu Pijama Takımı Ribbed PJ3",
-   "price": 674.5,
-   "ratingCount": 47,
-   "rating": 4.51,
+  "901071773": {
+   "name": "x Melodi Bordo İspanyol Paça Jarse Pantolon Flared",
+   "price": 784.5,
+   "ratingCount": 722,
+   "rating": 3.95,
    "order": null,
    "order_raw": null,
-   "favorite": 5000,
+   "favorite": 88000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1912/prod/QC_ENRICHMENT/20260504/17/ecf68bda-c5fa-351d-8aae-e782133b25fd/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "655829041": {
-   "name": "Lacivert Çapraz Bel Detaylı Tayt Envelope",
-   "price": 549.5,
-   "ratingCount": 1600,
-   "rating": 4.16,
-   "order": null,
-   "order_raw": null,
-   "favorite": 61000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
+   "basket": 440,
    "views": null,
    "questions": null,
    "social_extra": {
-    "influencer": "sunumtakintisi"
+    "influencer": "tugcetanrisevdir"
    },
    "badges": [
     "Fenomen Seçimi",
@@ -1095,30 +1026,7 @@
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/18/18a92757-db0b-3dbe-b126-b380f83f3fd1/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "1140402581": {
-   "name": "x Ece Siyah Kare Yaka Askılı Kısa Spor Tulum Unitard",
-   "price": 799.5,
-   "ratingCount": 35,
-   "rating": 4.06,
-   "order": null,
-   "order_raw": null,
-   "favorite": 12000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": 602,
-   "views": 384,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Çok Satan #4",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1906/prod/QC_ENRICHMENT/20260504/17/69fd412c-8722-3302-8967-b6a75a668d22/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1641/prod/QC/20250225/11/0a112504-0265-3c32-9d0e-30dd14542631/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "1140402507": {
@@ -1132,11 +1040,11 @@
    "order3d": null,
    "order3d_raw": null,
    "basket": 562,
-   "views": 494,
+   "views": 499,
    "questions": null,
    "social_extra": null,
    "badges": [
-    "Çok Satan #5",
+    "Çok Satan #4",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
@@ -1167,6 +1075,98 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1694/prod/QC_PREP/20250616/17/10d41d27-36f5-3929-a93c-aee449a1adab/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "1140323739": {
+   "name": "x Ece Siyah Yüksek Bel Kısa Tayt Mono Biker",
+   "price": 614.5,
+   "ratingCount": 19,
+   "rating": 4.63,
+   "order": null,
+   "order_raw": null,
+   "favorite": 2000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1934/prod/QC_ENRICHMENT/20260504/17/4d789d2a-96e7-381f-8b00-1d67a578f483/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "1140323801": {
+   "name": "x Ece Antrasit Modal Kumaşlı Askılı Şortlu Pijama Takımı Ribbed PJ3",
+   "price": 674.5,
+   "ratingCount": 22,
+   "rating": 4.64,
+   "order": null,
+   "order_raw": null,
+   "favorite": 2000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1932/prod/QC_ENRICHMENT/20260504/17/02293f34-ded5-356a-85b0-9afcdcda35c3/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "97827059": {
+   "name": "Kadın Lacivert Yüksek Bel Toparlayıcı Çift Cepli Biker Şort Kısa Spor Tayt",
+   "price": 619.5,
+   "ratingCount": 206,
+   "rating": 4.4,
+   "order": null,
+   "order_raw": null,
+   "favorite": 4000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Çok Satan #1",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty807/product/media/images/20230331/11/316167279/162832219/1/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "655829041": {
+   "name": "Lacivert Çapraz Bel Detaylı Tayt Envelope",
+   "price": 549.5,
+   "ratingCount": 1600,
+   "rating": 4.16,
+   "order": null,
+   "order_raw": null,
+   "favorite": 61000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "sunumtakintisi"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/18/18a92757-db0b-3dbe-b126-b380f83f3fd1/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "834004529": {
    "name": "x Melodi Siyah Bedene Oturan Tişört Short Fitted",
    "price": 514.5,
@@ -1192,11 +1192,11 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1346/product/media/images/prod/QC/20240603/14/24741e25-9c00-3eb9-9cbc-68ab46e664e3/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "1140323801": {
-   "name": "x Ece Antrasit Modal Kumaşlı Askılı Şortlu Pijama Takımı Ribbed PJ3",
-   "price": 674.5,
-   "ratingCount": 22,
-   "rating": 4.64,
+  "1142355784": {
+   "name": "x Ece Siyah Bel Detaylı Kısa Tayt Ruched Biker Shorts",
+   "price": 634.5,
+   "ratingCount": 14,
+   "rating": 4.79,
    "order": null,
    "order_raw": null,
    "favorite": 2000,
@@ -1211,7 +1211,7 @@
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1932/prod/QC_ENRICHMENT/20260504/17/02293f34-ded5-356a-85b0-9afcdcda35c3/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1909/prod/QC_PREP/20260505/16/524a8f30-2f4c-3982-a7b1-b66535168cd1/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "1045500349": {
@@ -1239,148 +1239,53 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/12/c9635df5-548d-3515-abdd-563c7daa60f4/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "904602638": {
-   "name": "Lazer Kesim Yüksek Bel Görünmez Külot High Waisted Briefs",
-   "price": 524.5,
-   "ratingCount": 141,
-   "rating": 4.21,
+  "86406024": {
+   "name": "Kadın Siyah Yüksek Bel Çift Cepli Toparlayıcı Spor Tayt",
+   "price": 724.5,
+   "ratingCount": 2426,
+   "rating": 4.1,
    "order": null,
    "order_raw": null,
-   "favorite": 29000,
+   "favorite": 70000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
    "views": null,
    "questions": null,
    "social_extra": {
-    "influencer": "Suekinboyraz"
+    "influencer": "mervedemirkan"
    },
-   "badges": [
-    "TOP_VIEWED #2",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/acd6801c-2c5f-33f1-8316-ad80879f38dd/1_org_zoom.jpg",
-   "firstSeen": "2026-07-06"
-  },
-  "120101043": {
-   "name": "Lacivert Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni",
-   "price": 584.5,
-   "ratingCount": 526,
-   "rating": 4.16,
-   "order": null,
-   "order_raw": null,
-   "favorite": 20000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
    "badges": [
     "Fenomen Seçimi",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/b36c93cb-86da-3d40-85aa-b094f98fd2bb/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "834014535": {
-   "name": "x Melodi Gri Melanj Bedene Oturan Tişört Short Fitted",
-   "price": 514.5,
-   "ratingCount": 1145,
-   "rating": 4.46,
-   "order": null,
-   "order_raw": null,
-   "favorite": 65000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "Serragozuak"
-   },
-   "badges": [
-    "En Çok Favorilenen #1",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1346/product/media/images/prod/QC/20240603/14/266cad68-43a3-3497-a65a-9e5f088b4bae/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1808/prod/QC_ENRICHMENT/20260106/18/f59a0cd4-c77a-346b-bbf4-a8778fa217ed/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1142355784": {
-   "name": "x Ece Siyah Bel Detaylı Kısa Tayt Ruched Biker Shorts",
-   "price": 634.5,
-   "ratingCount": 14,
-   "rating": 4.79,
+  "1140402581": {
+   "name": "x Ece Siyah Kare Yaka Askılı Kısa Spor Tulum Unitard",
+   "price": 799.5,
+   "ratingCount": 35,
+   "rating": 4.06,
    "order": null,
    "order_raw": null,
-   "favorite": 2000,
+   "favorite": 12000,
    "order3d": null,
    "order3d_raw": null,
-   "basket": null,
-   "views": null,
+   "basket": 602,
+   "views": 361,
    "questions": null,
    "social_extra": null,
    "badges": [
+    "Çok Satan #5",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1909/prod/QC_PREP/20260505/16/524a8f30-2f4c-3982-a7b1-b66535168cd1/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1906/prod/QC_ENRICHMENT/20260504/17/69fd412c-8722-3302-8967-b6a75a668d22/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
-  },
-  "97827059": {
-   "name": "Kadın Lacivert Yüksek Bel Toparlayıcı Çift Cepli Biker Şort Kısa Spor Tayt",
-   "price": 619.5,
-   "ratingCount": 206,
-   "rating": 4.4,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Çok Satan #1",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty807/product/media/images/20230331/11/316167279/162832219/1/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "308170887": {
-   "name": "Kadın Pembe 2 Katmanlı Spor Şort - Şortlu Tayt 2in1",
-   "price": 734.5,
-   "ratingCount": 574,
-   "rating": 4.39,
-   "order": null,
-   "order_raw": null,
-   "favorite": 58000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": 541,
-   "questions": null,
-   "social_extra": {
-    "influencer": "dionisos.house"
-   },
-   "badges": [
-    "En Çok Favorilenen #3",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/18/5d8ee138-9b54-3935-be83-37310763f272/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
   },
   "155813505": {
    "name": "Lacivert V Yaka Hafif Destekli Kaplı Spor Sütyeni Vneck",
@@ -1405,6 +1310,101 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/90231e3e-d52b-383d-a714-740113a3ef9b/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "120101043": {
+   "name": "Lacivert Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni",
+   "price": 584.5,
+   "ratingCount": 526,
+   "rating": 4.16,
+   "order": null,
+   "order_raw": null,
+   "favorite": 20000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/b36c93cb-86da-3d40-85aa-b094f98fd2bb/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
+  "772024314": {
+   "name": "x Melodi Siyah Tenis Elbisesi Spor Elbise Tennis Dress",
+   "price": 994.5,
+   "ratingCount": 209,
+   "rating": 4.07,
+   "order": null,
+   "order_raw": null,
+   "favorite": 43000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": 315,
+   "views": 314,
+   "questions": null,
+   "social_extra": {
+    "influencer": "elifnuryel"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1015/product/media/images/prod/SPM/PIM/20231018/21/b4739d13-e681-3dd7-a5ac-ccfae45ffb86/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "308170887": {
+   "name": "Kadın Pembe 2 Katmanlı Spor Şort - Şortlu Tayt 2in1",
+   "price": 734.5,
+   "ratingCount": 574,
+   "rating": 4.39,
+   "order": null,
+   "order_raw": null,
+   "favorite": 58000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": 504,
+   "questions": null,
+   "social_extra": {
+    "influencer": "dionisos.house"
+   },
+   "badges": [
+    "En Çok Favorilenen #3",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/18/5d8ee138-9b54-3935-be83-37310763f272/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
+  "1140323872": {
+   "name": "x Ece Pembe Modal Kumaşlı Askılı Şortlu Pijama Takımı Ribbed PJ3",
+   "price": 674.5,
+   "ratingCount": 47,
+   "rating": 4.51,
+   "order": null,
+   "order_raw": null,
+   "favorite": 5000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1912/prod/QC_ENRICHMENT/20260504/17/ecf68bda-c5fa-351d-8aae-e782133b25fd/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "304912246": {
@@ -1432,6 +1432,56 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/9bee4766-523c-33dc-b753-9d65c2e37a0b/1_org_zoom.jpg",
    "firstSeen": "2026-07-02"
   },
+  "904602638": {
+   "name": "Lazer Kesim Yüksek Bel Görünmez Külot High Waisted Briefs",
+   "price": 524.5,
+   "ratingCount": 141,
+   "rating": 4.21,
+   "order": null,
+   "order_raw": null,
+   "favorite": 29000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "Suekinboyraz"
+   },
+   "badges": [
+    "TOP_VIEWED #2",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1645/prod/QC/20250303/21/acd6801c-2c5f-33f1-8316-ad80879f38dd/1_org_zoom.jpg",
+   "firstSeen": "2026-07-06"
+  },
+  "834014535": {
+   "name": "x Melodi Gri Melanj Bedene Oturan Tişört Short Fitted",
+   "price": 514.5,
+   "ratingCount": 1145,
+   "rating": 4.46,
+   "order": null,
+   "order_raw": null,
+   "favorite": 65000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "Serragozuak"
+   },
+   "badges": [
+    "En Çok Favorilenen #1",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1346/product/media/images/prod/QC/20240603/14/266cad68-43a3-3497-a65a-9e5f088b4bae/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "304364112": {
    "name": "Kadın Lacivert 2 Katmanlı Spor Şort - Şortlu Tayt 2in1",
    "price": 734.5,
@@ -1455,6 +1505,29 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1808/prod/QC_ENRICHMENT/20260106/18/5ea6d5c4-24c4-39af-9099-1b94b8747a52/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
+  "901442999": {
+   "name": "Lacivert Fitilli Kısa Kollu Kısa Tulum Short Romper",
+   "price": 779.5,
+   "ratingCount": 253,
+   "rating": 4.59,
+   "order": null,
+   "order_raw": null,
+   "favorite": 25000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1641/prod/QC/20250221/18/c7e8a9f9-7a5d-3a0a-aa8d-e65bf53e936d/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "1140323899": {
    "name": "x Ece Vizon Modal Kumaşlı Askılı Şortlu Pijama Takımı Ribbed PJ3",
    "price": 674.5,
@@ -1475,6 +1548,122 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1918/prod/QC_ENRICHMENT/20260504/17/25be0ed6-8c13-3ba8-a949-50e88cd783ea/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "344096123": {
+   "name": "Beyaz Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni",
+   "price": 584.5,
+   "ratingCount": 436,
+   "rating": 3.96,
+   "order": null,
+   "order_raw": null,
+   "favorite": 11000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/16/63677513-de79-3579-942a-09d6d2946d29/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "154468172": {
+   "name": "Kadın Antrasit Yüksek Bel Jogger Eşofman Altı Joggers",
+   "price": 734.5,
+   "ratingCount": 2153,
+   "rating": 4.49,
+   "order": null,
+   "order_raw": null,
+   "favorite": 37000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "busekucukatalay"
+   },
+   "badges": [
+    "MOST_RATED #4",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/c3f03890-248c-3f40-ad9c-09139cfe4da6/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "1140486909": {
+   "name": "x Ece Pembe Yüksek Bel Spor Tayt Mono Leggings",
+   "price": 769.5,
+   "ratingCount": 33,
+   "rating": 4.09,
+   "order": null,
+   "order_raw": null,
+   "favorite": 6000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1937/prod/QC_ENRICHMENT/20260504/17/aa8891af-f1d3-38ef-9de1-658a2acefc3a/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "1140402505": {
+   "name": "x Ece Bordo Kare Yaka Askılı Kısa Spor Tulum Unitard",
+   "price": 799.5,
+   "ratingCount": 25,
+   "rating": 3.96,
+   "order": null,
+   "order_raw": null,
+   "favorite": 4000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Çok Satan #6",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1933/prod/QC_ENRICHMENT/20260504/17/9b9c103b-61a4-3fa4-9a2f-c1cd593c895a/1_org_zoom.jpg",
+   "firstSeen": "2026-07-02"
+  },
+  "156043784": {
+   "name": "Siyah V Yaka Hafif Destekli Kaplı Spor Sütyeni",
+   "price": 584.5,
+   "ratingCount": 719,
+   "rating": 4.33,
+   "order": null,
+   "order_raw": null,
+   "favorite": 23000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/4e97d358-ea12-3818-bfbc-767aa2d304d2/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "304912405": {
@@ -1502,102 +1691,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/0fc53748-883b-335c-bb67-8e965c95951f/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "772024314": {
-   "name": "x Melodi Siyah Tenis Elbisesi Spor Elbise Tennis Dress",
-   "price": 994.5,
-   "ratingCount": 209,
-   "rating": 4.07,
-   "order": null,
-   "order_raw": null,
-   "favorite": 43000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": 319,
-   "views": 348,
-   "questions": null,
-   "social_extra": {
-    "influencer": "elifnuryel"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1015/product/media/images/prod/SPM/PIM/20231018/21/b4739d13-e681-3dd7-a5ac-ccfae45ffb86/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "901442999": {
-   "name": "Lacivert Fitilli Kısa Kollu Kısa Tulum Short Romper",
-   "price": 779.5,
-   "ratingCount": 253,
-   "rating": 4.59,
-   "order": null,
-   "order_raw": null,
-   "favorite": 25000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1641/prod/QC/20250221/18/c7e8a9f9-7a5d-3a0a-aa8d-e65bf53e936d/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "344096123": {
-   "name": "Beyaz Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni",
-   "price": 584.5,
-   "ratingCount": 436,
-   "rating": 3.96,
-   "order": null,
-   "order_raw": null,
-   "favorite": 11000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/16/63677513-de79-3579-942a-09d6d2946d29/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "86406024": {
-   "name": "Kadın Siyah Yüksek Bel Çift Cepli Toparlayıcı Spor Tayt",
-   "price": 724.5,
-   "ratingCount": 2428,
-   "rating": 4.1,
-   "order": null,
-   "order_raw": null,
-   "favorite": 70000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "mervedemirkan"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1808/prod/QC_ENRICHMENT/20260106/18/f59a0cd4-c77a-346b-bbf4-a8778fa217ed/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "1045500926": {
    "name": "x Ece Siyah Yüksek Bel Spor Tayt Mono Leggings",
    "price": 769.5,
@@ -1621,6 +1714,26 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_PREP/20251106/12/a2d543f3-5448-3468-9ed5-0a0550fc6e40/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "699273115": {
+   "name": "Haki Halter Yaka Içi Sütyenli T-shirt Tank Top",
+   "price": 285.38,
+   "ratingCount": 131,
+   "rating": 4.19,
+   "order": null,
+   "order_raw": null,
+   "favorite": 7000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty881/product/media/images/20230511/23/346181771/924526533/1/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "736250093": {
@@ -1648,33 +1761,10 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1653/prod/QC/20250326/16/902a2e8c-3155-34be-93d5-f1e4e4ec4d1f/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1140402505": {
-   "name": "x Ece Bordo Kare Yaka Askılı Kısa Spor Tulum Unitard",
-   "price": 799.5,
-   "ratingCount": 25,
-   "rating": 3.96,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Çok Satan #6",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1933/prod/QC_ENRICHMENT/20260504/17/9b9c103b-61a4-3fa4-9a2f-c1cd593c895a/1_org_zoom.jpg",
-   "firstSeen": "2026-07-02"
-  },
   "120274055": {
    "name": "Siyah Hafif Destekli Sırt Detaylı Kaplı Crop Top Büstiyer Cropped",
    "price": 584.5,
-   "ratingCount": 594,
+   "ratingCount": 592,
    "rating": 4.32,
    "order": null,
    "order_raw": null,
@@ -1696,105 +1786,14 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/ed99bde8-18fd-3bd8-ae47-b71c97496f51/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "699273115": {
-   "name": "Haki Halter Yaka Içi Sütyenli T-shirt Tank Top",
-   "price": 284.99,
-   "ratingCount": 131,
-   "rating": 4.19,
+  "1142355827": {
+   "name": "x Ece Pembe Bel Detaylı Kısa Tayt Ruched Biker Shorts",
+   "price": 634.5,
+   "ratingCount": 17,
+   "rating": 4.18,
    "order": null,
    "order_raw": null,
-   "favorite": 7000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty881/product/media/images/20230511/23/346181771/924526533/1/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "156043784": {
-   "name": "Siyah V Yaka Hafif Destekli Kaplı Spor Sütyeni",
-   "price": 584.5,
-   "ratingCount": 719,
-   "rating": 4.33,
-   "order": null,
-   "order_raw": null,
-   "favorite": 23000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/4e97d358-ea12-3818-bfbc-767aa2d304d2/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "945479930": {
-   "name": "Gri Katlanabilir Bel Detaylı Şort Lounge Shorts",
-   "price": 549.5,
-   "ratingCount": 108,
-   "rating": 4.48,
-   "order": null,
-   "order_raw": null,
-   "favorite": 10000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1693/prod/QC_PREP/20250616/17/aee5d46e-2c9d-3c92-ad6b-d15e71496f94/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
-  },
-  "154468172": {
-   "name": "Kadın Antrasit Yüksek Bel Jogger Eşofman Altı Joggers",
-   "price": 734.5,
-   "ratingCount": 2153,
-   "rating": 4.49,
-   "order": null,
-   "order_raw": null,
-   "favorite": 37000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "busekucukatalay"
-   },
-   "badges": [
-    "MOST_RATED #4",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/c3f03890-248c-3f40-ad9c-09139cfe4da6/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "1140323620": {
-   "name": "x Ece Bordo Spor Sütyeni Super Crop Top",
-   "price": 564.5,
-   "ratingCount": 21,
-   "rating": 4.76,
-   "order": null,
-   "order_raw": null,
-   "favorite": 2000,
+   "favorite": 5000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -1806,7 +1805,7 @@
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1910/prod/QC_ENRICHMENT/20260504/17/7a0507d2-53ed-343d-bac2-d20918697665/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1911/prod/QC_PREP/20260505/16/a5038037-bb8b-3287-81c1-4fc9d86845d6/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
   "304364653": {
@@ -1832,6 +1831,51 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1808/prod/QC_ENRICHMENT/20260106/18/c3da79a2-47d6-3500-b577-b50d716c2bb4/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "1140323620": {
+   "name": "x Ece Bordo Spor Sütyeni Super Crop Top",
+   "price": 564.5,
+   "ratingCount": 21,
+   "rating": 4.76,
+   "order": null,
+   "order_raw": null,
+   "favorite": 2000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1910/prod/QC_ENRICHMENT/20260504/17/7a0507d2-53ed-343d-bac2-d20918697665/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
+  "945479930": {
+   "name": "Gri Katlanabilir Bel Detaylı Şort Lounge Shorts",
+   "price": 549.5,
+   "ratingCount": 108,
+   "rating": 4.48,
+   "order": null,
+   "order_raw": null,
+   "favorite": 10000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1693/prod/QC_PREP/20250616/17/aee5d46e-2c9d-3c92-ad6b-d15e71496f94/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
+  },
   "1047170750": {
    "name": "x Ece 2’li Spor Saç Bandı 7,5 cm Sports Headband",
    "price": 284.5,
@@ -1852,28 +1896,6 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251110/16/0892858e-b43f-392a-9317-b959504a2763/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "1142355827": {
-   "name": "x Ece Pembe Bel Detaylı Kısa Tayt Ruched Biker Shorts",
-   "price": 634.5,
-   "ratingCount": 17,
-   "rating": 4.18,
-   "order": null,
-   "order_raw": null,
-   "favorite": 5000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1911/prod/QC_PREP/20260505/16/a5038037-bb8b-3287-81c1-4fc9d86845d6/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
   "692791737": {
@@ -1923,6 +1945,29 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1942/prod/QC_ENRICHMENT/20260504/17/4eebae51-de4d-31ae-ba27-eb9ae7438bb7/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
+  "115469768": {
+   "name": "Kadın Lacivert Yüksek Bel Toparlayıcı Bisikletçi Şortu Kısa Spor Tayt",
+   "price": 484.5,
+   "ratingCount": 130,
+   "rating": 4.1,
+   "order": null,
+   "order_raw": null,
+   "favorite": 5000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty438/product/media/images/20220523/16/115209852/186850006/1/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
+  },
   "901077842": {
    "name": "x Melodi Bordo Bedene Oturan Tişört Short Fitted",
    "price": 514.5,
@@ -1970,101 +2015,6 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/9ae01b36-b496-3075-8b87-199270af58b5/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
-  },
-  "120273863": {
-   "name": "Beyaz Hafif Destekli Sırt Detaylı Kaplı Crop Top Büstiyer Cropped",
-   "price": 584.5,
-   "ratingCount": 280,
-   "rating": 4.3,
-   "order": null,
-   "order_raw": null,
-   "favorite": 9000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "nazlizorlu"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/15/6a14cd6f-036f-3664-85c6-35161ceac197/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "1140486909": {
-   "name": "x Ece Pembe Yüksek Bel Spor Tayt Mono Leggings",
-   "price": 769.5,
-   "ratingCount": 33,
-   "rating": 4.09,
-   "order": null,
-   "order_raw": null,
-   "favorite": 6000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1937/prod/QC_ENRICHMENT/20260504/17/aa8891af-f1d3-38ef-9de1-658a2acefc3a/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "304909286": {
-   "name": "Kadın Pembe Askılı Hafif Destekli Kaplı Spor Sütyeni Straps",
-   "price": 584.5,
-   "ratingCount": 316,
-   "rating": 4.09,
-   "order": null,
-   "order_raw": null,
-   "favorite": 19000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "zeynepozkaya"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/13d7befd-dbe1-3038-9c0f-7caaf58a2b46/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "115469768": {
-   "name": "Kadın Lacivert Yüksek Bel Toparlayıcı Bisikletçi Şortu Kısa Spor Tayt",
-   "price": 484.5,
-   "ratingCount": 130,
-   "rating": 4.1,
-   "order": null,
-   "order_raw": null,
-   "favorite": 5000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty438/product/media/images/20220523/16/115209852/186850006/1/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
   },
   "1045500918": {
    "name": "x Ece Lacivert Yüksek Bel Spor Tayt Mono Leggings",
@@ -2114,6 +2064,56 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/ab77f4a6-799b-30f3-8cc7-5fce53faa316/1_org_zoom.jpg",
    "firstSeen": "2026-07-02"
   },
+  "304909286": {
+   "name": "Kadın Pembe Askılı Hafif Destekli Kaplı Spor Sütyeni Straps",
+   "price": 584.5,
+   "ratingCount": 316,
+   "rating": 4.09,
+   "order": null,
+   "order_raw": null,
+   "favorite": 19000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "zeynepozkaya"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/13d7befd-dbe1-3038-9c0f-7caaf58a2b46/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "120273863": {
+   "name": "Beyaz Hafif Destekli Sırt Detaylı Kaplı Crop Top Büstiyer Cropped",
+   "price": 584.5,
+   "ratingCount": 279,
+   "rating": 4.3,
+   "order": null,
+   "order_raw": null,
+   "favorite": 9000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "nazlizorlu"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/15/6a14cd6f-036f-3664-85c6-35161ceac197/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "834010134": {
    "name": "x Melodi Lacivert İspanyol Paça Jarse Pantolon Flared",
    "price": 784.5,
@@ -2138,100 +2138,6 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/62b4ef23-2507-3fd5-a09e-7062ab40c403/1_org_zoom.jpg",
    "firstSeen": "2026-07-01"
-  },
-  "1140487306": {
-   "name": "x Ece Pembe Bel Detaylı İspanyol Paça Pantolon Ruched & Flared",
-   "price": 924.5,
-   "ratingCount": 51,
-   "rating": 4.06,
-   "order": null,
-   "order_raw": null,
-   "favorite": 8000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1895/prod/QC_ENRICHMENT/20260504/17/8c3addf9-e37d-3d67-a9c8-fec46f3a69b4/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "97827284": {
-   "name": "Kadın Siyah Yüksek Bel Toparlayıcı Çift Cepli Biker Şort Kısa Spor Tayt",
-   "price": 619.5,
-   "ratingCount": 941,
-   "rating": 4.45,
-   "order": null,
-   "order_raw": null,
-   "favorite": 44000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "sunumtakintisi"
-   },
-   "badges": [
-    "TOP_VIEWED #1",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty805/product/media/images/20230331/11/316168014/162832846/1/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "1140323676": {
-   "name": "x Ece Mocha Spor Sütyeni Super Crop Top",
-   "price": 564.5,
-   "ratingCount": 12,
-   "rating": 5,
-   "order": null,
-   "order_raw": null,
-   "favorite": 998,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1932/prod/QC_ENRICHMENT/20260504/17/3b39917e-caed-393f-88c0-618a04759225/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "901442645": {
-   "name": "Bordo Fitilli Kısa Kollu Kısa Tulum Short Romper",
-   "price": 779.5,
-   "ratingCount": 283,
-   "rating": 4.42,
-   "order": null,
-   "order_raw": null,
-   "favorite": 31000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "Suekinboyraz"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1643/prod/QC/20250221/18/86753bc0-7b7b-3e05-907f-ed52368254ff/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
   },
   "834013724": {
    "name": "x Melodi Lacivert Oversize Geniş Kalıp Tişört Boyfriend T-Shirt",
@@ -2303,6 +2209,31 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1696/prod/QC_PREP/20250620/18/fb85533a-dbef-3bc1-9b4c-3ff333e90669/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "901442645": {
+   "name": "Bordo Fitilli Kısa Kollu Kısa Tulum Short Romper",
+   "price": 779.5,
+   "ratingCount": 283,
+   "rating": 4.42,
+   "order": null,
+   "order_raw": null,
+   "favorite": 31000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "Suekinboyraz"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1643/prod/QC/20250221/18/86753bc0-7b7b-3e05-907f-ed52368254ff/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "130000406": {
    "name": "Kadın Antrasit Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
    "price": 749.5,
@@ -2327,6 +2258,50 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/6f2518e9-54ed-3618-851d-b8ba8e34047e/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
+  },
+  "1140487306": {
+   "name": "x Ece Pembe Bel Detaylı İspanyol Paça Pantolon Ruched & Flared",
+   "price": 924.5,
+   "ratingCount": 51,
+   "rating": 4.06,
+   "order": null,
+   "order_raw": null,
+   "favorite": 8000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1895/prod/QC_ENRICHMENT/20260504/17/8c3addf9-e37d-3d67-a9c8-fec46f3a69b4/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "1140323676": {
+   "name": "x Ece Mocha Spor Sütyeni Super Crop Top",
+   "price": 564.5,
+   "ratingCount": 12,
+   "rating": 5,
+   "order": null,
+   "order_raw": null,
+   "favorite": 999,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1932/prod/QC_ENRICHMENT/20260504/17/3b39917e-caed-393f-88c0-618a04759225/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "1140323675": {
    "name": "x Ece Pembe Yüksek Bel Kısa Tayt Mono Biker",
@@ -2375,6 +2350,31 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1806/prod/QC_ENRICHMENT/20260106/18/aa34665c-33b7-3348-9dd7-c14885d488a4/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "945607417": {
+   "name": "Bordo Katlanabilir Bel Detaylı Şort Lounge Shorts",
+   "price": 549.5,
+   "ratingCount": 90,
+   "rating": 4.34,
+   "order": null,
+   "order_raw": null,
+   "favorite": 8000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "dionisos.house"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1693/prod/QC_PREP/20250616/17/cf558544-bfad-3c18-917b-14ffc252b8a2/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
   "772312344": {
    "name": "x Melodi Ekru Pamuklu Kalın Askılı Crop Top Tank",
    "price": 484.5,
@@ -2398,29 +2398,6 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1018/product/media/images/prod/SPM/PIM/20231018/21/5011ce7d-1279-3909-9235-215e3e04988b/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "901443021": {
-   "name": "Gri Melanj Fitilli Kısa Kollu Kısa Tulum Short Romper",
-   "price": 779.5,
-   "ratingCount": 207,
-   "rating": 4.43,
-   "order": null,
-   "order_raw": null,
-   "favorite": 28000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1643/prod/QC/20250221/18/5b87568e-8fff-3b9c-b4db-e86f2772c204/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "834013914": {
@@ -2448,6 +2425,29 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1346/product/media/images/prod/QC/20240603/14/b2f4daef-da6d-34a4-b408-41e5e372dc4e/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "901443021": {
+   "name": "Gri Melanj Fitilli Kısa Kollu Kısa Tulum Short Romper",
+   "price": 779.5,
+   "ratingCount": 207,
+   "rating": 4.43,
+   "order": null,
+   "order_raw": null,
+   "favorite": 28000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1643/prod/QC/20250221/18/5b87568e-8fff-3b9c-b4db-e86f2772c204/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "129999160": {
    "name": "Kadın Lavanta Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
    "price": 749.5,
@@ -2471,6 +2471,53 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/e1831abc-ca6e-347d-837b-1e269a819be5/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "1140323765": {
+   "name": "x Ece Vizon Yüksek Bel Kısa Tayt Mono Biker",
+   "price": 614.5,
+   "ratingCount": 17,
+   "rating": 4.41,
+   "order": null,
+   "order_raw": null,
+   "favorite": 533,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1930/prod/QC_ENRICHMENT/20260504/17/2bc24ef4-a178-3260-8222-a0eec69a69bb/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
+  "1045500913": {
+   "name": "x Ece Vizon Yüksek Bel Spor Tayt Mono Leggings",
+   "price": 769.5,
+   "ratingCount": 111,
+   "rating": 4.04,
+   "order": null,
+   "order_raw": null,
+   "favorite": 12000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "_fatmaasennn_"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_ENRICHMENT/20251110/13/288cf953-f153-3054-897c-cb867ce14f95/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "834013993": {
@@ -2564,31 +2611,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1893/prod/QC_ENRICHMENT/20260504/17/05da2ac4-5dcf-3434-b97a-6afbadbe34d8/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "945607417": {
-   "name": "Bordo Katlanabilir Bel Detaylı Şort Lounge Shorts",
-   "price": 549.5,
-   "ratingCount": 90,
-   "rating": 4.34,
-   "order": null,
-   "order_raw": null,
-   "favorite": 8000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "elasonggur"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1693/prod/QC_PREP/20250616/17/cf558544-bfad-3c18-917b-14ffc252b8a2/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
   "154925393": {
    "name": "Lavanta V Yaka Hafif Destekli Kaplı Spor Sütyeni Vneck",
    "price": 584.5,
@@ -2635,28 +2657,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/15/8d4c4a74-db99-3a08-a7f1-86e81e373374/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "1142355991": {
-   "name": "x Ece Mocha Melanj Bel Detaylı Kısa Tayt Ruched Biker Shorts",
-   "price": 634.5,
-   "ratingCount": 20,
-   "rating": 4.6,
-   "order": null,
-   "order_raw": null,
-   "favorite": 2000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1918/prod/QC_PREP/20260505/16/2eb76c17-231f-3b34-9d27-09a37272d285/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "302230830": {
    "name": "Kadın Siyah Yüksek Bel Fitilli Toparlayıcı Kısa Spor Tayt Ribbed Biker",
    "price": 519.5,
@@ -2678,6 +2678,28 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty433/product/media/images/20220517/17/112723907/481341287/1/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "1142355991": {
+   "name": "x Ece Mocha Melanj Bel Detaylı Kısa Tayt Ruched Biker Shorts",
+   "price": 634.5,
+   "ratingCount": 20,
+   "rating": 4.6,
+   "order": null,
+   "order_raw": null,
+   "favorite": 2000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1918/prod/QC_PREP/20260505/16/2eb76c17-231f-3b34-9d27-09a37272d285/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "659054744": {
@@ -2705,122 +2727,30 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/5a0948ea-b8ae-32bf-8d39-257aed3473d2/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1140323765": {
-   "name": "x Ece Vizon Yüksek Bel Kısa Tayt Mono Biker",
-   "price": 614.5,
-   "ratingCount": 17,
-   "rating": 4.41,
-   "order": null,
-   "order_raw": null,
-   "favorite": 531,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1930/prod/QC_ENRICHMENT/20260504/17/2bc24ef4-a178-3260-8222-a0eec69a69bb/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "1140323672": {
-   "name": "x Ece Bej Spor Sütyeni Super Crop Top",
-   "price": 564.5,
-   "ratingCount": 1,
-   "rating": 3,
-   "order": null,
-   "order_raw": null,
-   "favorite": 258,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1933/prod/QC_ENRICHMENT/20260504/17/42be3257-7aaa-3851-b1dc-abd5ba369bb0/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "699270582": {
-   "name": "Siyah Halter Yaka Içi Sütyenli T-shirt Tank Top",
-   "price": 584.5,
-   "ratingCount": 221,
-   "rating": 4.26,
-   "order": null,
-   "order_raw": null,
-   "favorite": 5000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "MOST_RATED #8",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty858/product/media/images/20230502/14/337166539/924488766/1/1_org_zoom.jpg",
-   "firstSeen": "2026-07-06"
-  },
-  "130006219": {
-   "name": "Kadın Bej Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
-   "price": 749.5,
-   "ratingCount": 438,
-   "rating": 4.29,
-   "order": null,
-   "order_raw": null,
-   "favorite": 18000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "sulekorkmaz"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/ab0b88a0-8693-34e9-99fd-70be6d2e21ea/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
-  },
-  "1045500913": {
-   "name": "x Ece Vizon Yüksek Bel Spor Tayt Mono Leggings",
-   "price": 769.5,
-   "ratingCount": 111,
+  "947445389": {
+   "name": "Siyah-Beyaz Çizgili Yüksek Bel Bikini Altı Sporty Bottom",
+   "price": 489.5,
+   "ratingCount": 26,
    "rating": 4.04,
    "order": null,
    "order_raw": null,
-   "favorite": 12000,
+   "favorite": 1000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
    "views": null,
    "questions": null,
    "social_extra": {
-    "influencer": "_fatmaasennn_"
+    "influencer": "aslimertcaltilli"
    },
    "badges": [
-    "Fenomen Seçimi",
+    "Videolu Ürün",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_ENRICHMENT/20251110/13/288cf953-f153-3054-897c-cb867ce14f95/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1695/prod/QC_PREP/20250620/18/1c1d317d-8778-3842-9073-17e0a6e64cae/1_org_zoom.jpg",
+   "firstSeen": "2026-07-02"
   },
   "834012875": {
    "name": "x Melodi Lacivert Bedene Oturan Tişört Short Fitted",
@@ -2847,6 +2777,76 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1345/product/media/images/prod/QC/20240603/14/1cee4b94-6ac4-3760-b9fa-7ac19d06aaf6/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "1140323672": {
+   "name": "x Ece Bej Spor Sütyeni Super Crop Top",
+   "price": 564.5,
+   "ratingCount": 1,
+   "rating": 3,
+   "order": null,
+   "order_raw": null,
+   "favorite": 258,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1933/prod/QC_ENRICHMENT/20260504/17/42be3257-7aaa-3851-b1dc-abd5ba369bb0/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "130006219": {
+   "name": "Kadın Bej Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
+   "price": 749.5,
+   "ratingCount": 438,
+   "rating": 4.29,
+   "order": null,
+   "order_raw": null,
+   "favorite": 18000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "sulekorkmaz"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/ab0b88a0-8693-34e9-99fd-70be6d2e21ea/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
+  },
+  "699270582": {
+   "name": "Siyah Halter Yaka Içi Sütyenli T-shirt Tank Top",
+   "price": 584.5,
+   "ratingCount": 221,
+   "rating": 4.26,
+   "order": null,
+   "order_raw": null,
+   "favorite": 5000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "MOST_RATED #8",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty858/product/media/images/20230502/14/337166539/924488766/1/1_org_zoom.jpg",
+   "firstSeen": "2026-07-06"
+  },
   "115480891": {
    "name": "Kadın Lavanta Yüksek Bel Toparlayıcı Bisikletçi Şortu Kısa Spor Tayt Biker Basics",
    "price": 484.5,
@@ -2869,6 +2869,28 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1806/prod/QC_ENRICHMENT/20260106/19/77d434ae-7040-3d34-9336-3c1e629b6be1/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
+  },
+  "1140323715": {
+   "name": "x Ece Vizon Kalp Yaka Spor Sütyeni Sweetheart Neck Top",
+   "price": 619.5,
+   "ratingCount": 1,
+   "rating": 5,
+   "order": null,
+   "order_raw": null,
+   "favorite": 200,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1940/prod/QC_ENRICHMENT/20260504/17/f20bbc86-2461-3078-8090-a348ebbf8bee/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "1045513204": {
    "name": "x Ece Vizon Modal Kumaşlı Uzun Kollu Eşofmanlı Pijama Takımı Ribbed PJ2",
@@ -2941,6 +2963,31 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty765/product/media/images/20230307/12/298394899/879777260/1/1_org_zoom.jpg",
    "firstSeen": "2026-07-01"
   },
+  "701542395": {
+   "name": "Siyah Destekli Sırt Detaylı Kaplı Spor Sütyeni",
+   "price": 584.5,
+   "ratingCount": 1192,
+   "rating": 4.25,
+   "order": null,
+   "order_raw": null,
+   "favorite": 67000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "yaseminyigit"
+   },
+   "badges": [
+    "MOST_RATED #9",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/60a48d8f-8de9-3348-b3c4-d4d775dd2105/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
   "120101108": {
    "name": "Antrasit Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni Crisscross",
    "price": 584.5,
@@ -2987,39 +3034,14 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1015/product/media/images/prod/SPM/PIM/20231018/21/bdbecace-9b06-3b75-906d-389f67f1a76c/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "947445389": {
-   "name": "Siyah-Beyaz Çizgili Yüksek Bel Bikini Altı Sporty Bottom",
-   "price": 489.5,
-   "ratingCount": 26,
-   "rating": 4.04,
+  "175004834": {
+   "name": "Kadın Gri Yüksek Bel Jogger Eşofman Altı Joggers",
+   "price": 734.5,
+   "ratingCount": 1080,
+   "rating": 4.52,
    "order": null,
    "order_raw": null,
-   "favorite": 1000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "aslimertcaltilli"
-   },
-   "badges": [
-    "Videolu Ürün",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1695/prod/QC_PREP/20250620/18/1c1d317d-8778-3842-9073-17e0a6e64cae/1_org_zoom.jpg",
-   "firstSeen": "2026-07-02"
-  },
-  "116896804": {
-   "name": "Kadın Bej Yüksek Bel Toparlayıcı Bisikletçi Şortu Kısa Spor Tayt Biker Basics",
-   "price": 484.5,
-   "ratingCount": 193,
-   "rating": 4.34,
-   "order": null,
-   "order_raw": null,
-   "favorite": 5000,
+   "favorite": 17000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -3032,31 +3054,8 @@
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/19/fd1bb858-2a65-39cf-8470-69d3bfac467c/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "834009380": {
-   "name": "x Melodi Gri Melanj Oversize Geniş Kalıp Tişört Boyfriend T-Shirt",
-   "price": 634.5,
-   "ratingCount": 177,
-   "rating": 4.64,
-   "order": null,
-   "order_raw": null,
-   "favorite": 6000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/a1acab8e-4711-3187-a56d-83e1e1a80e33/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/7ad0d6a3-a3b9-3c61-8623-db27e3590edf/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
   },
   "120101254": {
    "name": "Mercan Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni",
@@ -3081,56 +3080,11 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/16/2c94a85b-66b2-3407-b31e-b17edb787de0/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1140323715": {
-   "name": "x Ece Vizon Kalp Yaka Spor Sütyeni Sweetheart Neck Top",
-   "price": 619.5,
-   "ratingCount": 1,
-   "rating": 5,
-   "order": null,
-   "order_raw": null,
-   "favorite": 199,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1940/prod/QC_ENRICHMENT/20260504/17/f20bbc86-2461-3078-8090-a348ebbf8bee/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "155779464": {
-   "name": "Bej V Yaka Hafif Destekli Kaplı Spor Sütyeni Vneck",
-   "price": 584.5,
-   "ratingCount": 160,
-   "rating": 4.31,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/d3bdd112-547f-31d2-b326-1bb1d0d6a6ae/1_org_zoom.jpg",
-   "firstSeen": "2026-07-02"
-  },
-  "155570909": {
-   "name": "Antrasit V Yaka Hafif Destekli Kaplı Spor Sütyeni Vneck",
-   "price": 584.5,
-   "ratingCount": 146,
-   "rating": 4.25,
+  "834009380": {
+   "name": "x Melodi Gri Melanj Oversize Geniş Kalıp Tişört Boyfriend T-Shirt",
+   "price": 634.5,
+   "ratingCount": 177,
+   "rating": 4.64,
    "order": null,
    "order_raw": null,
    "favorite": 6000,
@@ -3146,7 +3100,7 @@
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/b814860d-e8da-3872-bae6-fbe041eade78/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/a1acab8e-4711-3187-a56d-83e1e1a80e33/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "834017738": {
@@ -3174,6 +3128,29 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/c50c1fd1-36f1-370a-b058-fe5f113d1f22/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "155570909": {
+   "name": "Antrasit V Yaka Hafif Destekli Kaplı Spor Sütyeni Vneck",
+   "price": 584.5,
+   "ratingCount": 146,
+   "rating": 4.25,
+   "order": null,
+   "order_raw": null,
+   "favorite": 6000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/b814860d-e8da-3872-bae6-fbe041eade78/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "946947837": {
    "name": "Bordo Yüksek Bel Bikini Altı Sporty Bottom",
    "price": 489.5,
@@ -3199,54 +3176,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1696/prod/QC_PREP/20250620/18/f6b06bad-a513-38b2-96d3-44e3db199afa/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "120275043": {
-   "name": "Antrasit Hafif Destekli Sırt Detaylı Kaplı Crop Top Büstiyer Cropped",
-   "price": 584.5,
-   "ratingCount": 225,
-   "rating": 4.31,
-   "order": null,
-   "order_raw": null,
-   "favorite": 12000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "nazlizorlu"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/da3c6fae-af25-32f4-a801-a4ec4fef7206/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "97831440": {
-   "name": "Kadın Gri Yüksek Bel Toparlayıcı Çift Cepli Biker Şort Kısa Spor Tayt",
-   "price": 619.5,
-   "ratingCount": 35,
-   "rating": 4.49,
-   "order": null,
-   "order_raw": null,
-   "favorite": 1000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Çok Satan #6",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/19/285ab34b-f047-3da1-ab07-c5e7abef99a6/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
-  },
   "120199038": {
    "name": "Mercan Hafif Destekli Sırt Detaylı Kaplı Crop Top Büstiyer Cropped",
    "price": 584.5,
@@ -3269,6 +3198,29 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/15/1dedb8f4-7109-3c72-a8e9-f2ea63027d7c/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
+  },
+  "97831440": {
+   "name": "Kadın Gri Yüksek Bel Toparlayıcı Çift Cepli Biker Şort Kısa Spor Tayt",
+   "price": 619.5,
+   "ratingCount": 35,
+   "rating": 4.49,
+   "order": null,
+   "order_raw": null,
+   "favorite": 1000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Çok Satan #7",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/19/285ab34b-f047-3da1-ab07-c5e7abef99a6/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
   },
   "1047170751": {
    "name": "x Ece 2’li Spor Saç Bandı 7,5 cm Sports Headband",
@@ -3338,31 +3290,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1349/product/media/images/prod/QC/20240603/12/1f49b441-a18c-3664-b6fb-f7ec8e114e81/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "701542395": {
-   "name": "Siyah Destekli Sırt Detaylı Kaplı Spor Sütyeni",
-   "price": 584.5,
-   "ratingCount": 1192,
-   "rating": 4.25,
-   "order": null,
-   "order_raw": null,
-   "favorite": 67000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "yaseminyigit"
-   },
-   "badges": [
-    "MOST_RATED #9",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/60a48d8f-8de9-3348-b3c4-d4d775dd2105/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
   "736364102": {
    "name": "3 Adet Fitilli Seamless Boxer Külot 3xboyshort",
    "price": 599.5,
@@ -3411,28 +3338,30 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1695/prod/QC_PREP/20250617/18/588d7b14-1a32-384e-87b3-e92161bc791e/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "736364157": {
-   "name": "3 Adet Fitilli Seamless Boxer Külot 3xboyshort",
-   "price": 599.5,
-   "ratingCount": 543,
-   "rating": 4.49,
+  "1045513192": {
+   "name": "x Ece Antrasit Modal Kumaşlı Uzun Kollu Eşofmanlı Pijama Takımı Ribbed PJ2",
+   "price": 879.5,
+   "ratingCount": 497,
+   "rating": 4.18,
    "order": null,
    "order_raw": null,
-   "favorite": 39000,
+   "favorite": 43000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
    "views": null,
    "questions": null,
-   "social_extra": null,
+   "social_extra": {
+    "influencer": "esinyapici"
+   },
    "badges": [
     "Fenomen Seçimi",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1654/prod/QC/20250326/16/3ae8b672-6d6e-3000-b813-891b32aba520/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/13/a2903085-c880-3a97-93d6-8c5556112704/1_org_zoom.jpg",
+   "firstSeen": "2026-07-02"
   },
   "1140402155": {
    "name": "x Ece Vizon Kare Yaka Askılı Kısa Spor Tulum Unitard",
@@ -3456,26 +3385,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1916/prod/QC_ENRICHMENT/20260504/17/d6d153fb-d4df-30c1-a2a7-8bccdc14be36/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "664941140": {
-   "name": "Antrasit Hafif Destekli Kaplı Önü Büzgülü Crop Top Büstiyer Low Scoop",
-   "price": 241.13,
-   "ratingCount": 59,
-   "rating": 4.56,
-   "order": null,
-   "order_raw": null,
-   "favorite": 1000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty767/product/media/images/20230307/13/298396137/879778348/1/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
-  },
   "834267382": {
    "name": "Lacivert Biker Şort Kısa Spor Tayt Envelope Biker",
    "price": 619.5,
@@ -3497,6 +3406,29 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1347/product/media/images/prod/QC/20240603/15/b9b38b4c-67fc-3a33-a9ca-80941b6665e9/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "116896804": {
+   "name": "Kadın Bej Yüksek Bel Toparlayıcı Bisikletçi Şortu Kısa Spor Tayt Biker Basics",
+   "price": 484.5,
+   "ratingCount": 192,
+   "rating": 4.34,
+   "order": null,
+   "order_raw": null,
+   "favorite": 5000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/19/fd1bb858-2a65-39cf-8470-69d3bfac467c/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "736364306": {
@@ -3524,14 +3456,14 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty948/product/media/images/20230614/14/385495157/968541287/1/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "120101310": {
-   "name": "Lavanta Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni",
+  "155779464": {
+   "name": "Bej V Yaka Hafif Destekli Kaplı Spor Sütyeni Vneck",
    "price": 584.5,
-   "ratingCount": 232,
-   "rating": 3.96,
+   "ratingCount": 160,
+   "rating": 4.31,
    "order": null,
    "order_raw": null,
-   "favorite": 8000,
+   "favorite": 4000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -3544,31 +3476,8 @@
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/39b67b33-4877-32b3-a33a-159653ac51ee/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "115469860": {
-   "name": "Kadın Antrasit Yüksek Bel Toparlayıcı Bisikletçi Şortu Kısa Spor Tayt",
-   "price": 484.5,
-   "ratingCount": 78,
-   "rating": 4.12,
-   "order": null,
-   "order_raw": null,
-   "favorite": 2000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty807/product/media/images/20230331/11/316169166/186851728/1/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/d3bdd112-547f-31d2-b326-1bb1d0d6a6ae/1_org_zoom.jpg",
+   "firstSeen": "2026-07-02"
   },
   "120593525": {
    "name": "Lacivert Hafif Destekli Sırt Detaylı Kaplı Crop Top Büstiyer Cropped",
@@ -3594,6 +3503,31 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/09d43db7-ec92-376e-a47a-3d728ca81830/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
+  },
+  "120275043": {
+   "name": "Antrasit Hafif Destekli Sırt Detaylı Kaplı Crop Top Büstiyer Cropped",
+   "price": 584.5,
+   "ratingCount": 225,
+   "rating": 4.31,
+   "order": null,
+   "order_raw": null,
+   "favorite": 12000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "nazlizorlu"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/da3c6fae-af25-32f4-a801-a4ec4fef7206/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
   },
   "772312424": {
    "name": "x Melodi Gri Pamuklu Kalın Askılı Crop Top Tank",
@@ -3643,28 +3577,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1095/product/media/images/prod/SPM/PIM/20231218/14/a6bda4be-c1c3-3682-a382-2bd8311b4385/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1140323706": {
-   "name": "x Ece Mocha Melanj Kalp Yaka Spor Sütyeni Sweetheart Neck Top",
-   "price": 619.5,
-   "ratingCount": 1,
-   "rating": 1,
-   "order": null,
-   "order_raw": null,
-   "favorite": 185,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1893/prod/QC_ENRICHMENT/20260504/17/5c474c94-05d0-37da-8ef3-226e473938e0/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "901443921": {
    "name": "Bordo Geniş Kalıp Bisiklet Yaka Sweatshirt Crew Neck",
    "price": 844.5,
@@ -3690,6 +3602,28 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1642/prod/QC/20250221/18/6221fbc5-0737-380f-b8d8-ab64e52259c7/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "1140323706": {
+   "name": "x Ece Mocha Melanj Kalp Yaka Spor Sütyeni Sweetheart Neck Top",
+   "price": 619.5,
+   "ratingCount": 1,
+   "rating": 1,
+   "order": null,
+   "order_raw": null,
+   "favorite": 185,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1893/prod/QC_ENRICHMENT/20260504/17/5c474c94-05d0-37da-8ef3-226e473938e0/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "304371408": {
    "name": "Kadın Haki 2 Katmanlı Spor Şort - Şortlu Tayt 2in1",
    "price": 734.5,
@@ -3712,6 +3646,31 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1808/prod/QC_ENRICHMENT/20260106/18/0f280111-0529-3e83-af71-1a748b5f1182/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
+  },
+  "304912565": {
+   "name": "Kadın Beyaz Askılı Hafif Destekli Kaplı Spor Sütyeni Straps",
+   "price": 584.5,
+   "ratingCount": 1289,
+   "rating": 3.98,
+   "order": null,
+   "order_raw": null,
+   "favorite": 80000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "dionisos.house"
+   },
+   "badges": [
+    "MOST_RATED #7",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/16/f37fc6a8-78fc-39da-a409-9fb99cd1af59/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "1140485981": {
    "name": "x Ece Pembe Fermuarlı Spor Ceket Collared",
@@ -3738,7 +3697,7 @@
   },
   "664938067": {
    "name": "Beyaz 2 Katmanlı Tenis Eteği - Şort Etek - Spor Etek Tennis Skirt",
-   "price": 338.77,
+   "price": 338.72,
    "ratingCount": 360,
    "rating": 4.24,
    "order": null,
@@ -3783,6 +3742,29 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_PREP/20251106/13/3f2bcaab-5304-318c-b065-e5a5a9800716/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
+  },
+  "947445355": {
+   "name": "Siyah Kare Yaka Spor Bikini Üstü Sporty Top",
+   "price": 619.5,
+   "ratingCount": 45,
+   "rating": 3.82,
+   "order": null,
+   "order_raw": null,
+   "favorite": 5000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Videolu Ürün",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1697/prod/QC_PREP/20250620/18/d905fbcd-e529-3ff1-ac73-199a13c34f98/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
   },
   "702042870": {
    "name": "Vizon Beli Lastikli Şalvar Görünümlü Harem Pantolon Yoga Joggers",
@@ -3830,39 +3812,14 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1787/prod/QC_PREP/20251106/12/0a12e27c-10d7-3cd7-bf6b-df30a1b55d78/1_org_zoom.jpg",
    "firstSeen": "2026-07-02"
   },
-  "1045513192": {
-   "name": "x Ece Antrasit Modal Kumaşlı Uzun Kollu Eşofmanlı Pijama Takımı Ribbed PJ2",
-   "price": 879.5,
-   "ratingCount": 497,
-   "rating": 4.18,
+  "664941140": {
+   "name": "Antrasit Hafif Destekli Kaplı Önü Büzgülü Crop Top Büstiyer Low Scoop",
+   "price": 241.12,
+   "ratingCount": 59,
+   "rating": 4.56,
    "order": null,
    "order_raw": null,
-   "favorite": 43000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "esinyapici"
-   },
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/13/a2903085-c880-3a97-93d6-8c5556112704/1_org_zoom.jpg",
-   "firstSeen": "2026-07-02"
-  },
-  "772308529": {
-   "name": "x Melodi Siyah Seamless Destekli Askılı Spor Sütyeni Adjust",
-   "price": 834.5,
-   "ratingCount": 22,
-   "rating": 4.64,
-   "order": null,
-   "order_raw": null,
-   "favorite": 2000,
+   "favorite": 1000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -3870,13 +3827,10 @@
    "questions": null,
    "social_extra": null,
    "badges": [
-    "Videolu Ürün",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
+    "Hızlı Satıcı"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1018/product/media/images/prod/SPM/PIM/20231018/21/55f9339f-87d7-35fe-ba52-c37401d92023/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty767/product/media/images/20230307/13/298396137/879778348/1/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
   },
   "1057245120": {
    "name": "Lacivert Çapraz Bel Detaylı Tayt New Envelope",
@@ -3926,29 +3880,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/12/0ec42222-a50f-3c06-9812-4b22d18280ef/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "1045512318": {
-   "name": "x Ece Kahverengi Modal Kumaşlı Uzun Kollu Şortlu Pijama Takımı Ribbed PJ",
-   "price": 719.5,
-   "ratingCount": 166,
-   "rating": 4.52,
-   "order": null,
-   "order_raw": null,
-   "favorite": 28000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_PREP/20251106/12/77b89085-4e28-3fe8-9903-ab1f21bde017/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "947445460": {
    "name": "Bordo Kare Yaka Spor Bikini Üstü Sporty Top",
    "price": 619.5,
@@ -3971,6 +3902,52 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1697/prod/QC_PREP/20250620/18/5052ae8f-4996-309e-a379-088ec4365739/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
+  },
+  "120101310": {
+   "name": "Lavanta Hafif Destekli Sırt Detaylı Kaplı Spor Sütyeni",
+   "price": 584.5,
+   "ratingCount": 231,
+   "rating": 3.96,
+   "order": null,
+   "order_raw": null,
+   "favorite": 8000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/39b67b33-4877-32b3-a33a-159653ac51ee/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "1045512318": {
+   "name": "x Ece Kahverengi Modal Kumaşlı Uzun Kollu Şortlu Pijama Takımı Ribbed PJ",
+   "price": 719.5,
+   "ratingCount": 166,
+   "rating": 4.52,
+   "order": null,
+   "order_raw": null,
+   "favorite": 28000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_PREP/20251106/12/77b89085-4e28-3fe8-9903-ab1f21bde017/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "847775345": {
    "name": "Haki Esnek ve Toparlayıcı Spor Tayt Basic Seamless",
@@ -4088,29 +4065,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1806/prod/QC_ENRICHMENT/20260106/18/47f76091-a0d6-3f39-a35f-ca2a6680b531/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "699273269": {
-   "name": "Lacivert Halter Yaka Içi Sütyenli T-shirt Tank Top",
-   "price": 584.5,
-   "ratingCount": 166,
-   "rating": 4.13,
-   "order": null,
-   "order_raw": null,
-   "favorite": 6000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty860/product/media/images/20230502/14/337170296/924492929/1/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "947445468": {
    "name": "Lacivert-Beyaz Çizgili Kare Yaka Spor Bikini Üstü Sporty Top",
    "price": 619.5,
@@ -4133,6 +4087,29 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1695/prod/QC_PREP/20250620/18/ea691fd1-621a-31c6-b539-5d5cc989eb58/1_org_zoom.jpg",
    "firstSeen": "2026-07-02"
+  },
+  "699273269": {
+   "name": "Lacivert Halter Yaka Içi Sütyenli T-shirt Tank Top",
+   "price": 584.5,
+   "ratingCount": 166,
+   "rating": 4.13,
+   "order": null,
+   "order_raw": null,
+   "favorite": 6000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty860/product/media/images/20230502/14/337170296/924492929/1/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "664940326": {
    "name": "Haki Yüksek Bel Dikişsiz Toparlayıcı Kısa Spor Tayt Seamless Biker",
@@ -4180,6 +4157,49 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1696/prod/QC_PREP/20250620/18/0da4e6b2-2649-3d61-9720-2505b9e083aa/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "772023004": {
+   "name": "x Melodi Beyaz Pamuklu Fitilli Sütyen Henley Bra",
+   "price": 564.5,
+   "ratingCount": 49,
+   "rating": 3.94,
+   "order": null,
+   "order_raw": null,
+   "favorite": 4000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Çok Satan #1",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1015/product/media/images/prod/SPM/PIM/20231018/21/472a59bc-d279-31a7-986d-164657486ea9/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
+  "847776016": {
+   "name": "Gri Esnek ve Toparlayıcı Spor Tayt Basic Seamless",
+   "price": 275.69,
+   "ratingCount": 27,
+   "rating": 4.41,
+   "order": null,
+   "order_raw": null,
+   "favorite": 1000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1461/product/media/images/prod/QC/20240805/11/193b8fb9-c4b8-3890-b2c0-aedf7a44e071/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
   "154466841": {
    "name": "Kadın Lavanta Yüksek Bel Jogger Eşofman Altı Joggers",
    "price": 734.5,
@@ -4202,29 +4222,6 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/15/fd2c4e72-40c0-3ba3-beec-78d00a4d4aca/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
-  },
-  "772023004": {
-   "name": "x Melodi Beyaz Pamuklu Fitilli Sütyen Henley Bra",
-   "price": 564.5,
-   "ratingCount": 49,
-   "rating": 3.94,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Çok Satan #2",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1015/product/media/images/prod/SPM/PIM/20231018/21/472a59bc-d279-31a7-986d-164657486ea9/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
   },
   "664398214": {
    "name": "Lavanta Hafif Destekli Büzgülü Askı Detaylı Kaplı Spor Sütyeni Ruched",
@@ -4320,6 +4317,28 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/4c12a934-5d25-3af3-b582-6f39ca4c7b49/1_org_zoom.jpg",
    "firstSeen": "2026-07-01"
   },
+  "1140323684": {
+   "name": "x Ece Bej Melanj Kalp Yaka Spor Sütyeni Sweetheart Neck Top",
+   "price": 619.5,
+   "ratingCount": 1,
+   "rating": 3,
+   "order": null,
+   "order_raw": null,
+   "favorite": 113,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1909/prod/QC_ENRICHMENT/20260504/17/1202008e-7a32-322b-8b90-cbcbbfcf4911/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
   "945651550": {
    "name": "Gri Düz Kesim Tişört Regular T-Shirt",
    "price": 594.5,
@@ -4343,31 +4362,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1696/prod/QC_PREP/20250617/18/17827064-b56d-3b85-87bc-1c8148558b34/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "304912565": {
-   "name": "Kadın Beyaz Askılı Hafif Destekli Kaplı Spor Sütyeni Straps",
-   "price": 584.5,
-   "ratingCount": 1289,
-   "rating": 3.98,
-   "order": null,
-   "order_raw": null,
-   "favorite": 80000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": {
-    "influencer": "dionisos.house"
-   },
-   "badges": [
-    "MOST_RATED #7",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/16/f37fc6a8-78fc-39da-a409-9fb99cd1af59/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "302230814": {
    "name": "Kadın Ekru Yüksek Bel Fitilli Toparlayıcı Kısa Spor Tayt Ribbed Biker",
    "price": 519.5,
@@ -4389,6 +4383,52 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty432/product/media/images/20220517/17/112723882/481341270/1/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "736364157": {
+   "name": "3 Adet Fitilli Seamless Boxer Külot 3xboyshort",
+   "price": 599.5,
+   "ratingCount": 543,
+   "rating": 4.49,
+   "order": null,
+   "order_raw": null,
+   "favorite": 39000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1654/prod/QC/20250326/16/3ae8b672-6d6e-3000-b813-891b32aba520/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
+  "772308529": {
+   "name": "x Melodi Siyah Seamless Destekli Askılı Spor Sütyeni Adjust",
+   "price": 834.5,
+   "ratingCount": 22,
+   "rating": 4.64,
+   "order": null,
+   "order_raw": null,
+   "favorite": 2000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Videolu Ürün",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1018/product/media/images/prod/SPM/PIM/20231018/21/55f9339f-87d7-35fe-ba52-c37401d92023/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "901438648": {
@@ -4555,14 +4595,39 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1415/product/media/images/prod/QC/20240711/15/225bd98e-5c37-3a21-9df5-77558286e756/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "1045512324": {
-   "name": "x Ece Antrasit Modal Kumaşlı Uzun Kollu Şortlu Pijama Takımı Ribbed PJ",
-   "price": 719.5,
-   "ratingCount": 146,
-   "rating": 4.16,
+  "834014564": {
+   "name": "x Melodi Gri Melanj Uzun Kollu Kısa Bluz Long Fitted",
+   "price": 559.5,
+   "ratingCount": 2558,
+   "rating": 4.32,
    "order": null,
    "order_raw": null,
-   "favorite": 17000,
+   "favorite": 160000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": {
+    "influencer": "Serragozuak"
+   },
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/13ea2a68-f463-3bd1-a857-508db4e186ce/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "302229328": {
+   "name": "Kadın Lacivert Yüksek Bel Fitilli Toparlayıcı Kısa Spor Tayt Ribbed Biker",
+   "price": 519.5,
+   "ratingCount": 68,
+   "rating": 4.13,
+   "order": null,
+   "order_raw": null,
+   "favorite": 4000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -4575,31 +4640,8 @@
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/12/d66fb261-7c5c-3452-bf96-101b70e1a4e7/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "945479967": {
-   "name": "Lacivert Katlanabilir Bel Detaylı Şort Lounge Shorts",
-   "price": 549.5,
-   "ratingCount": 33,
-   "rating": 4.06,
-   "order": null,
-   "order_raw": null,
-   "favorite": 2000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Videolu Ürün",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1693/prod/QC_PREP/20250616/17/b667fe1c-3499-332f-bb49-3537c92e92ce/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty433/product/media/images/20220517/17/112721858/481338979/1/1_org_zoom.jpg",
+   "firstSeen": "2026-07-01"
   },
   "125467332": {
    "name": "Kadın Bej Yüksek Bel Toparlayıcı Çift Cepli Diz Altı Kapri Tayt Capri",
@@ -4626,29 +4668,27 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/15/edc32744-8ffc-3765-9a63-c044fcc9f32c/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "834014564": {
-   "name": "x Melodi Gri Melanj Uzun Kollu Kısa Bluz Long Fitted",
-   "price": 559.5,
-   "ratingCount": 2558,
-   "rating": 4.32,
+  "945479967": {
+   "name": "Lacivert Katlanabilir Bel Detaylı Şort Lounge Shorts",
+   "price": 549.5,
+   "ratingCount": 33,
+   "rating": 4.06,
    "order": null,
    "order_raw": null,
-   "favorite": 160000,
+   "favorite": 2000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
    "views": null,
    "questions": null,
-   "social_extra": {
-    "influencer": "Serragozuak"
-   },
+   "social_extra": null,
    "badges": [
-    "Fenomen Seçimi",
+    "Videolu Ürün",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1344/product/media/images/prod/QC/20240603/14/13ea2a68-f463-3bd1-a857-508db4e186ce/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1693/prod/QC_PREP/20250616/17/b667fe1c-3499-332f-bb49-3537c92e92ce/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "834015613": {
@@ -4673,52 +4713,6 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1345/product/media/images/prod/QC/20240603/14/3d00e89c-a0de-37a0-8352-d3d4b7cf31b5/1_org_zoom.jpg",
    "firstSeen": "2026-07-01"
-  },
-  "302229328": {
-   "name": "Kadın Lacivert Yüksek Bel Fitilli Toparlayıcı Kısa Spor Tayt Ribbed Biker",
-   "price": 519.5,
-   "ratingCount": 68,
-   "rating": 4.13,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty433/product/media/images/20220517/17/112721858/481338979/1/1_org_zoom.jpg",
-   "firstSeen": "2026-07-01"
-  },
-  "772297580": {
-   "name": "x Melodi Siyah Oversize/geniş Kalıp Pamuklu Kalın Eşofman Altı Reversible",
-   "price": 964.5,
-   "ratingCount": 346,
-   "rating": 4.33,
-   "order": null,
-   "order_raw": null,
-   "favorite": 26000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "En Çok Favorilenen #8",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1019/product/media/images/prod/SPM/PIM/20231018/21/b1d4474d-570a-39b6-ac98-35516b0d687b/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
   },
   "736250287": {
    "name": "3 Adet Seamless Klasik Külot 3xClassic",
@@ -4745,6 +4739,52 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty950/product/media/images/20230613/18/385307124/968275412/1/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
+  "1045512324": {
+   "name": "x Ece Antrasit Modal Kumaşlı Uzun Kollu Şortlu Pijama Takımı Ribbed PJ",
+   "price": 719.5,
+   "ratingCount": 146,
+   "rating": 4.16,
+   "order": null,
+   "order_raw": null,
+   "favorite": 17000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251106/12/d66fb261-7c5c-3452-bf96-101b70e1a4e7/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "772297580": {
+   "name": "x Melodi Siyah Oversize/geniş Kalıp Pamuklu Kalın Eşofman Altı Reversible",
+   "price": 964.5,
+   "ratingCount": 346,
+   "rating": 4.33,
+   "order": null,
+   "order_raw": null,
+   "favorite": 26000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "En Çok Favorilenen #8",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1019/product/media/images/prod/SPM/PIM/20231018/21/b1d4474d-570a-39b6-ac98-35516b0d687b/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "701480658": {
    "name": "Gül Kurusu Destekli Sırt Detaylı Kaplı Spor Sütyeni Strappy Back",
    "price": 584.5,
@@ -4767,29 +4807,6 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/05d69ed0-9c28-3384-acd4-99ec67618ec5/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
-  },
-  "772024341": {
-   "name": "x Melodi Beyaz Pamuklu Fitilli Boxer Külot Waistband Boyshort",
-   "price": 449.5,
-   "ratingCount": 62,
-   "rating": 3.77,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "MOST_RATED #1",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1016/product/media/images/prod/SPM/PIM/20231018/21/403199c5-8ec5-38e1-9d81-7de35da7b942/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
   },
   "834045684": {
    "name": "x Melodi Pudra-Krem Brezilya Modeli Bikini Altı Vintage Bottom",
@@ -4837,14 +4854,14 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1642/prod/QC/20250221/18/204d82a5-eb68-3566-9c48-a48a34dbeedd/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "739416538": {
-   "name": "Siyah Seamless Yumuşak Dokulu Spor T-Shirt Crop Top",
-   "price": 584.5,
-   "ratingCount": 163,
-   "rating": 4.52,
+  "772024341": {
+   "name": "x Melodi Beyaz Pamuklu Fitilli Boxer Külot Waistband Boyshort",
+   "price": 449.5,
+   "ratingCount": 62,
+   "rating": 3.77,
    "order": null,
    "order_raw": null,
-   "favorite": 10000,
+   "favorite": 4000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -4852,12 +4869,13 @@
    "questions": null,
    "social_extra": null,
    "badges": [
+    "MOST_RATED #1",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty957/product/media/images/20230624/10/388900001/972715364/1/1_org_zoom.jpg",
-   "firstSeen": "2026-07-06"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1016/product/media/images/prod/SPM/PIM/20231018/21/403199c5-8ec5-38e1-9d81-7de35da7b942/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
   },
   "154468851": {
    "name": "Kadın Bej Yüksek Bel Jogger Eşofman Altı Joggers",
@@ -4880,6 +4898,51 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/15/5057a800-666a-3af6-876b-7860d2ae23f6/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
+  "739416538": {
+   "name": "Siyah Seamless Yumuşak Dokulu Spor T-Shirt Crop Top",
+   "price": 584.5,
+   "ratingCount": 163,
+   "rating": 4.52,
+   "order": null,
+   "order_raw": null,
+   "favorite": 10000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty957/product/media/images/20230624/10/388900001/972715364/1/1_org_zoom.jpg",
+   "firstSeen": "2026-07-06"
+  },
+  "945652349": {
+   "name": "Lacivert Düz Kesim Tişört Regular T-Shirt",
+   "price": 594.5,
+   "ratingCount": 24,
+   "rating": 4.38,
+   "order": null,
+   "order_raw": null,
+   "favorite": 2000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Videolu Ürün",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1696/prod/QC_PREP/20250617/18/5a50559c-1d51-32ee-8ec6-43377211829a/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "772023694": {
@@ -4905,14 +4968,14 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1015/product/media/images/prod/SPM/PIM/20231018/21/1fb23e5f-edbc-33c4-9277-4d070cdd5103/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "847776016": {
-   "name": "Gri Esnek ve Toparlayıcı Spor Tayt Basic Seamless",
-   "price": 275.69,
-   "ratingCount": 27,
-   "rating": 4.41,
+  "180618170": {
+   "name": "Kadın Melanj Gri Kapüşonlu Oversize Şardonlu Fermuarlı Örme Sweatshirt",
+   "price": 500.54,
+   "ratingCount": 129,
+   "rating": 4.34,
    "order": null,
    "order_raw": null,
-   "favorite": 1000,
+   "favorite": 4000,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -4920,54 +4983,10 @@
    "questions": null,
    "social_extra": null,
    "badges": [
+    "Fenomen Seçimi",
     "Hızlı Satıcı"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1461/product/media/images/prod/QC/20240805/11/193b8fb9-c4b8-3890-b2c0-aedf7a44e071/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "1140486787": {
-   "name": "x Ece Pembe Uzun Kollu U Yaka Spor Bluz Scoop Neck Top",
-   "price": 709.5,
-   "ratingCount": 12,
-   "rating": 4.83,
-   "order": null,
-   "order_raw": null,
-   "favorite": 524,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1908/prod/QC_ENRICHMENT/20260504/17/c84e44b1-9a21-3fde-be37-774df5d7e36b/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "945652349": {
-   "name": "Lacivert Düz Kesim Tişört Regular T-Shirt",
-   "price": 594.5,
-   "ratingCount": 24,
-   "rating": 4.38,
-   "order": null,
-   "order_raw": null,
-   "favorite": 2000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Videolu Ürün",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1696/prod/QC_PREP/20250617/18/5a50559c-1d51-32ee-8ec6-43377211829a/1_org_zoom.jpg",
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty266/product/media/images/20211209/12/7725949/333762582/7/7_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
   "901089893": {
@@ -5015,14 +5034,14 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty958/product/media/images/20230626/12/389331347/973298927/1/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
-  "945652341": {
-   "name": "Bordo Düz Kesim Tişört Regular T-Shirt",
-   "price": 594.5,
-   "ratingCount": 25,
-   "rating": 4.4,
+  "97831398": {
+   "name": "Kadın Mercan Yüksek Bel Toparlayıcı Çift Cepli Biker Şort Kısa Spor Tayt",
+   "price": 619.5,
+   "ratingCount": 58,
+   "rating": 4.67,
    "order": null,
    "order_raw": null,
-   "favorite": 2000,
+   "favorite": 823,
    "order3d": null,
    "order3d_raw": null,
    "basket": null,
@@ -5030,34 +5049,13 @@
    "questions": null,
    "social_extra": null,
    "badges": [
-    "Videolu Ürün",
+    "MOST_RATED #7",
     "Hızlı Satıcı",
     "Kargo Bedava",
     "2. Ürün %20"
    ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1695/prod/QC_PREP/20250617/18/17309144-691f-37f3-bd69-54e2b33aedef/1_org_zoom.jpg",
-   "firstSeen": "2026-07-02"
-  },
-  "180618170": {
-   "name": "Kadın Melanj Gri Kapüşonlu Oversize Şardonlu Fermuarlı Örme Sweatshirt",
-   "price": 500.54,
-   "ratingCount": 129,
-   "rating": 4.34,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty266/product/media/images/20211209/12/7725949/333762582/7/7_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1807/prod/QC_ENRICHMENT/20260106/19/d45d8484-6c7c-3038-b1e9-16fcffbb93fe/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
   },
   "901444145": {
    "name": "Bordo Geniş Kalıp Geniş Paça Eşofman Altı Straight Leg",
@@ -5107,6 +5105,29 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty766/product/media/images/20230307/12/298393017/879774803/1/1_org_zoom.jpg",
    "firstSeen": "2026-07-01"
   },
+  "707515127": {
+   "name": "Vizon Halter Yaka Içi Sütyenli T-shirt Tank Top",
+   "price": 584.5,
+   "ratingCount": 149,
+   "rating": 4.17,
+   "order": null,
+   "order_raw": null,
+   "favorite": 8000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty878/product/media/images/20230511/19/345959684/934626267/1/1_org_zoom.jpg",
+   "firstSeen": "2026-07-06"
+  },
   "1057245123": {
    "name": "Siyah Çapraz Bel Detaylı Tayt New Envelope",
    "price": 769.5,
@@ -5152,51 +5173,6 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1638/prod/QC/20250220/19/40355e25-b81e-3c5e-8a31-c7253fc05ff8/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
-  },
-  "707515127": {
-   "name": "Vizon Halter Yaka Içi Sütyenli T-shirt Tank Top",
-   "price": 584.5,
-   "ratingCount": 149,
-   "rating": 4.17,
-   "order": null,
-   "order_raw": null,
-   "favorite": 8000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty878/product/media/images/20230511/19/345959684/934626267/1/1_org_zoom.jpg",
-   "firstSeen": "2026-07-06"
-  },
-  "1140323684": {
-   "name": "x Ece Bej Melanj Kalp Yaka Spor Sütyeni Sweetheart Neck Top",
-   "price": 619.5,
-   "ratingCount": 1,
-   "rating": 3,
-   "order": null,
-   "order_raw": null,
-   "favorite": 111,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1909/prod/QC_ENRICHMENT/20260504/17/1202008e-7a32-322b-8b90-cbcbbfcf4911/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
   },
   "649970242": {
    "name": "Lacivert Yüksek Bel Toparlayıcı Spor Tayt Basics",
@@ -5245,6 +5221,28 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1787/prod/QC_PREP/20251106/12/cc975200-495e-32dd-816a-df64f1f1f1f2/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "847775790": {
+   "name": "Mavi Gri Esnek ve Toparlayıcı Spor Tayt Basic Seamless",
+   "price": 549.5,
+   "ratingCount": 28,
+   "rating": 4.04,
+   "order": null,
+   "order_raw": null,
+   "favorite": 1000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1463/product/media/images/prod/QC/20240805/11/d5c3cd61-2d6f-3f36-bb29-1b98ee518b24/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
   "947445773": {
    "name": "Lacivert-Beyaz Çizgili Yüksek Bel Bikini Altı Sporty Bottom",
    "price": 489.5,
@@ -5266,28 +5264,6 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1695/prod/QC_PREP/20250620/18/3dfbf18e-0a1c-38cf-be4e-dd27972757ec/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "847775790": {
-   "name": "Mavi Gri Esnek ve Toparlayıcı Spor Tayt Basic Seamless",
-   "price": 549.5,
-   "ratingCount": 28,
-   "rating": 4.04,
-   "order": null,
-   "order_raw": null,
-   "favorite": 1000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1463/product/media/images/prod/QC/20240805/11/d5c3cd61-2d6f-3f36-bb29-1b98ee518b24/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
   "115481498": {
@@ -5336,6 +5312,28 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1808/prod/QC_ENRICHMENT/20260106/19/17500c8d-ca27-3796-9d15-5223e6c78968/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "1142355609": {
+   "name": "x Ece Bej Melanj Bel Detaylı Kısa Tayt Ruched Biker Shorts",
+   "price": 634.5,
+   "ratingCount": 1,
+   "rating": 3,
+   "order": null,
+   "order_raw": null,
+   "favorite": 207,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1931/prod/QC_PREP/20260505/16/86abcd2d-07b3-39fb-91f1-73a948d22e12/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "802087333": {
    "name": "Siyah Yüksek Bel Kışlık Içi Polarlı Spor Tayt Fleece",
    "price": 549.5,
@@ -5358,28 +5356,6 @@
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1154/product/media/images/prod/SPM/PIM/20240131/18/d3c0974c-c519-3743-bdce-a5f0298caa56/1_org_zoom.jpg",
    "firstSeen": "2026-07-01"
-  },
-  "1142355609": {
-   "name": "x Ece Bej Melanj Bel Detaylı Kısa Tayt Ruched Biker Shorts",
-   "price": 634.5,
-   "ratingCount": 1,
-   "rating": 3,
-   "order": null,
-   "order_raw": null,
-   "favorite": 207,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1931/prod/QC_PREP/20260505/16/86abcd2d-07b3-39fb-91f1-73a948d22e12/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
   },
   "117047707": {
    "name": "Kadın Lavanta Yüksek Bel Toparlayıcı Spor Tayt Basics",
@@ -5404,52 +5380,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1097/product/media/images/prod/SPM/PIM/20231218/14/bad70e52-11c8-3996-bd1f-04619636c18f/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
-  "834181261": {
-   "name": "x Melodi Pudra-Krem Fitilli Halter Yaka Bikini Üstü Vintage Top2",
-   "price": 824.5,
-   "ratingCount": 5,
-   "rating": 5,
-   "order": null,
-   "order_raw": null,
-   "favorite": 506,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Videolu Ürün",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1349/product/media/images/prod/QC/20240603/14/b631c0e7-437c-36d6-acdb-2b957bc1a6db/1_org_zoom.jpg",
-   "firstSeen": "2026-06-30"
-  },
-  "901443906": {
-   "name": "Gri Melanj Geniş Kalıp Bisiklet Yaka Sweatshirt Crew Neck",
-   "price": 844.5,
-   "ratingCount": 25,
-   "rating": 4.36,
-   "order": null,
-   "order_raw": null,
-   "favorite": 4000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Videolu Ürün",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1642/prod/QC/20250221/18/8d13571f-dd37-3d18-9c62-ac19d5f03eee/1_org_zoom.jpg",
-   "firstSeen": "2026-07-06"
-  },
   "182890351": {
    "name": "Kadın Siyah Kapüşonlu Oversize Şardonlu Fermuarlı Örme Sweatshirt",
    "price": 994.5,
@@ -5473,11 +5403,34 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty568/product/media/images/20221017/12/195593611/299324537/1/1_org_zoom.jpg",
    "firstSeen": "2026-06-30"
   },
+  "834181261": {
+   "name": "x Melodi Pudra-Krem Fitilli Halter Yaka Bikini Üstü Vintage Top2",
+   "price": 824.5,
+   "ratingCount": 5,
+   "rating": 5,
+   "order": null,
+   "order_raw": null,
+   "favorite": 506,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Videolu Ürün",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1349/product/media/images/prod/QC/20240603/14/b631c0e7-437c-36d6-acdb-2b957bc1a6db/1_org_zoom.jpg",
+   "firstSeen": "2026-06-30"
+  },
   "1045501600": {
    "name": "x Ece Siyah Uzun Kollu U Yaka Spor Bluz Scoop Neck Top",
    "price": 709.5,
-   "ratingCount": 67,
-   "rating": 4.54,
+   "ratingCount": 68,
+   "rating": 4.51,
    "order": null,
    "order_raw": null,
    "favorite": 5000,
@@ -5544,29 +5497,6 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/c778d8e2-00cf-376d-a639-15b5ec6de4c6/1_org_zoom.jpg",
    "firstSeen": "2026-07-01"
   },
-  "901427614": {
-   "name": "Ekru Geniş Kalıp Geniş Paça Eşofman Altı Straight Leg",
-   "price": 954.5,
-   "ratingCount": 42,
-   "rating": 3.64,
-   "order": null,
-   "order_raw": null,
-   "favorite": 13000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1643/prod/QC/20250221/18/cb8052bb-fdbe-398f-ae28-b8a815572f52/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
   "947445615": {
    "name": "Siyah U Yaka Spor Mayo Sporty One Piece",
    "price": 924.5,
@@ -5592,6 +5522,29 @@
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1695/prod/QC_PREP/20250620/18/cb3c3d6c-960d-32b3-b27d-d47aeddd4586/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   },
+  "901427614": {
+   "name": "Ekru Geniş Kalıp Geniş Paça Eşofman Altı Straight Leg",
+   "price": 954.5,
+   "ratingCount": 42,
+   "rating": 3.64,
+   "order": null,
+   "order_raw": null,
+   "favorite": 13000,
+   "order3d": null,
+   "order3d_raw": null,
+   "basket": null,
+   "views": null,
+   "questions": null,
+   "social_extra": null,
+   "badges": [
+    "Fenomen Seçimi",
+    "Hızlı Satıcı",
+    "Kargo Bedava",
+    "2. Ürün %20"
+   ],
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1643/prod/QC/20250221/18/cb8052bb-fdbe-398f-ae28-b8a815572f52/1_org_zoom.jpg",
+   "firstSeen": "2026-06-28"
+  },
   "901445961": {
    "name": "Gri Melanj Geniş Kalıp Geniş Paça Eşofman Altı Straight Leg",
    "price": 954.5,
@@ -5613,29 +5566,6 @@
     "2. Ürün %20"
    ],
    "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1642/prod/QC/20250221/18/0854b17b-1feb-3d71-bfa3-8173f4d2675c/1_org_zoom.jpg",
-   "firstSeen": "2026-06-28"
-  },
-  "1045513767": {
-   "name": "x Ece Gri Melanj Petek Dokulu Düğmeli Pijama Takımı Pointelle PJ",
-   "price": 994.5,
-   "ratingCount": 58,
-   "rating": 3.93,
-   "order": null,
-   "order_raw": null,
-   "favorite": 11000,
-   "order3d": null,
-   "order3d_raw": null,
-   "basket": null,
-   "views": null,
-   "questions": null,
-   "social_extra": null,
-   "badges": [
-    "Fenomen Seçimi",
-    "Hızlı Satıcı",
-    "Kargo Bedava",
-    "2. Ürün %20"
-   ],
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1785/prod/QC_PREP/20251106/13/37f531e6-db1f-3c52-bf5f-1d2ee7552544/1_org_zoom.jpg",
    "firstSeen": "2026-06-28"
   }
  }
