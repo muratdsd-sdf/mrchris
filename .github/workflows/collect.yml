@@ -1,13 +1,12 @@
 name: Los Ojos veri topla
 
 on:
-  schedule:
-    # Her gun 06:00 UTC (Turkiye ~09:00). Sadece "cok satanlar" ilk 4 sayfasi
-    # cekildigi icin (bkz. collector.py TOP_SELLER_PAGES) calisma basina yalnizca
-    # ~4 istek = Scrape.do'da ~40, Scrapfly'da ~100 kredi. Iki motorun aylik
-    # 1000+1000 bedava kredisi gunluk toplamaya rahat yeter.
-    - cron: "0 6 * * *"
-  workflow_dispatch: {}          # elle de calistirilabilsin (Run workflow butonu)
+  # Gunluk zamanlama KAPATILDI (2026-07-07): iki proxy motorunun da aylik
+  # bedava kredisi bitiyor ve her calisma hata mailiyle sonuclaniyordu
+  # (gunde ~5 istek x 10-25 kredi, 1000+1000 kota aya yetmiyor). Veri artik
+  # Turkiye-PC kurulumundan geliyor (proxy'siz, bedava). Gerekirse asagidaki
+  # "Run workflow" butonuyla elle calistirilabilir.
+  workflow_dispatch: {}
 
 permissions:
   contents: write
