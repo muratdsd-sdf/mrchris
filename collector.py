@@ -619,16 +619,23 @@ def main():
         first_seen = (old_products.get(pid_str, {}).get("firstSeen")
                       or hist_first.get(pid_str) or today)
         sp = social.get(pid_str, {})
+        old = old_products.get(pid_str, {})
+        # ONEMLI: order3d/basket/views icin asil kaynak Murat-PC'nin sepet-servisi
+        # toplayicisi (satis_topla.py); bu toplayicinin sosyal verisi Trendyol
+        # esikleri yuzunden cogunlukla BOS gelir. Bos alanlarda onceki latest.json
+        # degeri korunur; yoksa gunun ikinci calismasi ilkinin satis verisini
+        # silip paneli 39 urunden 2 urune dusuruyordu (2026-07-07 yasandi).
         snapshot[pid_str] = {
             "name": info["name"], "price": info["price"],
             "ratingCount": info["ratingCount"], "rating": info["rating"],
             "order": info.get("order"), "order_raw": info.get("order_raw"),
             # katalogdaki favori bossa sosyal API'den tamamla
             "favorite": info.get("favorite") if info.get("favorite") is not None else sp.get("favorite"),
-            "order3d": sp.get("order3d"), "order3d_raw": sp.get("order3d_raw"),
-            "basket": sp.get("basket"),
-            "views": sp.get("views"),
-            "questions": sp.get("questions"),
+            "order3d": sp.get("order3d") if sp.get("order3d") is not None else old.get("order3d"),
+            "order3d_raw": sp.get("order3d_raw") if sp.get("order3d") is not None else old.get("order3d_raw"),
+            "basket": sp.get("basket") if sp.get("basket") is not None else old.get("basket"),
+            "views": sp.get("views") if sp.get("views") is not None else old.get("views"),
+            "questions": sp.get("questions") if sp.get("questions") is not None else old.get("questions"),
             "social_extra": sp.get("extra"),
             "badges": info.get("badges"),
             "image": info.get("image"),
