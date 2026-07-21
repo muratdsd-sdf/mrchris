@@ -74,7 +74,7 @@ tbody tr[data-pid]{cursor:pointer}
 tbody tr:hover td{background:#fff8f1}
 tr.open td{background:#fff3e6}
 tr.detailrow td{background:#fbfcfe;padding:0;border-bottom:2px solid var(--line)}
-.detailgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;padding:16px 18px}
+.detailgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;padding:16px 18px}
 .dbox{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
 .dttl{font-size:12.5px;font-weight:700;color:var(--ink);margin-bottom:9px}
 .dsum{display:flex;gap:6px;margin-bottom:10px;text-align:center;flex-wrap:wrap}
@@ -196,7 +196,7 @@ footer{text-align:center;color:#9aa7bd;font-size:11.5px;padding:24px 12px 36px;l
       </select>
       <div class="rate-row" title="Haftalık satış tahmini için: her 100 alıcıdan kaçının yorum yazdığı varsayımı">Yorum→satış oranı <input type="range" id="rate" min="3" max="25" value="8" step="1"><b id="ratev">%8</b></div>
     </div>
-    <div class="note">👆 Bir ürüne <b>tıklayınca</b> altında açılır: yorum, görüntülenme, sepete ekleme, favori ve 3 günde satışın <b>gün gün</b> dökümü + son 3 gün / 7 gün / tüm dönem değişimi ve toplamı.</div>
+    <div class="note">👆 Bir ürüne <b>tıklayınca</b> altında açılır: yorum, görüntülenme, sepete ekleme, favori, fiyat ve 3 günde satışın <b>gün gün</b> dökümü + son 3 / 7 / 14 / 30 gün ve tüm dönem değişimi.</div>
     <div class="table-wrap">
     <table><thead><tr>
       <th class="l" data-s="name">Ürün<span class="arrow"></span></th>
@@ -304,10 +304,12 @@ function relDate(d){
   if(days<1.5)return 'dün';
   return Math.round(days)+' gün önce';
 }
-// Bir urunun gecmis zaman serisi: [{date, rc, v, o3, p}], eskiden yeniye.
+// Bir urunun gecmis zaman serisi: [{date, rc, v, o3, p, f, b}], eskiden yeniye.
+// NOT: 3 gunde satis alani eski kayitlarda "o3", yenilerde "o3d" adiyla tutuluyor
+// — ikisi birlestirilerek okunur, boylece TUM gecmis gorunur.
 function histSeries(pid){
   const snaps=HIST?.snapshots||[];
-  return snaps.map(s=>{const x=s.products[pid]||{};return{date:s.date,rc:x.rc,v:x.v,o3:x.o3,p:x.p,f:x.f,b:x.b};});
+  return snaps.map(s=>{const x=s.products[pid]||{};return{date:s.date,rc:x.rc,v:x.v,o3:(x.o3??x.o3d),p:x.p,f:x.f,b:x.b};});
 }
 // field icin son N gunluk degisim. signed=false ise negatifler 0'a kirpilir
 // (birikmeli alanlar icin: yeni gelen adet). signed=true ise +/- doner.
@@ -346,33 +348,39 @@ function detailHtml(pid){
   const nDays=s.length>1?Math.round((new Date(s[s.length-1].date)-new Date(s[0].date))/86400000):0;
   const donemEt=nDays?'Tüm dönem ('+nDays+'g)':'Tüm dönem';
   // mode: 'birikmeli' (yorum/favori) -> gun gun YENI GELEN + toplam
-  //       'anlik'    (goruntulenme/sepete/satis) -> o gunku deger + degisim
-  const box=(baslik,alt,field,mode)=>{
+  //       'anlik'    (goruntulenme/sepete/satis/fiyat) -> o gunku deger + degisim
+  // Pencereler: 3 / 7 / 14 / 30 gun + tum donem.
+  const box=(baslik,alt,field,mode,fmtFn)=>{
+    const F=fmtFn||fmt;
     const rows=s.filter(x=>x[field]!=null);
     if(!rows.length)
       return `<div class="dbox"><div class="dttl">${baslik} <span class="dim" style="font-weight:400">${alt}</span></div><div class="dim" style="padding:8px 4px">Bu veri Trendyol tarafından bu ürün için gösterilmiyor.</div></div>`;
     const cur=lastVal(s,field);
     let sumHtml,ddHtml;
     if(mode==='birikmeli'){
-      const g=v=>v==null?'<span class="dim">–</span>':(v>0?'+'+fmt(v):'0');
-      const d3=deltaOver(s,field,3),d7=deltaOver(s,field,7),dall=deltaOver(s,field,999);
+      const g=v=>v==null?'<span class="dim">–</span>':(v>0?'+'+F(v):'0');
+      const d3=deltaOver(s,field,3),d7=deltaOver(s,field,7),d14=deltaOver(s,field,14),d30=deltaOver(s,field,30),dall=deltaOver(s,field,999);
       sumHtml=`<div><span class="dim">Son 3 gün</span><b>${g(d3)}</b></div>
         <div><span class="dim">Son 7 gün</span><b>${g(d7)}</b></div>
+        <div><span class="dim">Son 14 gün</span><b>${g(d14)}</b></div>
+        <div><span class="dim">Son 30 gün</span><b>${g(d30)}</b></div>
         <div><span class="dim">${donemEt}</span><b>${g(dall)}</b></div>
-        <div><span class="dim">Toplam</span><b class="tot">${fmt(cur)}</b></div>`;
+        <div><span class="dim">Toplam</span><b class="tot">${F(cur)}</b></div>`;
       const dd=dayByDay(s,field);
       ddHtml=dd.length?dd.slice().reverse().map(x=>
-        `<div class="ddrow"><span>${x.date}</span><b>+${fmt(x.delta)}</b></div>`).join(''):
+        `<div class="ddrow"><span>${x.date}</span><b>+${F(x.delta)}</b></div>`).join(''):
         '<div class="dim" style="padding:4px">Gün-gün için 2. ölçüm bekleniyor</div>';
     }else{
-      const g=v=>v==null?'<span class="dim">–</span>':(v>0?'<span class="up">▲ '+fmt(v)+'</span>':(v<0?'<span class="down">▼ '+fmt(-v)+'</span>':'0'));
-      const d3=deltaOver(s,field,3,true),d7=deltaOver(s,field,7,true),dall=deltaOver(s,field,999,true);
+      const g=v=>v==null?'<span class="dim">–</span>':(v>0?'<span class="up">▲ '+F(v)+'</span>':(v<0?'<span class="down">▼ '+F(-v)+'</span>':'0'));
+      const d3=deltaOver(s,field,3,true),d7=deltaOver(s,field,7,true),d14=deltaOver(s,field,14,true),d30=deltaOver(s,field,30,true),dall=deltaOver(s,field,999,true);
       sumHtml=`<div><span class="dim">Son 3 gün</span><b>${g(d3)}</b></div>
         <div><span class="dim">Son 7 gün</span><b>${g(d7)}</b></div>
+        <div><span class="dim">Son 14 gün</span><b>${g(d14)}</b></div>
+        <div><span class="dim">Son 30 gün</span><b>${g(d30)}</b></div>
         <div><span class="dim">${donemEt}</span><b>${g(dall)}</b></div>
-        <div><span class="dim">Şu an</span><b class="tot">${fmt(cur)}</b></div>`;
+        <div><span class="dim">Şu an</span><b class="tot">${F(cur)}</b></div>`;
       ddHtml=rows.slice().reverse().map(x=>
-        `<div class="ddrow"><span>${x.date}</span><b>${fmt(x[field])}</b></div>`).join('');
+        `<div class="ddrow"><span>${x.date}</span><b>${F(x[field])}</b></div>`).join('');
     }
     return `<div class="dbox">
       <div class="dttl">${baslik} <span class="dim" style="font-weight:400">${alt}</span></div>
@@ -381,7 +389,7 @@ function detailHtml(pid){
     </div>`;
   };
   const soruBox=`<div class="dbox"><div class="dttl">❓ Sorulan Sorular</div><div class="dim" style="padding:8px 4px">Bu veri henüz toplanmıyor. İstenirse eklenebilir (her ürünün soru-cevap sayfası ayrıca ziyaret edilmeli).</div></div>`;
-  return `<td colspan="11" class="detailcell"><div class="detailgrid">${box('💬 Yorum','(gün gün yeni gelen — satış sinyali)','rc','birikmeli')}${box('👁️ Görüntülenme','(o günkü değer)','v','anlik')}${box('🧺 Sepete Ekleme','(o an sepette olan kişi)','b','anlik')}${box('❤️ Favori','(gün gün yeni gelen)','f','birikmeli')}${box('⚡ Son 3 Günde Satış','(o günkü değer)','o3','anlik')}${soruBox}</div></td>`;
+  return `<td colspan="11" class="detailcell"><div class="detailgrid">${box('💬 Yorum','(gün gün yeni gelen — satış sinyali)','rc','birikmeli')}${box('👁️ Görüntülenme','(o günkü değer)','v','anlik')}${box('🧺 Sepete Ekleme','(o an sepette olan kişi)','b','anlik')}${box('❤️ Favori','(gün gün yeni gelen)','f','birikmeli')}${box('⚡ Son 3 Günde Satış','(o günkü değer)','o3','anlik')}${box('💰 Fiyat','(o günkü fiyat)','p','anlik',fmtTL)}${soruBox}</div></td>`;
 }
 function toggleDetail(tr){
   const pid=tr.getAttribute('data-pid');
