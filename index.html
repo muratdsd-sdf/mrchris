@@ -196,7 +196,7 @@ footer{text-align:center;color:#9aa7bd;font-size:11.5px;padding:24px 12px 36px;l
       </select>
       <div class="rate-row" title="Haftalık satış tahmini için: her 100 alıcıdan kaçının yorum yazdığı varsayımı">Yorum→satış oranı <input type="range" id="rate" min="3" max="25" value="8" step="1"><b id="ratev">%8</b></div>
     </div>
-    <div class="note">👆 Bir ürüne <b>tıklayınca</b> altında açılır: yorum, görüntülenme, sepete ekleme, favori, fiyat ve 3 günde satışın <b>gün gün</b> dökümü + son 3 / 7 / 14 / 30 gün ve tüm dönem değişimi.</div>
+    <div class="note">👆 Bir ürüne <b>tıklayınca</b> altında açılır: yorum, görüntülenme, sepete ekleme, favori, fiyat ve satışın <b>gün gün</b> dökümü + son 3 / 7 / 14 / 30 gün toplamları. Satışta "Son 3 gün" Trendyol'un kendi rakamıdır; <b>~</b> ile başlayanlar günlük hızdan hesaplanan tahmindir, <b>–</b> ise takibin o pencereden kısa olduğunu gösterir.</div>
     <div class="table-wrap">
     <table><thead><tr>
       <th class="l" data-s="name">Ürün<span class="arrow"></span></th>
@@ -311,35 +311,77 @@ function histSeries(pid){
   const snaps=HIST?.snapshots||[];
   return snaps.map(s=>{const x=s.products[pid]||{};return{date:s.date,rc:x.rc,v:x.v,o3:(x.o3??x.o3d),p:x.p,f:x.f,b:x.b};});
 }
-// field icin son N gunluk degisim. signed=false ise negatifler 0'a kirpilir
-// (birikmeli alanlar icin: yeni gelen adet). signed=true ise +/- doner.
-function deltaOver(series,field,days,signed){
-  if(series.length<2)return null;
-  const last=series[series.length-1];
-  if(last[field]==null)return null;
-  const lastD=new Date(last.date);
-  let base=null;
-  for(let i=series.length-2;i>=0;i--){
-    if(series[i][field]==null)continue;
-    base=series[i];
-    if((lastD-new Date(series[i].date))/86400000>=days)break;
+// --- pencere hesaplari ---
+// Olcumler her gun yok (bosluklar var). Bu yuzden pencere hesaplari lineer
+// interpolasyonla gunluk seriye cevrilerek yapilir; boylece "son 7 gun"
+// GERCEKTEN 7 gunluk araligi olcer, bosluklarda yanlis deger vermez.
+function fieldPts(s,field){return s.filter(x=>x[field]!=null).map(x=>({t:new Date(x.date).getTime(),v:x[field]}));}
+function interpAt(pts,t){
+  if(!pts.length)return null;
+  if(t<=pts[0].t)return pts[0].v;
+  if(t>=pts[pts.length-1].t)return pts[pts.length-1].v;
+  for(let i=1;i<pts.length;i++)if(t<=pts[i].t){
+    const a=pts[i-1],b=pts[i];
+    return a.v+(b.v-a.v)*(t-a.t)/(b.t-a.t);
   }
-  if(!base)return null;
-  const d=last[field]-base[field];
-  return signed?d:Math.max(0,d);
+  return pts[pts.length-1].v;
+}
+// Birikmeli alan (yorum/favori): son N gunde EKLENEN miktar.
+// Takip gecmisi pencereden kisaysa null doner (yanlis rakam gostermek yerine).
+function cumDelta(s,field,days){
+  const pts=fieldPts(s,field);
+  if(pts.length<2)return null;
+  const end=pts[pts.length-1].t,start=end-days*86400000;
+  if(start<pts[0].t-43200000)return null;
+  return Math.max(0,Math.round(pts[pts.length-1].v-interpAt(pts,Math.max(start,pts[0].t))));
+}
+function cumTotal(s,field){
+  const pts=fieldPts(s,field);
+  return pts.length<2?null:Math.max(0,Math.round(pts[pts.length-1].v-pts[0].v));
+}
+// Akis alani (satis/goruntulenme): her olcum "o gunku hiz"dir. Satista deger
+// 3 gunluk toplam oldugundan div=3 ile gunluge cevrilir. Son N gunun TOPLAMI,
+// gunluk hizlarin toplamiyla tahmin edilir (~).
+function flowSum(s,field,days,div){
+  const pts=fieldPts(s,field);
+  if(pts.length<2)return null;
+  const end=pts[pts.length-1].t;
+  let start=end-days*86400000;
+  if(days<900&&start<pts[0].t-43200000)return null;
+  start=Math.max(start,pts[0].t);
+  const nd=Math.max(1,Math.round((end-start)/86400000));
+  let sum=0;
+  for(let i=0;i<nd;i++)sum+=interpAt(pts,start+(i+.5)*86400000)/div;
+  return Math.round(sum);
+}
+// Anlik/seviye alani (sepette/fiyat): son N gundeki degisim (+/-).
+function lvlDelta(s,field,days){
+  const pts=fieldPts(s,field);
+  if(pts.length<2)return null;
+  const end=pts[pts.length-1].t,start=end-days*86400000;
+  if(start<pts[0].t-43200000)return null;
+  return Math.round(pts[pts.length-1].v-interpAt(pts,Math.max(start,pts[0].t)));
+}
+function lvlTotal(s,field){
+  const pts=fieldPts(s,field);
+  return pts.length<2?null:Math.round(pts[pts.length-1].v-pts[0].v);
 }
 // bir alanin en son (bugunku) degeri
 function lastVal(series,field){
   for(let i=series.length-1;i>=0;i--)if(series[i][field]!=null)return series[i][field];
   return null;
 }
-// Gun gun artis satirlari (birikmeli alan). [{date, delta}]
+// Gun gun artis satirlari (birikmeli alan). Aradaki gunlerde olcum yoksa
+// satirin kac gunun toplami oldugu belirtilir. [{date, delta, gd}]
 function dayByDay(series,field){
-  const out=[];let prev=null;
+  const out=[];let prev=null,prevDate=null;
   for(const s of series){
     if(s[field]==null)continue;
-    if(prev!=null)out.push({date:s.date,delta:Math.max(0,s[field]-prev)});
-    prev=s[field];
+    if(prev!=null){
+      const gd=Math.round((new Date(s.date)-new Date(prevDate))/86400000);
+      out.push({date:s.date,delta:Math.max(0,s[field]-prev),gd});
+    }
+    prev=s[field];prevDate=s.date;
   }
   return out;
 }
@@ -347,38 +389,44 @@ function detailHtml(pid){
   const s=histSeries(pid);
   const nDays=s.length>1?Math.round((new Date(s[s.length-1].date)-new Date(s[0].date))/86400000):0;
   const donemEt=nDays?'Tüm dönem ('+nDays+'g)':'Tüm dönem';
-  // mode: 'birikmeli' (yorum/favori) -> gun gun YENI GELEN + toplam
-  //       'anlik'    (goruntulenme/sepete/satis/fiyat) -> o gunku deger + degisim
-  // Pencereler: 3 / 7 / 14 / 30 gun + tum donem.
-  const box=(baslik,alt,field,mode,fmtFn)=>{
-    const F=fmtFn||fmt;
+  // mode: 'birikmeli' (yorum/favori)      -> son N gunde EKLENEN + toplam
+  //       'akis'      (satis/goruntulenme)-> son N gunun TOPLAMI (tahmin, ~)
+  //       'anlik'     (sepette/fiyat)     -> seviye degisimi (+/-)
+  // '–' = takip gecmisi o pencereden kisa (yanlis rakam gosterilmez).
+  const noHist='<span class="dim" title="Takip geçmişi bu pencereden kısa">–</span>';
+  const win=(label,val,cls)=>`<div><span class="dim">${label}</span><b${cls?' class="'+cls+'"':''}>${val}</b></div>`;
+  const box=(baslik,alt,field,mode,opt)=>{
+    opt=opt||{};
+    const F=opt.fmt||fmt;
     const rows=s.filter(x=>x[field]!=null);
     if(!rows.length)
       return `<div class="dbox"><div class="dttl">${baslik} <span class="dim" style="font-weight:400">${alt}</span></div><div class="dim" style="padding:8px 4px">Bu veri Trendyol tarafından bu ürün için gösterilmiyor.</div></div>`;
     const cur=lastVal(s,field);
     let sumHtml,ddHtml;
     if(mode==='birikmeli'){
-      const g=v=>v==null?'<span class="dim">–</span>':(v>0?'+'+F(v):'0');
-      const d3=deltaOver(s,field,3),d7=deltaOver(s,field,7),d14=deltaOver(s,field,14),d30=deltaOver(s,field,30),dall=deltaOver(s,field,999);
-      sumHtml=`<div><span class="dim">Son 3 gün</span><b>${g(d3)}</b></div>
-        <div><span class="dim">Son 7 gün</span><b>${g(d7)}</b></div>
-        <div><span class="dim">Son 14 gün</span><b>${g(d14)}</b></div>
-        <div><span class="dim">Son 30 gün</span><b>${g(d30)}</b></div>
-        <div><span class="dim">${donemEt}</span><b>${g(dall)}</b></div>
-        <div><span class="dim">Toplam</span><b class="tot">${F(cur)}</b></div>`;
+      const g=v=>v==null?noHist:(v>0?'+'+F(v):'0');
+      sumHtml=win('Son 3 gün',g(cumDelta(s,field,3)))+win('Son 7 gün',g(cumDelta(s,field,7)))
+        +win('Son 14 gün',g(cumDelta(s,field,14)))+win('Son 30 gün',g(cumDelta(s,field,30)))
+        +win(donemEt,g(cumTotal(s,field)))+win('Toplam',F(cur),'tot');
       const dd=dayByDay(s,field);
       ddHtml=dd.length?dd.slice().reverse().map(x=>
-        `<div class="ddrow"><span>${x.date}</span><b>+${F(x.delta)}</b></div>`).join(''):
+        `<div class="ddrow"><span>${x.date}${x.gd>1?' <span class="dim">('+x.gd+'g toplamı)</span>':''}</span><b>+${F(x.delta)}</b></div>`).join(''):
         '<div class="dim" style="padding:4px">Gün-gün için 2. ölçüm bekleniyor</div>';
+    }else if(mode==='akis'){
+      const div=opt.div||1;
+      const g=v=>v==null?noHist:'~'+F(v);
+      // Satista (div=3) "Son 3 gun" Trendyol'un HAZIR rakamidir, tahmin degil.
+      const s3=(div===3&&cur!=null)?F(cur):g(flowSum(s,field,3,div));
+      sumHtml=win('Son 3 gün',s3)+win('Son 7 gün',g(flowSum(s,field,7,div)))
+        +win('Son 14 gün',g(flowSum(s,field,14,div)))+win('Son 30 gün',g(flowSum(s,field,30,div)))
+        +win(donemEt,g(flowSum(s,field,999,div)))+win('Bugünkü değer',F(cur),'tot');
+      ddHtml=rows.slice().reverse().map(x=>
+        `<div class="ddrow"><span>${x.date}</span><b>${F(x[field])}</b></div>`).join('');
     }else{
-      const g=v=>v==null?'<span class="dim">–</span>':(v>0?'<span class="up">▲ '+F(v)+'</span>':(v<0?'<span class="down">▼ '+F(-v)+'</span>':'0'));
-      const d3=deltaOver(s,field,3,true),d7=deltaOver(s,field,7,true),d14=deltaOver(s,field,14,true),d30=deltaOver(s,field,30,true),dall=deltaOver(s,field,999,true);
-      sumHtml=`<div><span class="dim">Son 3 gün</span><b>${g(d3)}</b></div>
-        <div><span class="dim">Son 7 gün</span><b>${g(d7)}</b></div>
-        <div><span class="dim">Son 14 gün</span><b>${g(d14)}</b></div>
-        <div><span class="dim">Son 30 gün</span><b>${g(d30)}</b></div>
-        <div><span class="dim">${donemEt}</span><b>${g(dall)}</b></div>
-        <div><span class="dim">Şu an</span><b class="tot">${F(cur)}</b></div>`;
+      const g=v=>v==null?noHist:(v>0?'<span class="up">▲ '+F(v)+'</span>':(v<0?'<span class="down">▼ '+F(-v)+'</span>':'0'));
+      sumHtml=win('Son 3 gün',g(lvlDelta(s,field,3)))+win('Son 7 gün',g(lvlDelta(s,field,7)))
+        +win('Son 14 gün',g(lvlDelta(s,field,14)))+win('Son 30 gün',g(lvlDelta(s,field,30)))
+        +win(donemEt,g(lvlTotal(s,field)))+win('Şu an',F(cur),'tot');
       ddHtml=rows.slice().reverse().map(x=>
         `<div class="ddrow"><span>${x.date}</span><b>${F(x[field])}</b></div>`).join('');
     }
@@ -389,7 +437,7 @@ function detailHtml(pid){
     </div>`;
   };
   const soruBox=`<div class="dbox"><div class="dttl">❓ Sorulan Sorular</div><div class="dim" style="padding:8px 4px">Bu veri henüz toplanmıyor. İstenirse eklenebilir (her ürünün soru-cevap sayfası ayrıca ziyaret edilmeli).</div></div>`;
-  return `<td colspan="11" class="detailcell"><div class="detailgrid">${box('💬 Yorum','(gün gün yeni gelen — satış sinyali)','rc','birikmeli')}${box('👁️ Görüntülenme','(o günkü değer)','v','anlik')}${box('🧺 Sepete Ekleme','(o an sepette olan kişi)','b','anlik')}${box('❤️ Favori','(gün gün yeni gelen)','f','birikmeli')}${box('⚡ Son 3 Günde Satış','(o günkü değer)','o3','anlik')}${box('💰 Fiyat','(o günkü fiyat)','p','anlik',fmtTL)}${soruBox}</div></td>`;
+  return `<td colspan="11" class="detailcell"><div class="detailgrid">${box('💬 Yorum','(son N günde gelen yeni yorum)','rc','birikmeli')}${box('👁️ Görüntülenme','(son N günde toplam — tahmini)','v','akis',{div:1})}${box('🧺 Sepete Ekleme','(o an sepette — değişim)','b','anlik')}${box('❤️ Favori','(son N günde eklenen)','f','birikmeli')}${box('⚡ Satış','(3 gün: Trendyol verisi · uzun pencereler tahmin)','o3','akis',{div:3})}${box('💰 Fiyat','(o günkü fiyat)','p','anlik',{fmt:fmtTL})}${soruBox}</div></td>`;
 }
 function toggleDetail(tr){
   const pid=tr.getAttribute('data-pid');
