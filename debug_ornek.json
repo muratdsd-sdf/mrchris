@@ -1,5 +1,5 @@
 {
- "date": "2026-07-24",
+ "date": "2026-07-25",
  "katalog_ham_urunler": [
   {
    "boutiqueId": 61,
@@ -47,11 +47,17 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.508638562543193,
-    "totalCount": 2894
+    "averageRating": 4.508213552361396,
+    "totalCount": 2922
    },
    "stamps": {},
    "tagDetails": [
+    {
+     "displayName": "kategori_encoksatanlar",
+     "hasStamp": true,
+     "tag": "kategori_encoksatanlar",
+     "tagId": 1715
+    },
     {
      "displayName": "Son 10 Günün En Düşük Fiyatı",
      "hasStamp": true,
@@ -65,12 +71,6 @@
      "tag": "eventdeal",
      "tagId": 9637,
      "tagType": "EventDealBadge"
-    },
-    {
-     "displayName": "kategori_encoksatanlar",
-     "hasStamp": true,
-     "tag": "kategori_encoksatanlar",
-     "tagId": 1715
     }
    ],
    "badges": {
@@ -107,7 +107,7 @@
     },
     {
      "key": "orderCount",
-     "value": "1000+"
+     "value": "400+"
     }
    ],
    "promotions": [],
@@ -282,17 +282,17 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.327586206896552,
-    "totalCount": 638
+    "averageRating": 4.324492979719188,
+    "totalCount": 641
    },
    "stamps": {},
    "tagDetails": [
     {
-     "displayName": "Hesaplı Ürünler",
+     "displayName": "Avantajlı Ürün",
      "hasStamp": true,
-     "tag": "hesapli_urunler",
-     "tagId": 4903,
-     "tagType": "AffordableProducts"
+     "tag": "sari_kampanya_urunu",
+     "tagId": 4897,
+     "tagType": "CampaignBadge"
     },
     {
      "displayName": "Son 10 Günün En Düşük Fiyatı",
@@ -307,13 +307,6 @@
      "tag": "eventdeal",
      "tagId": 9637,
      "tagType": "EventDealBadge"
-    },
-    {
-     "displayName": "Avantajlı Ürün",
-     "hasStamp": true,
-     "tag": "sari_kampanya_urunu",
-     "tagId": 4897,
-     "tagType": "CampaignBadge"
     }
    ],
    "badges": {
@@ -346,11 +339,11 @@
    "socialProof": [
     {
      "key": "favoriteCount",
-     "value": "111K"
+     "value": "112K"
     },
     {
      "key": "orderCount",
-     "value": "400+"
+     "value": "200+"
     }
    ],
    "promotions": [],
@@ -486,8 +479,8 @@
    },
    {
     "key": "influencer",
-    "value": "mervedemirkan",
-    "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/27701297/04400b4b-420e-453e-b7dd-9f0cb3d80ef5.jpg"
+    "value": "sunumtakintisi",
+    "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/20795084/af2cedfb-1299-48f6-90b3-c74fa75de9c4.jpg"
    }
   ]
  },
@@ -497,7 +490,7 @@
   "mımıza Katılın\",\"about_us\":\"Hakkımızda\",\"trendyol_assistant_question_text\":\"Yardım ister misiniz? Bize danışın.\",\"trendyol_assistant\":\"Trendyol Asistan\",\"shipping_return\":\"Kargo ve İadeler\",\"help_center\":\"Yardım Merkezi\",\"shop_i",
   "im\",\"header_my_reviews\":\"Değerlendirmelerim\",\"header_seller_questions\":\"Satıcı Mesajlarım\",\"header_loan\":\"Krediler\",\"header_raffle\":\"Şanslı Çekiliş\",\"header_my_coupons\":\"İndirim Kuponlarım\",\"header_my_personal_details\":\"Kullanıc",
   "_logo\":\"Trendyol\",\"site_logo_milla\":\"Trendyolmilla\",\"header_questions\":\"Mesajlarım\",\"header_trendyol_assistant_milla\":\"Asistan\",\"flash_sales\":\"Flaş Ürünler\",\"best_sellers\":\"Çok Satanlar\",\"navigation_onboarding_title\":\"Aradığın T",
-  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":237697,\"attributes\":[{\"key\":{\"id\":14,\"name\":\"Materyal\"},\"value\":{\"id\":997994,\"name\":\"Poliamid Karışımlı\"},\"searchable\":true,\"type\"",
+  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":237868,\"attributes\":[{\"key\":{\"id\":14,\"name\":\"Materyal\"},\"value\":{\"id\":997994,\"name\":\"Poliamid Karışımlı\"},\"searchable\":true,\"type\"",
   "\",\"MERCHANT_QUESTIONS_API_URL\":\"http:\\u002F\\u002Fsocial-ugc-questionanswerread-service.external\",\"MERCHANT_QUESTIONS_POST_API_URL\":\"http:\\u002F\\u002Fsocial-ugc-questionanswer-service.external\",\"MERCHANT_QUESTIONS_SSR_DATA_ENABLE",
   "3E{reviewCount}\\u003C\\u002Fbold\\u003E Değerlendirme\",\"total-questions-label\":\"\\u003Cbold\\u003E{questionCount}\\u003C\\u002Fbold\\u003E Soru-Cevap\",\"favorites-summary.count\":\"{favoriteCount}\",\"favorites-summary.count-with-label\":\"{f",
   "\"go-to-store-button-label-secondary\":\"Mağazaya Git\",\"seller-questions\":\"Satıcı Soruları ({questionCount})\",\"questions\":\"Toplam Fiyat\",\"your-question\":\"Sorunuz\",\"publish-question-criteria\":\"Soru Yayınlama Kriterlerimiz\",\"ask-ques",
@@ -509,7 +502,7 @@
   "\\u003C\\u002Fbold\\u003E satıcısının cevabı\",\"merchant-has-no-questions-yet-text\":\"Ürünle ilgili sorularınız varsa satıcıya sorabilirsiniz.\",\"art:merchant-has-no-questions-yet-text\":\"Eserle ilgili sorularınız varsa satıcıya sorabi"
  ],
  "sepet_kesif": {
-  "1140486357": {
+  "1045500574": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPidCookies\":[\"pi",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPidCookies\":[\"pi",
@@ -520,7 +513,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"1140486357\":[{\"key\":\"basketCount\",\"value\":\"1B\"},{\"key\":\"favoriteCount\",\"value\":\"24,6B\"},{\"key\":\"pageViewCount\",\"value\":\"671\"},{\"key\":\"influencer\",\"value\":\"kardelenyildirim\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/10344699/58bac91b-3a6a-4634-8354-23839244fcb8.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"1045500574\":[{\"key\":\"basketCount\",\"value\":\"1,6B\"},{\"key\":\"favoriteCount\",\"value\":\"55,6B\"},{\"key\":\"pageViewCount\",\"value\":\"744\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
@@ -535,11 +528,11 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"901446700\":[{\"key\":\"basketCount\",\"value\":\"947\"},{\"key\":\"favoriteCount\",\"value\":\"77,4B\"},{\"key\":\"pageViewCount\",\"value\":\"558\"},{\"key\":\"influencer\",\"value\":\"Suekinboyraz\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/4799086/1ddad79b-7684-4235-8836-9829ba839087.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"901446700\":[{\"key\":\"basketCount\",\"value\":\"763\"},{\"key\":\"favoriteCount\",\"value\":\"77,5B\"},{\"key\":\"pageViewCount\",\"value\":\"565\"},{\"key\":\"influencer\",\"value\":\"fatmasezisli\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/12368216/5e1f7cce-d026-427e-8375-602489ad2f77.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
-  "834011598": {
+  "1140323837": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPidCookies\":[\"pi",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPidCookies\":[\"pi",
@@ -550,7 +543,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"834011598\":[{\"key\":\"basketCount\",\"value\":\"962\"},{\"key\":\"favoriteCount\",\"value\":\"144,8B\"},{\"key\":\"pageViewCount\",\"value\":\"674\"},{\"key\":\"influencer\",\"value\":\"Nur \",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/150788075/eac99985-33e5-4ed2-9a46-f5422aab8ce5.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"1140323837\":[{\"key\":\"basketCount\",\"value\":\"664\"},{\"key\":\"favoriteCount\",\"value\":\"14,6B\"},{\"key\":\"pageViewCount\",\"value\":\"1,4B\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   }
