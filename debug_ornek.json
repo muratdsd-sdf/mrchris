@@ -1,5 +1,5 @@
 {
- "date": "2026-08-10",
+ "date": "2026-08-11",
  "katalog_ham_urunler": [
   {
    "boutiqueId": 61,
@@ -98,9 +98,9 @@
    ],
    "promotions": [
     {
-     "id": 29275831,
-     "shortName": "2. Ürün %20",
-     "name": "2. Ürüne %20 İndirim",
+     "id": 29643411,
+     "shortName": "Plus'a Özel Fiyat",
+     "name": "TY Plus Sports Sepette %5 indirim",
      "discountType": 2
     }
    ],
@@ -142,7 +142,7 @@
     {
      "name": "TY Plus",
      "type": 4,
-     "value": "544.50"
+     "value": "517.27"
     }
    ],
    "tagStockBar": {
@@ -184,12 +184,6 @@
      "title": "Kargo Bedava",
      "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
      "color": "#666"
-    },
-    {
-     "type": "TAKE_MORE_PAY_LESS",
-     "title": "2. Ürün %20",
-     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526420395.svg",
-     "color": "#F27A1A"
     }
    ],
    "hasOfficialSellerBadge": true,
@@ -203,18 +197,18 @@
     "priceLabels": {
      "4": {
       "name": "TY Plus",
-      "value": "544.50",
-      "price": "544,50 TL",
-      "priceWithoutCurrency": "544,50"
+      "value": "517.27",
+      "price": "517,27 TL",
+      "priceWithoutCurrency": "517,27"
      }
     }
    },
    "singlePromotion": {
     "discountType": 2,
-    "id": 29275831,
-    "name": "2. Ürüne %20 İndirim",
-    "promotionEndDate": "2026-08-11T08:00:00",
-    "shortName": "2. Ürün %20"
+    "id": 29643411,
+    "name": "TY Plus Sports Sepette %5 indirim",
+    "promotionEndDate": "2026-08-13T23:59:59",
+    "shortName": "Plus'a Özel Fiyat"
    },
    "rushDelivery": true,
    "sameDayShipping": false,
@@ -313,9 +307,9 @@
    ],
    "promotions": [
     {
-     "id": 29275831,
-     "shortName": "2. Ürün %20",
-     "name": "2. Ürüne %20 İndirim",
+     "id": 29643411,
+     "shortName": "Plus'a Özel Fiyat",
+     "name": "TY Plus Sports Sepette %5 indirim",
      "discountType": 2
     }
    ],
@@ -357,7 +351,7 @@
     {
      "name": "TY Plus",
      "type": 4,
-     "value": "874.50"
+     "value": "830.77"
     }
    ],
    "tagStockBar": {
@@ -399,12 +393,6 @@
      "title": "Kargo Bedava",
      "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
      "color": "#666"
-    },
-    {
-     "type": "TAKE_MORE_PAY_LESS",
-     "title": "2. Ürün %20",
-     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526420395.svg",
-     "color": "#F27A1A"
     }
    ],
    "hasOfficialSellerBadge": true,
@@ -418,18 +406,18 @@
     "priceLabels": {
      "4": {
       "name": "TY Plus",
-      "value": "874.50",
-      "price": "874,50 TL",
-      "priceWithoutCurrency": "874,50"
+      "value": "830.77",
+      "price": "830,77 TL",
+      "priceWithoutCurrency": "830,77"
      }
     }
    },
    "singlePromotion": {
     "discountType": 2,
-    "id": 29275831,
-    "name": "2. Ürüne %20 İndirim",
-    "promotionEndDate": "2026-08-11T08:00:00",
-    "shortName": "2. Ürün %20"
+    "id": 29643411,
+    "name": "TY Plus Sports Sepette %5 indirim",
+    "promotionEndDate": "2026-08-13T23:59:59",
+    "shortName": "Plus'a Özel Fiyat"
    },
    "rushDelivery": true,
    "sameDayShipping": false,
@@ -441,7 +429,7 @@
   "97827284": [
    {
     "key": "basketCount",
-    "value": "316"
+    "value": "323"
    },
    {
     "key": "favoriteCount",
@@ -481,7 +469,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"304365085\":[{\"key\":\"basketCount\",\"value\":\"819\"},{\"key\":\"favoriteCount\",\"value\":\"57,6B\"},{\"key\":\"pageViewCount\",\"value\":\"573\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"304365085\":[{\"key\":\"basketCount\",\"value\":\"820\"},{\"key\":\"favoriteCount\",\"value\":\"57,7B\"},{\"key\":\"pageViewCount\",\"value\":\"488\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
@@ -494,7 +482,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"129998832\":[{\"key\":\"basketCount\",\"value\":\"1B\"},{\"key\":\"favoriteCount\",\"value\":\"370,9B\"},{\"key\":\"pageViewCount\",\"value\":\"870\"},{\"key\":\"influencer\",\"value\":\"tugcetanrisevdir\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/2013274/196e410f-d244-4696-8bf6-605bea62c8a9.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"129998832\":[{\"key\":\"basketCount\",\"value\":\"1,1B\"},{\"key\":\"favoriteCount\",\"value\":\"370,8B\"},{\"key\":\"pageViewCount\",\"value\":\"1B\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
@@ -507,7 +495,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"834011598\":[{\"key\":\"basketCount\",\"value\":\"984\"},{\"key\":\"favoriteCount\",\"value\":\"144,8B\"},{\"key\":\"pageViewCount\",\"value\":\"599\"},{\"key\":\"influencer\",\"value\":\"tugcetanrisevdir\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/2013274/196e410f-d244-4696-8bf6-605bea62c8a9.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"834011598\":[{\"key\":\"basketCount\",\"value\":\"969\"},{\"key\":\"favoriteCount\",\"value\":\"144,8B\"},{\"key\":\"pageViewCount\",\"value\":\"630\"},{\"key\":\"influencer\",\"value\":\"Suekinboyraz\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/4799086/1ddad79b-7684-4235-8836-9829ba839087.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   }
