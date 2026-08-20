@@ -1,5 +1,5 @@
 {
- "date": "2026-08-19",
+ "date": "2026-08-20",
  "katalog_ham_urunler": [
   {
    "boutiqueId": 61,
@@ -47,8 +47,8 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.505436470953712,
-    "totalCount": 3219
+    "averageRating": 4.506046511627907,
+    "totalCount": 3225
    },
    "stamps": {},
    "tagDetails": [],
@@ -262,8 +262,8 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.272969374167775,
-    "totalCount": 751
+    "averageRating": 4.27682119205298,
+    "totalCount": 755
    },
    "stamps": {},
    "tagDetails": [],
@@ -438,8 +438,8 @@
    },
    {
     "key": "influencer",
-    "value": "sunumtakintisi",
-    "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/20795084/af2cedfb-1299-48f6-90b3-c74fa75de9c4.jpg"
+    "value": "mervedemirkan",
+    "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/27701297/04400b4b-420e-453e-b7dd-9f0cb3d80ef5.jpg"
    }
   ]
  },
@@ -452,7 +452,7 @@
   "mımıza Katılın\",\"about_us\":\"Hakkımızda\",\"trendyol_assistant_question_text\":\"Yardım ister misiniz? Bize danışın.\",\"trendyol_assistant\":\"Trendyol Asistan\",\"shipping_return\":\"Kargo ve İadeler\",\"help_center\":\"Yardım Merkezi\",\"shop_i",
   "im\",\"header_my_reviews\":\"Değerlendirmelerim\",\"header_seller_questions\":\"Satıcı Mesajlarım\",\"header_loan\":\"Krediler\",\"header_raffle\":\"Şanslı Çekiliş\",\"header_my_coupons\":\"İndirim Kuponlarım\",\"header_my_personal_details\":\"Kullanıc",
   "_logo\":\"Trendyol\",\"site_logo_milla\":\"Trendyolmilla\",\"header_questions\":\"Mesajlarım\",\"header_trendyol_assistant_milla\":\"Asistan\",\"flash_sales\":\"Flaş Ürünler\",\"best_sellers\":\"Çok Satanlar\",\"navigation_onboarding_title\":\"Aradığın T",
-  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":242438,\"attributes\":[{\"key\":{\"id\":14,\"name\":\"Materyal\"},\"value\":{\"id\":997994,\"name\":\"Poliamid Karışımlı\"},\"searchable\":true,\"type\"",
+  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":242373,\"attributes\":[{\"key\":{\"id\":14,\"name\":\"Materyal\"},\"value\":{\"id\":997994,\"name\":\"Poliamid Karışımlı\"},\"searchable\":true,\"type\"",
   "\",\"MERCHANT_QUESTIONS_API_URL\":\"http:\\u002F\\u002Fsocial-ugc-questionanswerread-service.external\",\"MERCHANT_QUESTIONS_POST_API_URL\":\"http:\\u002F\\u002Fsocial-ugc-questionanswer-service.external\",\"MERCHANT_QUESTIONS_SSR_DATA_ENABLE",
   "3E{reviewCount}\\u003C\\u002Fbold\\u003E Değerlendirme\",\"total-questions-label\":\"\\u003Cbold\\u003E{questionCount}\\u003C\\u002Fbold\\u003E Soru-Cevap\",\"favorites-summary.count\":\"{favoriteCount}\",\"favorites-summary.count-with-label\":\"{f",
   "\"go-to-store-button-label-secondary\":\"Mağazaya Git\",\"seller-questions\":\"Satıcı Soruları ({questionCount})\",\"questions\":\"Toplam Fiyat\",\"your-question\":\"Sorunuz\",\"publish-question-criteria\":\"Soru Yayınlama Kriterlerimiz\",\"ask-ques",
@@ -470,7 +470,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"129998832\":[{\"key\":\"basketCount\",\"value\":\"1B\"},{\"key\":\"favoriteCount\",\"value\":\"369,2B\"},{\"key\":\"pageViewCount\",\"value\":\"1B\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"129998832\":[{\"key\":\"basketCount\",\"value\":\"1B\"},{\"key\":\"favoriteCount\",\"value\":\"369,1B\"},{\"key\":\"pageViewCount\",\"value\":\"856\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
@@ -483,7 +483,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"834011598\":[{\"key\":\"basketCount\",\"value\":\"964\"},{\"key\":\"favoriteCount\",\"value\":\"144,5B\"},{\"key\":\"pageViewCount\",\"value\":\"703\"},{\"key\":\"influencer\",\"value\":\"Suekinboyraz\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/4799086/1ddad79b-7684-4235-8836-9829ba839087.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"834011598\":[{\"key\":\"basketCount\",\"value\":\"965\"},{\"key\":\"favoriteCount\",\"value\":\"144,5B\"},{\"key\":\"pageViewCount\",\"value\":\"722\"},{\"key\":\"influencer\",\"value\":\"Nur \",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/150788075/eac99985-33e5-4ed2-9a46-f5422aab8ce5.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
@@ -496,7 +496,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"304365085\":[{\"key\":\"basketCount\",\"value\":\"856\"},{\"key\":\"favoriteCount\",\"value\":\"57,8B\"},{\"key\":\"pageViewCount\",\"value\":\"411\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"304365085\":[{\"key\":\"basketCount\",\"value\":\"853\"},{\"key\":\"favoriteCount\",\"value\":\"57,9B\"},{\"key\":\"pageViewCount\",\"value\":\"373\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   }
