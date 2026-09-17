@@ -1,5 +1,5 @@
 {
- "date": "2026-09-16",
+ "date": "2026-09-17",
  "katalog_ham_urunler": [
   {
    "boutiqueId": 61,
@@ -39,25 +39,25 @@
     "old": 0,
     "oldText": "0",
     "currency": "TL",
-    "current": 559.5,
-    "currentText": "559,50",
-    "originalPrice": 559.5,
-    "originalPriceText": "559,50",
-    "discountedPrice": 531.52,
-    "discountedPriceText": "531,52",
+    "current": 799.5,
+    "currentText": "799,50",
+    "originalPrice": 599.62,
+    "originalPriceText": "599,62",
+    "discountedPrice": 599.62,
+    "discountedPriceText": "599,62",
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.279996426337891,
-    "totalCount": 11193
+    "averageRating": 4.279685264663806,
+    "totalCount": 11184
    },
    "stamps": {},
    "tagDetails": [
     {
-     "displayName": "Süper Avantajlı Ürün",
+     "displayName": "Çok Avantajlı Ürün",
      "hasStamp": true,
-     "tag": "kirmizi_kampanya_urunu",
-     "tagId": 4899,
+     "tag": "turuncu_kampanya_urunu",
+     "tagId": 4898,
      "tagType": "CampaignBadge"
     },
     {
@@ -66,20 +66,6 @@
      "tag": "hesapli_urunler",
      "tagId": 4903,
      "tagType": "AffordableProducts"
-    },
-    {
-     "displayName": "Son 10 Günün En Düşük Fiyatı",
-     "hasStamp": true,
-     "tag": "lowest_price_duration_10",
-     "tagId": 8581,
-     "tagType": "LowestPrice"
-    },
-    {
-     "displayName": "Bugün Fiyatı Düşenler",
-     "hasStamp": true,
-     "tag": "daily_discount",
-     "tagId": 6751,
-     "tagType": "DailyDiscountBadge"
     },
     {
      "displayName": "",
@@ -99,7 +85,7 @@
    "url": "/los-ojos/kadin-siyah-yuksek-bel-toparlayici-cift-cepli-ispanyol-paca-tayt-bootcut-p-129998832?boutiqueId=61&merchantId=191874",
    "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
    "isSexualContent": false,
-   "hasCollectableCoupon": true,
+   "hasCollectableCoupon": false,
    "emptyRating": false,
    "groupId": 114266161,
    "variantValue": "XS",
@@ -118,7 +104,7 @@
     },
     {
      "key": "orderCount",
-     "value": "400+"
+     "value": "800+"
     }
    ],
    "promotions": [
@@ -127,69 +113,59 @@
      "shortName": "İndirim Kodu",
      "name": "Kod: LOS100 - 700 TL'ye 100 TL İndirim",
      "discountType": 2
-    },
-    {
-     "id": 30186893,
-     "shortName": "Çok Al Az Öde",
-     "name": "Sepette %5 indirim",
-     "discountType": 2
     }
    ],
    "freeCargo": true,
    "recommendedRetailPrice": {
-    "sellingPrice": "559,50 TL",
-    "sellingPriceWithoutCurrency": "559,50",
-    "sellingPriceNumerized": 559.5,
-    "discountedPromotionPrice": "531,52 TL",
-    "discountedPromotionPriceWithoutCurrency": "531,52",
-    "discountedPromotionPriceNumerized": 531.52,
-    "discountedPromotionPricePercentage": "-%5",
-    "promotionDiscountPercentage": 5,
+    "sellingPrice": "799,50 TL",
+    "sellingPriceWithoutCurrency": "799,50",
+    "sellingPriceNumerized": 799.5,
+    "discountedPromotionPrice": "599,62 TL",
+    "discountedPromotionPriceWithoutCurrency": "599,62",
+    "discountedPromotionPriceNumerized": 599.62,
+    "discountedPromotionPricePercentage": "-%25",
+    "promotionDiscountPercentage": 25,
     "suggestedPrice": null,
     "suggestedPriceWithoutCurrency": null,
     "suggestedPriceNumerized": null,
     "currency": "TL"
    },
    "binaryPrice": {
-    "salePrice": "531,52 TL",
-    "salePriceWihoutCurrency": "531,52",
-    "strikethroughPrice": "559,50",
+    "salePrice": "599,62 TL",
+    "salePriceWihoutCurrency": "599,62",
+    "strikethroughPrice": "799,50",
     "strikethroughPriceType": "sellingPrice",
-    "discountPercentage": "-%5",
+    "discountPercentage": "-%25",
     "currency": "TL",
     "discountType": "basketPromotion"
    },
    "discountBoxType": 2,
    "isChoiceNNStoreProduct": false,
    "choiceNNPrice": {
-    "priceWithoutCurrency": "531,52",
-    "lowestRecentPriceWithoutCurrency": "559,50",
+    "priceWithoutCurrency": "599,62",
+    "lowestRecentPriceWithoutCurrency": "799,50",
     "currency": "TL"
    },
    "hasFlashSaleTag": false,
    "hasFastDeliveryTag": false,
    "priceLabels": [
     {
-     "name": "Sepette %5 indirim",
+     "name": "Sepette %25 İndirim",
      "type": 2
-    },
-    {
-     "name": "531.52",
-     "type": 3
     },
     {
      "name": "TY Plus",
      "type": 4,
-     "value": "531.52"
+     "value": "599.62"
     }
    ],
    "tagStockBar": {
     "isSoldOut": false
    },
    "appPrice": {
-    "oldPrice": "531,52",
-    "newPrice": "516,52",
-    "integerPart": "516,52",
+    "oldPrice": "599,62",
+    "newPrice": "584,62",
+    "integerPart": "584,62",
     "decimalPart": "00",
     "discountPercentage": 3,
     "currency": "TL",
@@ -223,7 +199,7 @@
     "isEnergyClass": false
    },
    "stripBadge": {
-    "type": "TOP_VIEWED",
+    "type": "MOST_RATED",
     "title": "1",
     "color": "linear-gradient(90deg, #F27A1A 0%, #FFC000 100%)",
     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1744696563803.svg"
@@ -234,42 +210,34 @@
      "title": "Kargo Bedava",
      "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
      "color": "#666"
-    },
-    {
-     "type": "COUPON_DISCOUNT",
-     "title": "53 TL Kupon",
-     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526381249.svg",
-     "color": "#FF4988"
     }
    ],
    "hasOfficialSellerBadge": true,
    "singlePrice": {
-    "salePrice": "531,52 TL",
-    "salePriceWihoutCurrency": "531,52",
-    "salePriceNumeric": 531.52,
-    "strikethroughPrice": "559,50 TL",
-    "strikethroughPriceWithoutCurrency": "559,50",
-    "strikethroughPriceNumeric": 559.5,
+    "salePrice": "599,62 TL",
+    "salePriceWihoutCurrency": "599,62",
+    "salePriceNumeric": 599.62,
+    "strikethroughPrice": "799,50 TL",
+    "strikethroughPriceWithoutCurrency": "799,50",
+    "strikethroughPriceNumeric": 799.5,
     "discountBadgeData": {
-     "showBadge": false,
-     "discountPercentage": "-%5",
+     "showBadge": true,
+     "discountPercentage": "-%25",
      "showFlameIcon": false
     },
+    "discountPercentage": "-%25",
     "currency": "TL",
     "componentType": "BASKET_PROMO",
     "storefrontType": "TR",
     "priceLabels": {
      "2": {
-      "name": "Sepette %5 indirim"
-     },
-     "3": {
-      "name": "531.52"
+      "name": "Sepette %25 İndirim"
      },
      "4": {
       "name": "TY Plus",
-      "value": "531.52",
-      "price": "531,52 TL",
-      "priceWithoutCurrency": "531,52"
+      "value": "599.62",
+      "price": "599,62 TL",
+      "priceWithoutCurrency": "599,62"
      }
     }
    },
@@ -322,17 +290,17 @@
     "old": 0,
     "oldText": "0",
     "currency": "TL",
-    "current": 389.5,
-    "currentText": "389,50",
-    "originalPrice": 389.5,
-    "originalPriceText": "389,50",
-    "discountedPrice": 370.02,
-    "discountedPriceText": "370,02",
+    "current": 544.5,
+    "currentText": "544,50",
+    "originalPrice": 408.37,
+    "originalPriceText": "408,37",
+    "discountedPrice": 408.37,
+    "discountedPriceText": "408,37",
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.505902677800173,
-    "totalCount": 3473
+    "averageRating": 4.505314564780235,
+    "totalCount": 3481
    },
    "stamps": {},
    "tagDetails": [
@@ -343,10 +311,10 @@
      "tagId": 1715
     },
     {
-     "displayName": "Süper Avantajlı Ürün",
+     "displayName": "Çok Avantajlı Ürün",
      "hasStamp": true,
-     "tag": "kirmizi_kampanya_urunu",
-     "tagId": 4899,
+     "tag": "turuncu_kampanya_urunu",
+     "tagId": 4898,
      "tagType": "CampaignBadge"
     },
     {
@@ -355,20 +323,6 @@
      "tag": "hesapli_urunler",
      "tagId": 4903,
      "tagType": "AffordableProducts"
-    },
-    {
-     "displayName": "Son 10 Günün En Düşük Fiyatı",
-     "hasStamp": true,
-     "tag": "lowest_price_duration_10",
-     "tagId": 8581,
-     "tagType": "LowestPrice"
-    },
-    {
-     "displayName": "Bugün Fiyatı Düşenler",
-     "hasStamp": true,
-     "tag": "daily_discount",
-     "tagId": 6751,
-     "tagType": "DailyDiscountBadge"
     },
     {
      "displayName": "",
@@ -388,7 +342,7 @@
    "url": "/los-ojos/lazer-kesim-yuksek-bel-gorunmez-boxer-high-waisted-boyshort-p-904602868?boutiqueId=61&merchantId=191874",
    "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
    "isSexualContent": false,
-   "hasCollectableCoupon": true,
+   "hasCollectableCoupon": false,
    "emptyRating": false,
    "groupId": 692226908,
    "variantValue": "XS",
@@ -416,69 +370,59 @@
      "shortName": "İndirim Kodu",
      "name": "Kod: LOS100 - 700 TL'ye 100 TL İndirim",
      "discountType": 2
-    },
-    {
-     "id": 30186893,
-     "shortName": "Çok Al Az Öde",
-     "name": "Sepette %5 indirim",
-     "discountType": 2
     }
    ],
    "freeCargo": true,
    "recommendedRetailPrice": {
-    "sellingPrice": "389,50 TL",
-    "sellingPriceWithoutCurrency": "389,50",
-    "sellingPriceNumerized": 389.5,
-    "discountedPromotionPrice": "370,02 TL",
-    "discountedPromotionPriceWithoutCurrency": "370,02",
-    "discountedPromotionPriceNumerized": 370.02,
-    "discountedPromotionPricePercentage": "-%5",
-    "promotionDiscountPercentage": 5,
+    "sellingPrice": "544,50 TL",
+    "sellingPriceWithoutCurrency": "544,50",
+    "sellingPriceNumerized": 544.5,
+    "discountedPromotionPrice": "408,37 TL",
+    "discountedPromotionPriceWithoutCurrency": "408,37",
+    "discountedPromotionPriceNumerized": 408.37,
+    "discountedPromotionPricePercentage": "-%25",
+    "promotionDiscountPercentage": 25,
     "suggestedPrice": null,
     "suggestedPriceWithoutCurrency": null,
     "suggestedPriceNumerized": null,
     "currency": "TL"
    },
    "binaryPrice": {
-    "salePrice": "370,02 TL",
-    "salePriceWihoutCurrency": "370,02",
-    "strikethroughPrice": "389,50",
+    "salePrice": "408,37 TL",
+    "salePriceWihoutCurrency": "408,37",
+    "strikethroughPrice": "544,50",
     "strikethroughPriceType": "sellingPrice",
-    "discountPercentage": "-%5",
+    "discountPercentage": "-%25",
     "currency": "TL",
     "discountType": "basketPromotion"
    },
    "discountBoxType": 2,
    "isChoiceNNStoreProduct": false,
    "choiceNNPrice": {
-    "priceWithoutCurrency": "370,02",
-    "lowestRecentPriceWithoutCurrency": "389,50",
+    "priceWithoutCurrency": "408,37",
+    "lowestRecentPriceWithoutCurrency": "544,50",
     "currency": "TL"
    },
    "hasFlashSaleTag": false,
    "hasFastDeliveryTag": false,
    "priceLabels": [
     {
-     "name": "Sepette %5 indirim",
+     "name": "Sepette %25 İndirim",
      "type": 2
-    },
-    {
-     "name": "370.02",
-     "type": 3
     },
     {
      "name": "TY Plus",
      "type": 4,
-     "value": "370.02"
+     "value": "408.37"
     }
    ],
    "tagStockBar": {
     "isSoldOut": false
    },
    "appPrice": {
-    "oldPrice": "370,02",
-    "newPrice": "355,02",
-    "integerPart": "355,02",
+    "oldPrice": "408,37",
+    "newPrice": "393,37",
+    "integerPart": "393,37",
     "decimalPart": "00",
     "discountPercentage": 4,
     "currency": "TL",
@@ -511,42 +455,34 @@
      "title": "Kargo Bedava",
      "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
      "color": "#666"
-    },
-    {
-     "type": "COUPON_DISCOUNT",
-     "title": "37 TL Kupon",
-     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526381249.svg",
-     "color": "#FF4988"
     }
    ],
    "hasOfficialSellerBadge": true,
    "singlePrice": {
-    "salePrice": "370,02 TL",
-    "salePriceWihoutCurrency": "370,02",
-    "salePriceNumeric": 370.02,
-    "strikethroughPrice": "389,50 TL",
-    "strikethroughPriceWithoutCurrency": "389,50",
-    "strikethroughPriceNumeric": 389.5,
+    "salePrice": "408,37 TL",
+    "salePriceWihoutCurrency": "408,37",
+    "salePriceNumeric": 408.37,
+    "strikethroughPrice": "544,50 TL",
+    "strikethroughPriceWithoutCurrency": "544,50",
+    "strikethroughPriceNumeric": 544.5,
     "discountBadgeData": {
-     "showBadge": false,
-     "discountPercentage": "-%5",
+     "showBadge": true,
+     "discountPercentage": "-%25",
      "showFlameIcon": false
     },
+    "discountPercentage": "-%25",
     "currency": "TL",
     "componentType": "BASKET_PROMO",
     "storefrontType": "TR",
     "priceLabels": {
      "2": {
-      "name": "Sepette %5 indirim"
-     },
-     "3": {
-      "name": "370.02"
+      "name": "Sepette %25 İndirim"
      },
      "4": {
       "name": "TY Plus",
-      "value": "370.02",
-      "price": "370,02 TL",
-      "priceWithoutCurrency": "370,02"
+      "value": "408.37",
+      "price": "408,37 TL",
+      "priceWithoutCurrency": "408,37"
      }
     }
    },
@@ -564,23 +500,23 @@
   }
  ],
  "sosyal_api_ham": {
-  "86406024": [
+  "129998182": [
    {
     "key": "basketCount",
-    "value": "302"
+    "value": "668"
    },
    {
     "key": "favoriteCount",
-    "value": "64,8B"
+    "value": "106,7B"
    },
    {
     "key": "pageViewCount",
-    "value": "508"
+    "value": "1,1B"
    },
    {
     "key": "influencer",
-    "value": "mervedemirkan",
-    "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/27701297/04400b4b-420e-453e-b7dd-9f0cb3d80ef5.jpg"
+    "value": "ezgicenbercidovan",
+    "imageUrl": "https://cdn.dsmcdn.com/influencer-profile-pictures/prod/1299240/f35ac723-8d83-4c72-8110-7d2823c50b6e.jpg"
    }
   ]
  },
@@ -593,7 +529,7 @@
   "mımıza Katılın\",\"about_us\":\"Hakkımızda\",\"trendyol_assistant_question_text\":\"Yardım ister misiniz? Bize danışın.\",\"trendyol_assistant\":\"Trendyol Asistan\",\"shipping_return\":\"Kargo ve İadeler\",\"help_center\":\"Yardım Merkezi\",\"shop_i",
   "im\",\"header_my_reviews\":\"Değerlendirmelerim\",\"header_seller_questions\":\"Satıcı Mesajlarım\",\"header_loan\":\"Krediler\",\"header_raffle\":\"Şanslı Çekiliş\",\"header_my_coupons\":\"İndirim Kuponlarım\",\"header_my_personal_details\":\"Kullanıc",
   "_logo\":\"Trendyol\",\"site_logo_milla\":\"Trendyolmilla\",\"header_questions\":\"Mesajlarım\",\"header_trendyol_assistant_milla\":\"Asistan\",\"flash_sales\":\"Flaş Ürünler\",\"best_sellers\":\"Çok Satanlar\",\"navigation_onboarding_title\":\"Aradığın T",
-  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":365128,\"attributes\":[{\"key\":{\"id\":2,\"name\":\"Boy \\u002F Ölçü\"},\"value\":{\"id\":16,\"name\":\"Uzun\"},\"searchable\":false,\"type\":\"Measure\",",
+  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":365318,\"attributes\":[{\"key\":{\"id\":2,\"name\":\"Boy \\u002F Ölçü\"},\"value\":{\"id\":16,\"name\":\"Uzun\"},\"searchable\":false,\"type\":\"Measure\",",
   "3E{reviewCount}\\u003C\\u002Fbold\\u003E Değerlendirme\",\"total-questions-label\":\"\\u003Cbold\\u003E{questionCount}\\u003C\\u002Fbold\\u003E Soru-Cevap\",\"favorites-summary.count\":\"{favoriteCount}\",\"favorites-summary.count-with-label\":\"{f",
   "\"go-to-store-button-label-secondary\":\"Mağazaya Git\",\"seller-questions\":\"Satıcı Soruları ({questionCount})\",\"questions\":\"Toplam Fiyat\",\"your-question\":\"Sorunuz\",\"publish-question-criteria\":\"Soru Yayınlama Kriterlerimiz\",\"ask-ques",
   "ili sorularınızı buradan satıcıya sorabilirsiniz.\",\"art:ask-question-info\":\"Eser özellikleriyle ilgili sorularınızı buradan satıcıya sorabilirsiniz.\",\"ask-question-to-merchant\":\"Satıcıya Soru Sor\",\"privacy-statement-prompt\":\"Sor",
@@ -602,7 +538,7 @@
   "puzzle-gateway=\"Product\" fragment-partial=\"product-merchant-questions\"><script>window[\"__envoy_product-merchant-questions__CLIENTSIDE_RENDER\"]=true</script><script>window[\"__envoy_product-merchant-questions__CONDITION\"]=true</sc"
  ],
  "sepet_kesif": {
-  "1045500350": {
+  "834004529": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPid",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPid",
@@ -611,11 +547,11 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"1045500350\":[{\"key\":\"basketCount\",\"value\":\"540\"},{\"key\":\"favoriteCount\",\"value\":\"56,5B\"},{\"key\":\"pageViewCount\",\"value\":\"1,7B\"},{\"key\":\"influencer\",\"value\":\"@damlaibilii\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/3985235/7c52c543-c1a6-41b0-b637-91384780d72e.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"834004529\":[{\"key\":\"basketCount\",\"value\":\"317\"},{\"key\":\"favoriteCount\",\"value\":\"42,8B\"},{\"key\":\"pageViewCount\",\"value\":\"307\"},{\"key\":\"influencer\",\"value\":\"ayseyetisen\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/19019829/15891349-3b09-46c0-b4ff-8e1598200feb.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
-  "304912565": {
+  "86406024": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPid",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPid",
@@ -624,11 +560,11 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"304912565\":[{\"key\":\"basketCount\",\"value\":\"556\"},{\"key\":\"favoriteCount\",\"value\":\"75,4B\"},{\"key\":\"pageViewCount\",\"value\":\"700\"},{\"key\":\"influencer\",\"value\":\"kicik_dunya.m\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/default.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"338\"},{\"key\":\"favoriteCount\",\"value\":\"64,8B\"},{\"key\":\"pageViewCount\",\"value\":\"312\"},{\"key\":\"influencer\",\"value\":\"mervedemirkan\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/27701297/04400b4b-420e-453e-b7dd-9f0cb3d80ef5.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
-  "304365085": {
+  "655379767": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPid",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbDecider\"],\"sidPid",
@@ -637,7 +573,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"304365085\":[{\"key\":\"basketCount\",\"value\":\"559\"},{\"key\":\"favoriteCount\",\"value\":\"55,7B\"},{\"key\":\"pageViewCount\",\"value\":\"496\"},{\"key\":\"influencer\",\"value\":\"dionisos.house\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/17081071/30a3b8b3-f759-4c39-8946-18da2eb6e60b.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"655379767\":[{\"key\":\"favoriteCount\",\"value\":\"25,3B\"},{\"key\":\"pageViewCount\",\"value\":\"475\"},{\"key\":\"influencer\",\"value\":\"mervedemirkan\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/27701297/04400b4b-420e-453e-b7dd-9f0cb3d80ef5.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   }
