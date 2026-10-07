@@ -1,5 +1,5 @@
 {
- "date": "2026-10-06",
+ "date": "2026-10-07",
  "katalog_ham_urunler": [
   {
    "boutiqueId": 61,
@@ -48,11 +48,31 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.286016949152543,
-    "totalCount": 944
+    "averageRating": 4.28586387434555,
+    "totalCount": 955
    },
    "stamps": {},
    "tagDetails": [
+    {
+     "displayName": "Son 10 Günün En Düşük Fiyatı",
+     "hasStamp": true,
+     "tag": "lowest_price_duration_10",
+     "tagId": 8581,
+     "tagType": "LowestPrice"
+    },
+    {
+     "displayName": "",
+     "hasStamp": true,
+     "tag": "eventdeal",
+     "tagId": 9637,
+     "tagType": "EventDealBadge"
+    },
+    {
+     "displayName": "kategori_encoksatanlar",
+     "hasStamp": true,
+     "tag": "kategori_encoksatanlar",
+     "tagId": 1715
+    },
     {
      "displayName": "Çok Avantajlı Ürün",
      "hasStamp": true,
@@ -66,27 +86,6 @@
      "tag": "hesapli_urunler",
      "tagId": 4903,
      "tagType": "AffordableProducts"
-    },
-    {
-     "displayName": "Son 10 Günün En Düşük Fiyatı",
-     "hasStamp": true,
-     "tag": "lowest_price_duration_10",
-     "tagId": 8581,
-     "tagType": "LowestPrice"
-    },
-    {
-     "displayName": "Bugün Fiyatı Düşenler",
-     "hasStamp": true,
-     "tag": "daily_discount",
-     "tagId": 6751,
-     "tagType": "DailyDiscountBadge"
-    },
-    {
-     "displayName": "",
-     "hasStamp": true,
-     "tag": "eventdeal",
-     "tagId": 9637,
-     "tagType": "EventDealBadge"
     }
    ],
    "badges": {
@@ -96,7 +95,7 @@
     },
     "topRankingBadge": {
      "priority": true,
-     "title": "5",
+     "title": "1",
      "type": "BEST_SELLER"
     }
    },
@@ -119,7 +118,7 @@
    "socialProof": [
     {
      "key": "favoriteCount",
-     "value": "104K"
+     "value": "106K"
     },
     {
      "key": "orderCount",
@@ -202,7 +201,7 @@
    },
    "stripBadge": {
     "type": "BEST_SELLER",
-    "title": "5",
+    "title": "1",
     "color": "linear-gradient(90deg, var(--text-primary, #f27a1a) 0%, #FFC000 100%)",
     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1744696563803.svg"
    },
@@ -266,49 +265,42 @@
     "name": "Spor Tayt",
     "id": 3194
    },
-   "contentId": 729649808,
+   "contentId": 129998832,
    "discount": {
     "discountName": ""
    },
-   "id": 729649808,
-   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1671/prod/QC/20250505/10/8a98ebc2-7b35-3ebd-a34f-62802ce3c66c/1_org_zoom.jpg",
+   "id": 129998832,
+   "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/16/dd6b52f4-65cd-3543-80b1-993ab3befa5e/1_org_zoom.jpg",
    "images": [
-    "https://cdn.dsmcdn.com/mnresize/400/-/ty1671/prod/QC/20250505/10/8a98ebc2-7b35-3ebd-a34f-62802ce3c66c/1_org_zoom.jpg",
-    "https://cdn.dsmcdn.com/mnresize/400/-/ty1671/prod/QC/20250505/10/ea356ec5-3603-358f-9c78-5a41a060805d/1_org_zoom.jpg",
-    "https://cdn.dsmcdn.com/mnresize/400/-/ty1671/prod/QC/20250505/10/58fdc745-633c-395f-ac3d-9091a5bcda99/1_org_zoom.jpg",
-    "https://cdn.dsmcdn.com/mnresize/400/-/ty1672/prod/QC/20250505/10/3886d992-655e-39a0-a8f9-6787a4e315dc/1_org_zoom.jpg",
-    "https://cdn.dsmcdn.com/mnresize/400/-/ty1672/prod/QC/20250505/10/d526ae3d-d0de-3f8b-8e3a-8a4077419535/1_org_zoom.jpg",
-    "https://cdn.dsmcdn.com/mnresize/400/-/ty1672/prod/QC/20250505/10/d0240667-389a-3470-9fed-55b2f22e1df3/1_org_zoom.jpg",
-    "https://cdn.dsmcdn.com/mnresize/400/-/ty1806/prod/QC_ENRICHMENT/20260106/18/cc69cf37-1cee-3b32-b2a8-b9ee35feb57c/1_org_zoom.jpg"
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1720/prod/QC_ENRICHMENT/20250807/16/dd6b52f4-65cd-3543-80b1-993ab3befa5e/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/955c971f-61e3-3c44-966b-bcd480d30b3a/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/4d492904-f7a0-3031-b41d-0d093f2171ae/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/13bca4c7-b069-354d-ba39-0988a0a41256/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1721/prod/QC_ENRICHMENT/20250807/16/01d14606-59ce-3724-b34f-b5d68dcd632d/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/da344459-1e96-3675-8a83-97cc4a7e6521/1_org_zoom.jpg",
+    "https://cdn.dsmcdn.com/mnresize/400/-/ty1719/prod/QC_ENRICHMENT/20250807/16/311d1118-9d3e-33fa-9db1-68f256a18823/1_org_zoom.jpg"
    ],
-   "itemNumber": 959283964,
-   "listingId": "0e737ce5d3eb58c0fc7305f5a8a0a7cd",
-   "name": "Siyah Çapraz Bel Detaylı Cross Waist Tayt Envelope",
+   "itemNumber": 221562925,
+   "listingId": "c468226084be5667e492771e8b66fedc",
+   "name": "Kadın Siyah Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
    "price": {
-    "old": 594.5,
-    "oldText": "594,50",
+    "old": 799.5,
+    "oldText": "799,50",
     "currency": "TL",
-    "current": 489.5,
-    "currentText": "489,50",
-    "originalPrice": 594.5,
-    "originalPriceText": "594,50",
-    "discountedPrice": 489.5,
-    "discountedPriceText": "489,50",
+    "current": 619.5,
+    "currentText": "619,50",
+    "originalPrice": 799.5,
+    "originalPriceText": "799,50",
+    "discountedPrice": 619.5,
+    "discountedPriceText": "619,50",
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.038913660316173,
-    "totalCount": 4934
+    "averageRating": 4.277367662945624,
+    "totalCount": 11108
    },
    "stamps": {},
    "tagDetails": [
-    {
-     "displayName": "Çok Avantajlı Ürün",
-     "hasStamp": true,
-     "tag": "turuncu_kampanya_urunu",
-     "tagId": 4898,
-     "tagType": "CampaignBadge"
-    },
     {
      "displayName": "Hesaplı Ürünler",
      "hasStamp": true,
@@ -324,77 +316,72 @@
      "tagType": "LowestPrice"
     },
     {
-     "displayName": "Bugün Fiyatı Düşenler",
-     "hasStamp": true,
-     "tag": "daily_discount",
-     "tagId": 6751,
-     "tagType": "DailyDiscountBadge"
-    },
-    {
      "displayName": "",
      "hasStamp": true,
      "tag": "eventdeal",
      "tagId": 9637,
      "tagType": "EventDealBadge"
+    },
+    {
+     "displayName": "Süper Avantajlı Ürün",
+     "hasStamp": true,
+     "tag": "kirmizi_kampanya_urunu",
+     "tagId": 4899,
+     "tagType": "CampaignBadge"
     }
    ],
    "badges": {
     "unknownBadge": {
      "title": "Hızlı Satıcı",
      "type": "FAST_SELLER"
-    },
-    "topRankingBadge": {
-     "priority": true,
-     "title": "3",
-     "type": "BEST_SELLER"
     }
    },
    "stock": {},
-   "url": "/los-ojos/siyah-capraz-bel-detayli-cross-waist-tayt-envelope-p-729649808?boutiqueId=61&merchantId=191874",
+   "url": "/los-ojos/kadin-siyah-yuksek-bel-toparlayici-cift-cepli-ispanyol-paca-tayt-bootcut-p-129998832?boutiqueId=61&merchantId=191874",
    "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
    "isSexualContent": false,
    "hasCollectableCoupon": false,
    "emptyRating": false,
-   "groupId": 510378336,
+   "groupId": 114266161,
    "variantValue": "XS",
    "variantId": "xs",
    "isOneSize": false,
    "hasReviewPhoto": true,
    "cleanUrlFragments": {
     "brandName": "Los Ojos",
-    "name": "Siyah Çapraz Bel Detaylı Cross Waist Tayt Envelope",
+    "name": "Kadın Siyah Yüksek Bel Toparlayıcı Çift Cepli Ispanyol Paça Tayt Bootcut",
     "webBrandName": "Los Ojos"
    },
    "socialProof": [
     {
      "key": "favoriteCount",
-     "value": "185K"
+     "value": "357K"
     },
     {
      "key": "orderCount",
-     "value": "200+"
+     "value": "400+"
     }
    ],
    "promotions": [],
    "freeCargo": true,
    "recommendedRetailPrice": {
     "isPriceDiscounted": true,
-    "price": "489,50 TL",
-    "priceNumerized": 489.5,
-    "priceWithoutCurrency": "489,50",
+    "price": "619,50 TL",
+    "priceNumerized": 619.5,
+    "priceWithoutCurrency": "619,50",
     "suggestedPrice": null,
     "suggestedPriceWithoutCurrency": null,
     "suggestedPriceNumerized": null,
     "suggestedPricePercentage": null,
-    "lowestRecentPrice": "594,50 TL",
-    "lowestRecentPriceNumerized": 594.5,
-    "lowestRecentPriceWithoutCurrency": "594,50",
-    "lowestRecentPercentage": "-%18",
+    "lowestRecentPrice": "799,50 TL",
+    "lowestRecentPriceNumerized": 799.5,
+    "lowestRecentPriceWithoutCurrency": "799,50",
+    "lowestRecentPercentage": "-%23",
     "currency": "TL"
    },
    "binaryPrice": {
-    "salePrice": "489,50 TL",
-    "salePriceWihoutCurrency": "489,50",
+    "salePrice": "619,50 TL",
+    "salePriceWihoutCurrency": "619,50",
     "strikethroughPrice": null,
     "strikethroughPriceType": null,
     "discountPercentage": null,
@@ -404,8 +391,8 @@
    "discountBoxType": 0,
    "isChoiceNNStoreProduct": false,
    "choiceNNPrice": {
-    "priceWithoutCurrency": "489,50",
-    "lowestRecentPriceWithoutCurrency": "594,50",
+    "priceWithoutCurrency": "619,50",
+    "lowestRecentPriceWithoutCurrency": "799,50",
     "currency": "TL"
    },
    "hasFlashSaleTag": false,
@@ -419,18 +406,18 @@
     {
      "name": "TY Plus",
      "type": 4,
-     "value": "489.50"
+     "value": "619.50"
     }
    ],
    "tagStockBar": {
     "isSoldOut": false
    },
    "appPrice": {
-    "oldPrice": "489,50",
-    "newPrice": "474,50",
-    "integerPart": "474,50",
+    "oldPrice": "619,50",
+    "newPrice": "604,50",
+    "integerPart": "604,50",
     "decimalPart": "00",
-    "discountPercentage": 3,
+    "discountPercentage": 2,
     "currency": "TL",
     "codeName": "HELLO40",
     "discountLimit": 38
@@ -454,16 +441,16 @@
      {
       "attributeId": 14,
       "attributeName": "Materyal",
-      "attributeValueId": 12284,
-      "attributeValueName": "Spandeks",
+      "attributeValueId": 99,
+      "attributeValueName": "Polyester",
       "isEnergyClass": false
      }
     ],
     "isEnergyClass": false
    },
    "stripBadge": {
-    "type": "BEST_SELLER",
-    "title": "3",
+    "type": "TOP_VIEWED",
+    "title": "1",
     "color": "linear-gradient(90deg, var(--text-primary, #f27a1a) 0%, #FFC000 100%)",
     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1744696563803.svg"
    },
@@ -477,16 +464,16 @@
    ],
    "hasOfficialSellerBadge": true,
    "singlePrice": {
-    "salePrice": "489,50 TL",
-    "salePriceWihoutCurrency": "489,50",
-    "salePriceNumeric": 489.5,
-    "strikethroughPrice": "594,50 TL",
-    "strikethroughPriceWithoutCurrency": "594,50",
-    "strikethroughPriceNumeric": 594.5,
-    "discountPercentage": "-%17",
+    "salePrice": "619,50 TL",
+    "salePriceWihoutCurrency": "619,50",
+    "salePriceNumeric": 619.5,
+    "strikethroughPrice": "799,50 TL",
+    "strikethroughPriceWithoutCurrency": "799,50",
+    "strikethroughPriceNumeric": 799.5,
+    "discountPercentage": "-%22",
     "discountBadgeData": {
      "showBadge": true,
-     "discountPercentage": "-%17",
+     "discountPercentage": "-%22",
      "showFlameIcon": false
     },
     "currency": "TL",
@@ -499,9 +486,9 @@
      },
      "4": {
       "name": "TY Plus",
-      "value": "489.50",
-      "price": "489,50 TL",
-      "priceWithoutCurrency": "489,50"
+      "value": "619.50",
+      "price": "619,50 TL",
+      "priceWithoutCurrency": "619,50"
      }
     }
    },
@@ -516,15 +503,15 @@
   "86406024": [
    {
     "key": "basketCount",
-    "value": "558"
+    "value": "600"
    },
    {
     "key": "favoriteCount",
-    "value": "62,3B"
+    "value": "62,4B"
    },
    {
     "key": "pageViewCount",
-    "value": "370"
+    "value": "502"
    },
    {
     "key": "influencer",
@@ -542,7 +529,7 @@
   "mımıza Katılın\",\"about_us\":\"Hakkımızda\",\"trendyol_assistant_question_text\":\"Yardım ister misiniz? Bize danışın.\",\"trendyol_assistant\":\"Trendyol Asistan\",\"shipping_return\":\"Kargo ve İadeler\",\"help_center\":\"Yardım Merkezi\",\"shop_i",
   "im\",\"header_my_reviews\":\"Değerlendirmelerim\",\"header_seller_questions\":\"Satıcı Mesajlarım\",\"header_loan\":\"Krediler\",\"header_raffle\":\"Şanslı Çekiliş\",\"header_my_coupons\":\"İndirim Kuponlarım\",\"header_my_personal_details\":\"Kullanıc",
   "_logo\":\"Trendyol\",\"site_logo_milla\":\"Trendyolmilla\",\"header_questions\":\"Mesajlarım\",\"header_trendyol_assistant_milla\":\"Asistan\",\"flash_sales\":\"Flaş Ürünler\",\"best_sellers\":\"Çok Satanlar\",\"navigation_onboarding_title\":\"Aradığın T",
-  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":103940,\"attributes\":[{\"key\":{\"id\":33,\"name\":\"Desen\"},\"value\":{\"id\":261977,\"name\":\"Düz\"},\"searchable\":true,\"type\":\"Pattern\",\"isStar",
+  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":106125,\"attributes\":[{\"key\":{\"id\":33,\"name\":\"Desen\"},\"value\":{\"id\":261977,\"name\":\"Düz\"},\"searchable\":true,\"type\":\"Pattern\",\"isStar",
   "3E{reviewCount}\\u003C\\u002Fbold\\u003E Değerlendirme\",\"total-questions-label\":\"\\u003Cbold\\u003E{questionCount}\\u003C\\u002Fbold\\u003E Soru-Cevap\",\"favorites-summary.count\":\"{favoriteCount}\",\"favorites-summary.count-with-label\":\"{f",
   "\"go-to-store-button-label-secondary\":\"Mağazaya Git\",\"seller-questions\":\"Satıcı Soruları ({questionCount})\",\"questions\":\"Toplam Fiyat\",\"your-question\":\"Sorunuz\",\"publish-question-criteria\":\"Soru Yayınlama Kriterlerimiz\",\"ask-ques",
   "ili sorularınızı buradan satıcıya sorabilirsiniz.\",\"art:ask-question-info\":\"Eser özellikleriyle ilgili sorularınızı buradan satıcıya sorabilirsiniz.\",\"ask-question-to-merchant\":\"Satıcıya Soru Sor\",\"privacy-statement-prompt\":\"Sor",
@@ -551,7 +538,7 @@
   "puzzle-gateway=\"Product\" fragment-partial=\"product-merchant-questions\"><script>window[\"__envoy_product-merchant-questions__CLIENTSIDE_RENDER\"]=true</script><script>window[\"__envoy_product-merchant-questions__CONDITION\"]=true</sc"
  ],
  "sepet_kesif": {
-  "834014681": {
+  "903874990": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"SellerStoreAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbD",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"SellerStoreAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbD",
@@ -560,11 +547,11 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"834014681\":[{\"key\":\"basketCount\",\"value\":\"875\"},{\"key\":\"favoriteCount\",\"value\":\"61,5B\"},{\"key\":\"pageViewCount\",\"value\":\"796\"},{\"key\":\"influencer\",\"value\":\"tugcetanrisevdir\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/2013274/196e410f-d244-4696-8bf6-605bea62c8a9.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"903874990\":[{\"key\":\"basketCount\",\"value\":\"1,3B\"},{\"key\":\"favoriteCount\",\"value\":\"138,5B\"},{\"key\":\"pageViewCount\",\"value\":\"496\"},{\"key\":\"influencer\",\"value\":\"Suekinboyraz\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/4799086/1ddad79b-7684-4235-8836-9829ba839087.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
-  "129998182": {
+  "904602868": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"SellerStoreAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbD",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"SellerStoreAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbD",
@@ -573,11 +560,11 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"129998182\":[{\"key\":\"basketCount\",\"value\":\"924\"},{\"key\":\"favoriteCount\",\"value\":\"102,2B\"},{\"key\":\"pageViewCount\",\"value\":\"1B\"},{\"key\":\"influencer\",\"value\":\"ahununmetbexi\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/default.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"904602868\":[{\"key\":\"basketCount\",\"value\":\"1,1B\"},{\"key\":\"favoriteCount\",\"value\":\"244,3B\"},{\"key\":\"pageViewCount\",\"value\":\"309\"},{\"key\":\"influencer\",\"value\":\"with.israashahin\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/default.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   },
-  "655829041": {
+  "901071773": {
    "detay_parcalari": [
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"SellerStoreAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbD",
     "bCookies\":[\"AbTesting\",\"msearchAb\",\"recoAb\",\"fraudAb\",\"paymentAb\",\"homepageAb\",\"socialProofAb\",\"checkoutAb\",\"SellerStoreAb\",\"AbTestingCookies\",\"MWebAbDecider\",\"MWebAbDeciderReco\",\"WebAbTesting\",\"WebAbDecider\",\"WebAbDeciderReco\",\"ForceUpdateSearchAbDecider\",\"forceUpdateAbDecider\",\"WebRecoAbD",
@@ -586,7 +573,7 @@
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
    ],
-   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"655829041\":[{\"key\":\"basketCount\",\"value\":\"654\"},{\"key\":\"favoriteCount\",\"value\":\"57,7B\"},{\"key\":\"pageViewCount\",\"value\":\"702\"},{\"key\":\"influencer\",\"value\":\"hulyakarasakiz\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/20795084/af2cedfb-1299-48f6-90b3-c74fa75de9c4.jpg\"}]}}",
+   "sosyal_screen_basket": "{\"isSuccess\":true,\"data\":{\"901071773\":[{\"key\":\"basketCount\",\"value\":\"872\"},{\"key\":\"favoriteCount\",\"value\":\"88,1B\"},{\"key\":\"pageViewCount\",\"value\":\"2B\"},{\"key\":\"influencer\",\"value\":\"Serragozuak\",\"imageUrl\":\"https://cdn.dsmcdn.com/influencer-profile-pictures/prod/11857242/d134afbe-0096-430b-9cfb-58bd2b709ab1.jpg\"}]}}",
    "productgw_socialproof": "HATA: HTTP Error 556: <none>",
    "socialproof_service": "HATA: HTTP Error 556: <none>"
   }
