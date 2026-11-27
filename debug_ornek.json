@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "katalog_ham_urunler": [
   {
    "boutiqueId": 61,
@@ -48,31 +48,24 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.292445774121168,
-    "totalCount": 1337
+    "averageRating": 4.294378698224852,
+    "totalCount": 1352
    },
    "stamps": {},
    "tagDetails": [
-    {
-     "displayName": "Hesaplı Ürünler",
-     "hasStamp": true,
-     "tag": "hesapli_urunler",
-     "tagId": 4903,
-     "tagType": "AffordableProducts"
-    },
-    {
-     "displayName": "Geçen Yıldan Düşük Fiyatlar",
-     "hasStamp": true,
-     "tag": "lowerfromlastyear",
-     "tagId": 26674,
-     "tagType": "LastYearSalesPrice"
-    },
     {
      "displayName": "Son 10 Günün En Düşük Fiyatı",
      "hasStamp": true,
      "tag": "lowest_price_duration_10",
      "tagId": 8581,
      "tagType": "LowestPrice"
+    },
+    {
+     "displayName": "Süper Fırsat Ürünü",
+     "hasStamp": true,
+     "tag": "super_card",
+     "tagId": 13685,
+     "tagType": "SuperCardBadge"
     },
     {
      "displayName": "",
@@ -87,6 +80,20 @@
      "tag": "kirmizi_kampanya_urunu",
      "tagId": 4899,
      "tagType": "CampaignBadge"
+    },
+    {
+     "displayName": "Hesaplı Ürünler",
+     "hasStamp": true,
+     "tag": "hesapli_urunler",
+     "tagId": 4903,
+     "tagType": "AffordableProducts"
+    },
+    {
+     "displayName": "Geçen Yıldan Düşük Fiyatlar",
+     "hasStamp": true,
+     "tag": "lowerfromlastyear",
+     "tagId": 26674,
+     "tagType": "LastYearSalesPrice"
     }
    ],
    "badges": {
@@ -104,7 +111,7 @@
    "url": "/los-ojos/x-ece-kahverengi-modal-kumasli-uzun-kollu-esofmanli-pijama-takimi-ribbed-pj2-p-1045513205?boutiqueId=61&merchantId=191874",
    "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
    "isSexualContent": false,
-   "hasCollectableCoupon": false,
+   "hasCollectableCoupon": true,
    "emptyRating": false,
    "groupId": 789275283,
    "dsmColor": "Kahverengi",
@@ -213,6 +220,12 @@
      "title": "Kargo Bedava",
      "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
      "color": "#666"
+    },
+    {
+     "type": "COLLECTABLE_COUPON",
+     "title": "Kupon Fırsatı",
+     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526381249.svg",
+     "color": "#FF4988"
     }
    ],
    "hasOfficialSellerBadge": true,
@@ -250,7 +263,7 @@
    "sameDayShipping": false,
    "nextDayDelivery": true,
    "tomorrowShipping": false,
-   "dealBadge": null
+   "dealBadge": "super-deal"
   },
   {
    "boutiqueId": 61,
@@ -299,18 +312,11 @@
     "currencySymbol": "TL"
    },
    "ratingScore": {
-    "averageRating": 4.03401229823213,
-    "totalCount": 5204
+    "averageRating": 4.035276073619631,
+    "totalCount": 5216
    },
    "stamps": {},
    "tagDetails": [
-    {
-     "displayName": "",
-     "hasStamp": true,
-     "tag": "eventdeal",
-     "tagId": 9637,
-     "tagType": "EventDealBadge"
-    },
     {
      "displayName": "Süper Avantajlı Ürün",
      "hasStamp": true,
@@ -338,6 +344,20 @@
      "tag": "lowest_price_duration_14",
      "tagId": 7590,
      "tagType": "LowestPrice"
+    },
+    {
+     "displayName": "Süper Fırsat Ürünü",
+     "hasStamp": true,
+     "tag": "super_card",
+     "tagId": 13685,
+     "tagType": "SuperCardBadge"
+    },
+    {
+     "displayName": "",
+     "hasStamp": true,
+     "tag": "eventdeal",
+     "tagId": 9637,
+     "tagType": "EventDealBadge"
     }
    ],
    "badges": {
@@ -347,7 +367,7 @@
     },
     "topRankingBadge": {
      "priority": true,
-     "title": "3",
+     "title": "2",
      "type": "BEST_SELLER"
     }
    },
@@ -355,7 +375,7 @@
    "url": "/los-ojos/siyah-capraz-bel-detayli-cross-waist-tayt-envelope-p-729649808?boutiqueId=61&merchantId=191874",
    "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
    "isSexualContent": false,
-   "hasCollectableCoupon": false,
+   "hasCollectableCoupon": true,
    "emptyRating": false,
    "groupId": 510378336,
    "dsmColor": "Envelope Siyah",
@@ -371,7 +391,7 @@
    "socialProof": [
     {
      "key": "favoriteCount",
-     "value": "194K"
+     "value": "195K"
     },
     {
      "key": "orderCount",
@@ -466,7 +486,7 @@
    },
    "stripBadge": {
     "type": "BEST_SELLER",
-    "title": "3",
+    "title": "2",
     "color": "linear-gradient(90deg, var(--text-primary, #f27a1a) 0%, #FFC000 100%)",
     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1744696563803.svg"
    },
@@ -476,6 +496,12 @@
      "title": "Kargo Bedava",
      "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
      "color": "#666"
+    },
+    {
+     "type": "COLLECTABLE_COUPON",
+     "title": "Kupon Fırsatı",
+     "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526381249.svg",
+     "color": "#FF4988"
     }
    ],
    "hasOfficialSellerBadge": true,
@@ -513,7 +539,7 @@
    "sameDayShipping": false,
    "nextDayDelivery": true,
    "tomorrowShipping": false,
-   "dealBadge": null
+   "dealBadge": "super-deal"
   }
  ],
  "sosyal_api_ham": {},
@@ -526,7 +552,7 @@
   "mımıza Katılın\",\"about_us\":\"Hakkımızda\",\"trendyol_assistant_question_text\":\"Yardım ister misiniz? Bize danışın.\",\"trendyol_assistant\":\"Trendyol Asistan\",\"shipping_return\":\"Kargo ve İadeler\",\"help_center\":\"Yardım Merkezi\",\"shop_i",
   "im\",\"header_my_reviews\":\"Değerlendirmelerim\",\"header_seller_questions\":\"Satıcı Mesajlarım\",\"header_loan\":\"Krediler\",\"header_raffle\":\"Şanslı Çekiliş\",\"header_my_coupons\":\"İndirim Kuponlarım\",\"header_my_personal_details\":\"Kullanıc",
   "_logo\":\"Trendyol\",\"site_logo_milla\":\"Trendyolmilla\",\"header_questions\":\"Mesajlarım\",\"header_trendyol_assistant_milla\":\"Asistan\",\"flash_sales\":\"Flaş Ürünler\",\"best_sellers\":\"Çok Satanlar\",\"navigation_onboarding_title\":\"Aradığın T",
-  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":138714,\"attributes\":[{\"key\":{\"id\":33,\"name\":\"Desen\"},\"value\":{\"id\":261977,\"name\":\"Düz\"},\"searchable\":true,\"type\":\"Pattern\",\"isStar",
+  "ct\":false,\"hasPromoExclude\":false,\"originInfo\":\"\"},\"isSellerQuestionEnabled\":true,\"favoriteCount\":139186,\"attributes\":[{\"key\":{\"id\":33,\"name\":\"Desen\"},\"value\":{\"id\":261977,\"name\":\"Düz\"},\"searchable\":true,\"type\":\"Pattern\",\"isStar",
   "3E{reviewCount}\\u003C\\u002Fbold\\u003E Değerlendirme\",\"total-questions-label\":\"\\u003Cbold\\u003E{questionCount}\\u003C\\u002Fbold\\u003E Soru-Cevap\",\"favorites-summary.count\":\"{favoriteCount}\",\"favorites-summary.count-with-label\":\"{f",
   "\"go-to-store-button-label-secondary\":\"Mağazaya Git\",\"seller-questions\":\"Satıcı Soruları ({questionCount})\",\"questions\":\"Toplam Fiyat\",\"your-question\":\"Sorunuz\",\"publish-question-criteria\":\"Soru Yayınlama Kriterlerimiz\",\"ask-ques",
   "ili sorularınızı buradan satıcıya sorabilirsiniz.\",\"art:ask-question-info\":\"Eser özellikleriyle ilgili sorularınızı buradan satıcıya sorabilirsiniz.\",\"ask-question-to-merchant\":\"Satıcıya Soru Sor\",\"privacy-statement-prompt\":\"Sor",
@@ -537,12 +563,12 @@
  "sepet_kesif": {
   "86406024": {
    "detay_parcalari": [
-    "yah\"},\"energyClass\":{},\"isRefundable\":true,\"isGlobalBrand\":false,\"sgrPrice\":\"\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"61,2B\"},{\"key\":\"pageViewCount\",\"value\":\"318\"}]},\"listings\":{\"86406024\":{\"0",
-    "www.trendyol.com\",\"pageType\":\"product_detail\",\"shellPageType\":\"product_detail\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"61,2B\"},{\"key\":\"pageViewCount\",\"value\":\"318\"}]},\"listings\":{\"86406024\":{\"073",
-    ":\"pdp\",\"layoutPageType\":\"product_detail\",\"isInstallmentOfferTableEnabled\":true,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"61,2B\"},{\"key\":\"pageViewCount\",\"value\":\"318\"}]},\"listings\":{\"86406024\":{\"073",
-    "\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"61,2B\"},{\"key\":\"pageViewCount\",\"value\":\"318\"}]},\"listings\":{\"86406024\":{\"0732d3b38b71d7674193f701d0a8d7bf\":{\"availableQuantity\":null,\"sellingOut\":false",
-    "il\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"61,2B\"},{\"key\":\"pageViewCount\",\"value\":\"318\"}]},\"listings\":{\"86406024\":{\"0732d3b38b71d7674193f701d0a8d7bf\":{\"availableQuantity\":null,\"sellingOut\":false",
-    "rue,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"61,2B\"},{\"key\":\"pageViewCount\",\"value\":\"318\"}]},\"listings\":{\"86406024\":{\"0732d3b38b71d7674193f701d0a8d7bf\":{\"availableQuantity\":null,\"sellingOut\":false",
+    "yah\"},\"energyClass\":{},\"isRefundable\":true,\"isGlobalBrand\":false,\"sgrPrice\":\"\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"482\"},{\"key\":\"favoriteCount\",\"value\":\"61,1B\"},{\"key\":\"pageViewCount\",\"value\":\"366\"}]},\"listings\":{\"86406024\":{\"0",
+    "www.trendyol.com\",\"pageType\":\"product_detail\",\"shellPageType\":\"product_detail\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"482\"},{\"key\":\"favoriteCount\",\"value\":\"61,1B\"},{\"key\":\"pageViewCount\",\"value\":\"366\"}]},\"listings\":{\"86406024\":{\"073",
+    ":\"pdp\",\"layoutPageType\":\"product_detail\",\"isInstallmentOfferTableEnabled\":true,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"482\"},{\"key\":\"favoriteCount\",\"value\":\"61,1B\"},{\"key\":\"pageViewCount\",\"value\":\"366\"}]},\"listings\":{\"86406024\":{\"073",
+    "\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"482\"},{\"key\":\"favoriteCount\",\"value\":\"61,1B\"},{\"key\":\"pageViewCount\",\"value\":\"366\"}]},\"listings\":{\"86406024\":{\"0732d3b38b71d7674193f701d0a8d7bf\":{\"availableQuantity\":null,\"sellingOut\":false",
+    "il\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"482\"},{\"key\":\"favoriteCount\",\"value\":\"61,1B\"},{\"key\":\"pageViewCount\",\"value\":\"366\"}]},\"listings\":{\"86406024\":{\"0732d3b38b71d7674193f701d0a8d7bf\":{\"availableQuantity\":null,\"sellingOut\":false",
+    "rue,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"86406024\":[{\"key\":\"basketCount\",\"value\":\"482\"},{\"key\":\"favoriteCount\",\"value\":\"61,1B\"},{\"key\":\"pageViewCount\",\"value\":\"366\"}]},\"listings\":{\"86406024\":{\"0732d3b38b71d7674193f701d0a8d7bf\":{\"availableQuantity\":null,\"sellingOut\":false",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
@@ -553,12 +579,9 @@
   },
   "1224599633": {
    "detay_parcalari": [
-    "şil\"},\"energyClass\":{},\"isRefundable\":true,\"isGlobalBrand\":false,\"sgrPrice\":\"\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"basketCount\",\"value\":\"322\"},{\"key\":\"favoriteCount\",\"value\":\"6,2B\"},{\"key\":\"pageViewCount\",\"value\":\"744\"}]},\"listings\":{\"1224599633\":",
-    "www.trendyol.com\",\"pageType\":\"product_detail\",\"shellPageType\":\"product_detail\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"basketCount\",\"value\":\"322\"},{\"key\":\"favoriteCount\",\"value\":\"6,2B\"},{\"key\":\"pageViewCount\",\"value\":\"744\"}]},\"listings\":{\"1224599633\":{\"",
-    ":\"pdp\",\"layoutPageType\":\"product_detail\",\"isInstallmentOfferTableEnabled\":true,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"basketCount\",\"value\":\"322\"},{\"key\":\"favoriteCount\",\"value\":\"6,2B\"},{\"key\":\"pageViewCount\",\"value\":\"744\"}]},\"listings\":{\"1224599633\":{\"",
-    "\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"basketCount\",\"value\":\"322\"},{\"key\":\"favoriteCount\",\"value\":\"6,2B\"},{\"key\":\"pageViewCount\",\"value\":\"744\"}]},\"listings\":{\"1224599633\":{\"469e16fbd3bc6db5625282a7490d8afc\":{\"availableQuantity\":null,\"sellingOut\":true",
-    "\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"basketCount\",\"value\":\"322\"},{\"key\":\"favoriteCount\",\"value\":\"6,2B\"},{\"key\":\"pageViewCount\",\"value\":\"744\"}]},\"listings\":{\"1224599633\":{\"469e16fbd3bc6db5625282a7490d8afc\":{\"availableQuantity\":null,\"sellingOut\":true",
-    "e,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"basketCount\",\"value\":\"322\"},{\"key\":\"favoriteCount\",\"value\":\"6,2B\"},{\"key\":\"pageViewCount\",\"value\":\"744\"}]},\"listings\":{\"1224599633\":{\"469e16fbd3bc6db5625282a7490d8afc\":{\"availableQuantity\":null,\"sellingOut\":true",
+    "şil\"},\"energyClass\":{},\"isRefundable\":true,\"isGlobalBrand\":false,\"sgrPrice\":\"\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"favoriteCount\",\"value\":\"6,3B\"},{\"key\":\"pageViewCount\",\"value\":\"589\"}]},\"listings\":{\"1224599633\":{\"469e16fbd3bc6db5625282a7490d8afc\":",
+    "www.trendyol.com\",\"pageType\":\"product_detail\",\"shellPageType\":\"product_detail\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"favoriteCount\",\"value\":\"6,3B\"},{\"key\":\"pageViewCount\",\"value\":\"589\"}]},\"listings\":{\"1224599633\":{\"469e16fbd3bc6db5625282a7490d8afc\":{\"",
+    ":\"pdp\",\"layoutPageType\":\"product_detail\",\"isInstallmentOfferTableEnabled\":true,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"1224599633\":[{\"key\":\"favoriteCount\",\"value\":\"6,3B\"},{\"key\":\"pageViewCount\",\"value\":\"589\"}]},\"listings\":{\"1224599633\":{\"469e16fbd3bc6db5625282a7490d8afc\":{\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
@@ -569,12 +592,12 @@
   },
   "901089893": {
    "detay_parcalari": [
-    "rdo\"},\"energyClass\":{},\"isRefundable\":true,\"isGlobalBrand\":false,\"sgrPrice\":\"\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"594\"}]},\"listings\":{\"901089893\":{",
-    "www.trendyol.com\",\"pageType\":\"product_detail\",\"shellPageType\":\"product_detail\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"594\"}]},\"listings\":{\"901089893\":{\"9",
-    ":\"pdp\",\"layoutPageType\":\"product_detail\",\"isInstallmentOfferTableEnabled\":true,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"594\"}]},\"listings\":{\"901089893\":{\"9",
-    ",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"594\"}]},\"listings\":{\"901089893\":{\"9d45ef5a21eff5949eb8aeaef822ee65\":{\"availableQuantity\":null,\"sellingOut\":fals",
-    "l\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"594\"}]},\"listings\":{\"901089893\":{\"9d45ef5a21eff5949eb8aeaef822ee65\":{\"availableQuantity\":null,\"sellingOut\":fals",
-    "ue,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"485\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"594\"}]},\"listings\":{\"901089893\":{\"9d45ef5a21eff5949eb8aeaef822ee65\":{\"availableQuantity\":null,\"sellingOut\":fals",
+    "rdo\"},\"energyClass\":{},\"isRefundable\":true,\"isGlobalBrand\":false,\"sgrPrice\":\"\",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"496\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"500\"}]},\"listings\":{\"901089893\":{",
+    "www.trendyol.com\",\"pageType\":\"product_detail\",\"shellPageType\":\"product_detail\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"496\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"500\"}]},\"listings\":{\"901089893\":{\"9",
+    ":\"pdp\",\"layoutPageType\":\"product_detail\",\"isInstallmentOfferTableEnabled\":true,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"496\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"500\"}]},\"listings\":{\"901089893\":{\"9",
+    ",\"socialProofV2\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"496\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"500\"}]},\"listings\":{\"901089893\":{\"9d45ef5a21eff5949eb8aeaef822ee65\":{\"availableQuantity\":null,\"sellingOut\":fals",
+    "l\",\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"496\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"500\"}]},\"listings\":{\"901089893\":{\"9d45ef5a21eff5949eb8aeaef822ee65\":{\"availableQuantity\":null,\"sellingOut\":fals",
+    "ue,\"socialProof\":{\"isSuccess\":true,\"data\":{\"socialProofs\":{\"901089893\":[{\"key\":\"basketCount\",\"value\":\"496\"},{\"key\":\"favoriteCount\",\"value\":\"30,5B\"},{\"key\":\"pageViewCount\",\"value\":\"500\"}]},\"listings\":{\"901089893\":{\"9d45ef5a21eff5949eb8aeaef822ee65\":{\"availableQuantity\":null,\"sellingOut\":fals",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"saat\",\"sold-product-info-remaining-time-seconds\":\"saniye\",\"sold-product-info-remaining-time-minutes\":\"",
     "tle\":\"Diğer Flaş İndirimli Ürünleri Gör\",\"sold-product-info-text\":\"{count} adet satıldı\",\"sold-product-info-remaining-time-text\":\"KALAN SÜRE\",\"sold-product-info-remaining-time-hours\":\"{hour} saat\",\"sold-product-info-remaining-time-seconds\":\"{second} saniye\",\"sold-product-info-remaining"
